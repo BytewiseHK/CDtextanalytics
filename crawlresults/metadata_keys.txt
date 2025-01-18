@@ -1,0 +1,11 @@
+Metadata keys in the JSON file:
+- abstract
+- content
+- cover
+- editor
+- id
+- publish_at
+- sonchannel
+- source
+- title
+- url
