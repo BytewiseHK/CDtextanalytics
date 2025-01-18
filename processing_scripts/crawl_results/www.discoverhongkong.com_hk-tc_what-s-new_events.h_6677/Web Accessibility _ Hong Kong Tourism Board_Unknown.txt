@@ -1,0 +1,6 @@
+Title: Web Accessibility | Hong Kong Tourism Board
+Date: None
+URL: https://www.discoverhongkong.com/hk-eng/web-accessibility.html
+
+Accessibility StatementThe Hong Kong Tourism Board (HKTB) is committed to making this website accessible to all users, by referencing to the World Wide Web Consortium (W3C) Web Content Accessibility Guidelines (WCAG) 2.0 Level AA criteria. The HKTB has always encouraged its departments to make their websites barrier-free, to ensure information are readily accessible and enhance the user experience.
+Contact UsFor assistance in accessing our website or to provide feedback on accessibility, please clickhereto contact us.

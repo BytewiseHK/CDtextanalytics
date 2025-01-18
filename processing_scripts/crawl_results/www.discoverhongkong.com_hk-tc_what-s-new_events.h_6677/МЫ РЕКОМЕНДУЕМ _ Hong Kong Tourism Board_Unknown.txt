@@ -1,0 +1,7 @@
+Title: МЫ РЕКОМЕНДУЕМ | Hong Kong Tourism Board
+Date: None
+URL: https://www.discoverhongkong.com/ru/what-s-new.html
+
+В Гонконге постоянно происходит что-то новое. Устраиваются уникальные события, открываются новые туристические объекты – заскучать в Гонконге не получится!
+{{column.label}}"
+{{column.title}}

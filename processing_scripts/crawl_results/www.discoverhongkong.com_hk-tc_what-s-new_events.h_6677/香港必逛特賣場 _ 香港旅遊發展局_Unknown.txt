@@ -1,0 +1,12 @@
+Title: 香港必逛特賣場 | 香港旅遊發展局
+Date: None
+URL: https://www.discoverhongkong.com/tc/explore/shopping/hong-kong-best-outlet-malls.html
+
+香港享有購物天堂的美譽，除了高級商場和路邊攤外，你還可以去以下幾家特賣場，以超優的價格購置新裝。
+佛羅倫斯小鎮前往{{title}}{{taRatingReviewTotal}} {{taRatingReviewText}}地址{{address}}網址{{website}}更多資訊近年登陸香港，位置就在港鐵葵興站附近，交通非常方便。商場吸引知名品牌進駐，跟中國內地的佛羅倫斯小鎮刻意營造的義大利小鎮風格不同，香港分店內部裝潢比較平實，讓人把更多注意力集中在血拼上。
+東薈城名店倉前往{{title}}{{taRatingReviewTotal}} {{taRatingReviewText}}地址{{address}}網址{{website}}更多資訊毗鄰港鐵東涌站，距香港國際機場僅十分鐘車程。商場內雲集超過150個國際品牌，產品提供全年低至一折優惠，Burberry、Versace等名牌，以及Levi’s、Vans等年輕一族喜歡的品牌都找得到。商場附近超過40間提供各國美饌的餐廳，讓你血拼之後飽餐一頓補充體力。如果想要休息一晚，就去附近的香港諾富特東薈城酒店吧。
+鴨脷洲的新海怡廣場由工業大廈活化而成，整個商場垂直向高空發展，有過百家店鋪進駐。建議你從25樓開始，逐層往下血拼。商場空間寬敞，一系列家品店、家具店及陳列室，包括Ovohome、浤鎂窗簾、連卡佛特賣場等，讓人逛到腳軟。
+嚴格來說，花園街（波鞋街）前往{{title}}{{taRatingReviewTotal}} {{taRatingReviewText}}地址{{address}}網址{{website}}更多資訊不能算是特賣場，而是匯聚大大小小鞋履專門店的購物街。波鞋街於1980年代逐漸形成，隔壁就是同樣知名的平價購物天堂女人街前往{{title}}{{taRatingReviewTotal}} {{taRatingReviewText}}地址{{address}}網址{{website}}更多資訊。不管是Nike的新款籃球鞋，還是Converse的厚底鞋，甚至是某些運動品牌的限量款商品，都可以在波鞋街輕鬆找到。下手前，記得比比價，看看哪家的價格比較優。
+中港城前往{{title}}{{taRatingReviewTotal}} {{taRatingReviewText}}地址{{address}}網址{{website}}更多資訊位處交通便捷的尖沙咀，匯聚多個本地及國際知名品牌，全年均提供低至三折的優惠。商場毗鄰皇家太平洋酒店及中港客運碼頭，平台連接九龍公園，擁有廣闊的維多利亞港美景。
+本文所述資料會不時更新，恕不另行預告。如有任何疑問，請向有關方面查詢。香港旅遊發展局對本文所述資料，包括商店、餐館、貨品及服務等概不負責，並對此等資料，不作任何保證或陳述，包括其商業適用性、準確性、足夠性及可靠性等。
+{{post.type}}

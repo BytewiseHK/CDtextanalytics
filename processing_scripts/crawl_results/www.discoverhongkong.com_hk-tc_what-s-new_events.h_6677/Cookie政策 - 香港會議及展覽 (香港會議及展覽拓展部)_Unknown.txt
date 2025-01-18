@@ -1,0 +1,22 @@
+Title: Cookie政策 - 香港會議及展覽 (香港會議及展覽拓展部)
+Date: None
+URL: https://www.mehongkong.com/tc/home/cookie-policy.html
+
+關於我們使用COOKIES的資訊
+香港旅遊發展局，營業地點位於香港北角威非路道18號萬國寶通中心9至11樓（「我們」）經營網站www.mehongkong.com（「網站」）以及其他應用程式和應用程式介面（APIs）（統稱為「服務」）。 我們的服務通過cookies和其他工具來區別您和其他服務使用者。這有助於我們能夠在您使用服務時為您提供良好的服務體驗並同時有助於我們改進服務。
+什麼是COOKIES？
+Cookies是包含少量資訊的小型文字檔案。這些檔案類似網站的記憶體，將會下載並或者會儲存在您任何可上網的裝置內，例如您的電腦、智慧型手機或平板電腦。
+因此，當您瀏覽本網站時，我們將會自動收集並儲存以下的相關資訊：
+另外，我們亦利用網路信標（web beacons）、追蹤網址（tracking URLs）或軟體開發套件（SDKs）等其他技術。網路信標是包含獨特識別碼的小型圖形檔案，我們可以透過檔案查看您是否曾瀏覽某些內容；追蹤網址有助我們了解本服務的瀏覽量源自何處，而軟體開發套件則是一組用於開發應用程式的程式及工具，功能類似cookies及網路信標。就本Cookie政策而言，以上此類技術均統稱為「Cookies」。
+我們的資料私隱政策詳列了我們收集的其他資訊，以及您的個人資料用途。
+按此查閱我們使用的cookies列表。
+COOKIES的使用
+我們使用如下的cookies：
+本網站內部分cookies及本服務某些部分由第三方管理，包括廣告平台，影音、地圖及社群媒體應用程式介面等功能，以及提供外部網站如網站流量分析的服務供應商。他們大多使用分析／效能cookies或目標cookies。如欲了解第三方如何使用您的資訊，請參考其cookie及私隱政策。本服務使用的第三方cookies，包括但不限於：Google - 本網站及本服務嵌入「Google Maps」、「Google Analytics」等Google的服務／工具，以提供更好的用戶體驗，並作分析用途。關於Google 使用cookies的詳情，請瀏覽此處。
+本服務使用的第三方cookies，包括但不限於：
+我們使用Google Analytics cookies了解訪客瀏覽頁面的方式，並計算訪客數目，以幫助我們改善整體服務。我們所使用的Google Analytics，由Google Inc提供，它透過 「效能cookies」（performance cookies）及「目標cookies」（targeting cookies），分析訪客瀏覽頁面的方式。Cookies產生有關您使用網站的相關資訊（包括您的IP地址），將傳輸給Google，並儲存在該公司設於美國的伺服器上。此外，本網站在使用Google Analytics時，Google會採用「_anonymizeIp()'」的擴展名，對來自歐盟成員國的IP地址的最後八位字節，做出縮短或匿名處理。
+Google以本局的名義，使用收集到的相關資訊，評估訪客瀏覽頁面的方式、編制關於網站活動的報告，並向我們提供與網站活動及互聯網使用相關的其他服務。Google不會將您的IP地址與Google持有的任何其他數據相互關聯。訪客可以修改瀏覽器設定，以停用cookies。此外，訪客也可以透過下載（地址：https://tools.google.com/dlpage/gaoptout?hl=zh-TW#）和安裝瀏覽器外掛程式，以阻止Google收集和使用相關資訊（Cookies和IP地址）。訪客還可以透過禁用Google Analytics的連結，來停止使用Google Analytics。該連結會創建一個「退出cookie」，以阻止Google Analytics進一步處理您的數據。更多關於Google Analytics cookies的相關資訊，請瀏覽「Google用戶中心」（Google Help）頁面，並參閱Google的隱私權政策。如果您不同意使用上述cookies，我們將無法就所提供的服務做出保證。
+管理COOKIE設定
+您可以通過修改所使用之瀏覽器的設定，以停用所有或部分cookies。請注意，如果您透過修改瀏覽器設定，停用所有cookies（包括基本cookies），您或無法使用我們所提供的全部或部分服務。您您有關如何執行此操作的更多資訊，請參見http://www.allaboutcookies.org/manage-cookies/clear-cookies-installed.html或遵照您互聯網瀏覽器中的「幫助」選項。
+以上的COOKIE政策之中英文版本如有任何歧異，概以英文版本為準。
+二Ｏ二一年二月更新

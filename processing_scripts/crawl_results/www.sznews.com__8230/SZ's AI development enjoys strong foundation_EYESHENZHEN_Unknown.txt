@@ -1,0 +1,18 @@
+Title: SZ's AI development enjoys strong foundation_EYESHENZHEN
+Date: None
+URL: http://www.eyeshenzhen.com/content/2024-08/16/content_31153256.htm
+
+From core technologies to practical applications, Shenzhen has been making remarkable strides in artificial intelligence (AI).
+While local companies are expanding their ecosystems and creating innovative applications, the city government is actively working to cultivate an environment conducive to the development and use of AI technologies.
+Last week, Shenzhen unveiled an action plan aimed at speeding up the advancement of next-generation AI technologies. In order to position Shenzhen at the forefront of AI innovation, the plan focuses on key areas such as ecosystem innovation, intelligent products, application scenarios, and smart connected vehicles.
+The city’s AI development gained momentum in 2023. The scale of the AI industry grew by over 20% year on year, and the number of AI companies increased by nearly 20%.
+Shenzhen’s AI landscape is diverse. It includes globally competitive giants like Huawei and Tencent, rapidly rising stars such as Intellifusion, Xverse Technology, SmartMore Corp., and Rabbitpre, as well as a multitude of startups.
+“Compared to similar large models under the same conditions, our independently developed models have demonstrated more than an 80% improvement in reasoning speed. They have been applied across a wide range of industries, including smart urban governance, urban management, security, transportation, commerce, and education,” said Zheng Wenxian, vice president of Intellifusion.
+The action plan, which aims to position Shenzhen as a future leader in AI applications, details more than 40 AI application scenarios and offers financial support to exemplary AI application projects.
+Robotaxis developed by Pony.ai operate in Qianhai, Shenzhen. File photo
+“These initiatives provide AI companies with expanded opportunities to experiment with applications and encourage their participation in the creation of smart cities,” Zheng said.
+DeepRoute.ai, considered a pioneer in China for its application of large models in autonomous driving, praised the action plan for providing a solid foundation for the company’s future development and supporting technological advancement in the industry as a whole.
+The rapid progress of AI relies heavily on computing power and data infrastructure. Shenzhen has seen a significant increase in its computing power capacity through the construction of numerous computing centers. Notable centers include the Qianhai Shenzhen-Hong Kong Artificial Intelligence Computing Power Center, the Shenzhen Open Intelligent Computing Center, and the Longhua New Industrial Intelligent Computing Center.
+“Harnessing AI technology is essential for nurturing new competitive edges and seizing strategic opportunities,” said Xu Wenqiang, director of the Qianzhan Industry Research Institute.
+“As an innovation hub, Shenzhen is steering and supporting companies to hasten technological innovation across algorithms, computing power, and data. Effectively implementing policies will ease the distribution of computing power and lower the investment costs for small and medium-sized enterprises and research institutions, thereby propelling swift advancements in AI.”
+Xu, foreseeing promising prospects for specialized vertical large models, also stressed the significance of AI application scenarios.

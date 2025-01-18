@@ -1,0 +1,9 @@
+Title: ASML-backed Dutch university caught in US-China chip war halts classes after cyberattack | South China Morning Post
+Date: Published:9:59am, 13 Jan 2025
+URL: https://www.scmp.com/tech/tech-war/article/3294470/asml-backed-dutch-university-caught-us-china-chip-war-halts-classes-after-cyberattack
+
+The world’s top producer of advanced chipmaking tools invests heavily in Eindhoven University of Technology to instruct future employees
+Eindhoven University of Technology, which is located about eight kilometres (five miles) from ASML’s global headquarters, said there would be no lectures and educational activities at least until Tuesday.
+Switching off the network was a “necessary intervention to prevent worse outcomes”, Patrick Groothuis, the university’s vice-president, said in a statement on Sunday.
+Experts were currently investigating the nature and extent of the hack, the university said in the statement. Officials noticed “a lot of suspicious activity” on the institution’s servers late Saturday, and there had been no contact with the hackers whose identity was not yet known, Ivo Jongsma, the university’s spokesman, told Bloomberg News by phone.
+“We are still looking into whether any data has been stolen,” he said, adding the university would share an update on the attack on Monday.

@@ -1,0 +1,11 @@
+Title: Opinion | Will chatbots replace human therapists? I tried AI counselling to find out | South China Morning Post
+Date: Published:6:15pm, 19 Aug 2024
+URL: https://www.scmp.com/magazines/post-magazine/short-reads/article/3274802/ai-therapy-chatbots-are-revolutionising-counselling-hong-kongs-stressed-out-inhabitants?module=inline&pgtype=article
+
+Feeling stressed? Why not tell a robot who cares? In June it was reported in these pages that Hong Kong had moved up the rankings to No 50 on the Economist Intelligence Unit’s Global Liveability Index. But life in the SAR is not so great according to other rankings. The city sits at No 77 on the Mercer Quality of Living scale, 133 out of 197 on the Numbeo Quality of Life index and, in 2022, Business Insider reported Hong Kong was the second most overworked city on the planet after Dubai.
+The charity Mind HK notes that stigma around mental health persists in Hong Kong, with more than half of those surveyed believing that “they will be penalised at work for talking about their mental health challenges” and most workers having experienced stigma or knowing someone who has.
+So, might a robot care more?
+At the end of last century, I had a few conversations with the psychotherapist chatbot Eliza. She was extremely empathetic, practising therapy in the Rogerian style, which aims to help analysands discover their own solutions.
+That is, she said very little other than to reflect back salient points or simply to comment, “Go on.”
+She and I even collaborated on a short story, to which her chief contribution was the line, “Can you elaborate on that?”
+Eliza was a pretty basic AI (more A than I), with “her” responses generated as Markov chains – that is, choosing the next word based on likely word probabilities. This resulted in twisted grammar and much repetition.

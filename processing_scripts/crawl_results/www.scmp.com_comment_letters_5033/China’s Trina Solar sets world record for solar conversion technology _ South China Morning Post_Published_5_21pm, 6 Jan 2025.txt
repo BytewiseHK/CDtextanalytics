@@ -1,0 +1,10 @@
+Title: China’s Trina Solar sets world record for solar conversion technology | South China Morning Post
+Date: Published:5:21pm, 6 Jan 2025
+URL: https://www.scmp.com/business/china-business/article/3293609/chinas-trina-solar-sets-world-record-solar-conversion-technology
+
+The company’s solar module beat the decades old solar cell efficiency record held by University of New South Wales laboratory
+China’s Trina Solar has set a new world record for the conversion efficiency of a certain type of solar module, the company said in a statement on Monday.
+In laboratory tests, Trina’s large surface area n-type fully passivated heterojunction (HJT) modules showed an efficiency of 25.44 per cent, according to the results certified by the Fraunhofer CalLab in Germany, a solar research body.
+Passivation is a technology that covers defects on the surface of a solar cell, while cell efficiency refers to the percentage of solar energy hitting a device that is converted into usable electricity. Increasing cell efficiency can help reduce the size needed for solar installations as well as cutting costs.
+Professor Martin Green at the University of New South Wales in Sydney, whose lab held the solar cell efficiency record for decades, said the result showed the potential of HJT solar technology, one of several contending to become the predominant next-generation technology for the sector.
+“In the long run it’s all about efficiency, so even if some sequences are at the moment more costly than others, what tends to happen is that as the industry gets itself into a new technology the cost comes down quite quickly,” Green said.

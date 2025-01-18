@@ -1,0 +1,14 @@
+Title: UBTECH's new humanoid robot on duty at Zeekr factory_EYESHENZHEN
+Date: None
+URL: http://www.eyeshenzhen.com/content/2024-08/16/content_31153279.htm
+
+UBTECH Robotics, China’s biggest manufacturer of educational and humanoid robots, said yesterday that it has forged strategic partnerships with Chinese automotive giant Geely Holding Group and Chinese automated equipment maker Miracle Automation Engineering Co. to drive the integration of humanoid robots in the intelligent manufacturing of automobiles and components.
+These collaborations aim to create and demonstrate innovative applications, marking a significant milestone in the adoption of advanced robotics in the automotive industry.
+The partnership with Geely has already borne fruit with the deployment of UBTECH’s new industrial humanoid robot, the Walker S Lite, at the 5G-enabled smart factory of Zeekr, the luxury electric car brand of Geely.
+The Walker S Lite moves a heavy load onto an automated guided vehicle (AGV) in Zeekr’s 5G-enabled smart factory. Courtesy of UBTECH
+For 21 consecutive days, the Walker S Lite has been working alongside its human counterparts to pack and secure cargo in the cargo transport unit (CTU) of the Zeekr factory in Ningbo, Zhejiang Province, according to UBTECH.
+Shenzhen-based UBTECH said that the Walker S Lite is the first humanoid robot in China to perform the task of packing and securing cargo throughout an automotive factory.
+During its three-week “training” period, the Walker S Lite has used a combination of cutting-edge technologies like semantic VSLAM navigation, end-to-end imitation learning, visual precision recognition, and full-body fine motion control, according to UBTECH.
+These technologies have enabled the robot to autonomously navigate and transport heavy loads to various pallets and assembly lines while collaborating with an automated guided vehicle (AGV) to fulfill its task, UBTECH said.
+Under the partnership agreement, Geely will be responsible for providing application scenarios for UBTECH’s Walker S series. Miracle Automation will contribute its engineering expertise to data collection, process model development, and scene improvement design for the humanoid robot’s applications and training.
+Since early 2024, UBTECH has been ramping up efforts to commercialize its humanoid robots by having the Walker S “work” in industrial smart manufacturing. So far, the firm has teamed up with car manufacturers like NIO, Dongfeng Liuzhou Motor, FAW-Volkswagen, and Geely.

@@ -1,0 +1,9 @@
+Title: How a TikTok ban in the US would work – and why user workarounds won’t | South China Morning Post
+Date: Published:7:37pm, 16 Jan 2025
+URL: https://www.scmp.com/news/world/united-states-canada/article/3295075/how-tiktok-ban-us-would-work-and-why-user-workarounds-wont
+
+Users could try to access a web-based version of TikTok via a browser while using a VPN, but the web version lacks many features of the app
+To pull it off, the law targets a wide swathe of US-based partners that help bring TikTok to users, rendering most easy workarounds such as using a virtual private network or changing a phone’s country settings moot or difficult to use, experts told Reuters.
+At best, users might be able to access a web-based version of the service that has fewer features than the app, and even that might not work, experts said.
+Here’s a closer look at how the ban will be implemented.
+The law will not force users to delete the app. But TikTok plans to shut down the service and will show users a message about the law and offer to let them download their personal data, Reuters previously reported.

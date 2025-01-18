@@ -1,0 +1,12 @@
+Title: 香港威士忌酒吧指南 | 香港旅遊發展局
+Date: None
+URL: https://www.discoverhongkong.com/tc/explore/nightlife/whisky-lover-guide-to-hong-kong.html
+
+香港坐擁世界上數一數二的酒吧，威士忌尤其受歡迎，城中優秀的威士忌酒吧選擇之多令人眼花繚亂。不知從何入手？不妨考慮一下以下七家頂尖的威士忌酒吧。
+若你以為蘭桂坊只有擁擠喧鬧的酒吧，那就大錯特錯了。氣氛愜意的Club Qing前往{{title}}{{taRatingReviewTotal}} {{taRatingReviewText}}地址{{address}}網址{{website}}更多資訊位於昌隆商業大廈10樓，遠離街上的煩囂。這家寧靜舒適的酒吧供應超過150款威士忌，能讓你回頭一試再試。
+Mizunara: The Library前往{{title}}{{taRatingReviewTotal}} {{taRatingReviewText}}地址{{address}}網址{{website}}更多資訊酒吧店如其名，是一個威士忌的藏酒庫。酒吧藏身於灣仔一幢普通商業大廈的四樓，店內酒藏豐富，日本品牌尤其齊全。試試由貯藏時間長達40年的原酒調配的Nikka 40，每杯索價港幣$8,000。
+Ronin前往{{title}}{{taRatingReviewTotal}} {{taRatingReviewText}}地址{{address}}網址{{website}}更多資訊是著名餐廳Yardbird的姊妹店，兩家店距離很近，徒步可到達。Ronin除了日本菜出色外，還有一流的日本威士忌收藏，店內更珍藏了一些罕見的威士忌。若你想來點分量大而清淡的味道，他們也有一系列優秀的威士忌highball供應。
+位於尖沙咀鬧市的Butler充滿東京風味，服務一流，雞尾酒和威士忌都很出色。酒單列出的種類不是很多，但顧客可向酒保查詢，品嚐酒單沒有列出的多款佳釀，六樓的酒藏特別吸引。
+位置隱密的Stockton前往{{title}}{{taRatingReviewTotal}} {{taRatingReviewText}}地址{{address}}網址{{website}}更多資訊酒吧坐落於雲咸街一條小巷裡，裝潢恍如愛德華時代的倫敦私人俱樂部。客人可以找個隱密的角落坐下來，挑選酒吧超過150款頂級威士忌。
+本文所述資料會不時更新，恕不另行預告。如有任何疑問，請向有關方面查詢。香港旅遊發展局對本文所述資料，包括商店、餐館、貨品及服務等概不負責，並對此等資料，不作任何保證或陳述，包括其商業適用性、準確性、足夠性及可靠性等。
+{{post.type}}

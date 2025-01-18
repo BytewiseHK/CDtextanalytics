@@ -1,0 +1,15 @@
+Title: 「大館」餐廳巡禮 | 香港旅遊發展局
+Date: None
+URL: https://www.discoverhongkong.com/hk-tc/explore/dining/the-best-restaurants-in-tai-kwun.html
+
+位於香港島中環荷李活道，由前中區警署建築群，活化成包括古蹟及藝術館的「大館」，不但吸引到一群歷史文化迷，連一眾美食家也紛紛前來，品嚐高水準美食。這裡的餐館從庶民茶樓到極盡奢華的高級餐廳都有，且各有出彩之處。以下為你一一介紹。
+泰式餐廳Aaharn前往{{title}}{{taRatingReviewTotal}} {{taRatingReviewText}}地址{{address}}網址{{website}}更多資訊是國際名廚David Thompson在香港的首家餐廳。他所創立的Nahm在倫敦和曼谷均有分店，曼谷Nahm更勇奪2014年亞洲50最佳餐廳（Asia's 50 Best Restaurants）第一位。Aaharn精準演繹傳統泰國菜式，多款湯品、沙拉、咖哩及飯類都值得一試。
+The Chinese Library前往{{title}}{{taRatingReviewTotal}} {{taRatingReviewText}}地址{{address}}網址{{website}}更多資訊裝潢華麗，雲集來自中國內地大江南北、風格迥異的現代中菜，包括粵菜、川菜、上海菜。
+Madame Fu前往{{title}}{{taRatingReviewTotal}} {{taRatingReviewText}}地址{{address}}網址{{website}}更多資訊遠不止餐廳這麼簡單。圍繞著虛構女主人Madame Fu的故事，為這場餐飲體驗添上神秘魅力。餐廳坐落充滿歷史色彩的前中央警署，融合中西風格。餐廳提供現代粵菜，也有西式甜點和下午茶套餐。
+Café Claudel為「大館」增添來自巴黎的時尚氣息，鵝肝醬、法式吐司等多款經典法國美食都能在此品嚐。咖啡館坐落古蹟恬靜一隅，設有寬敞陽台，客人可在微風吹拂下享受美酒佳餚。
+來到「大館」的樂茶軒，你可以悠閒地享用傳統茗茶、品嚐健康素食點心。如果喜歡這裡的茗茶，還可以即場在隔壁的茶藝館選購。
+Phoenix Sweets前往{{title}}{{taRatingReviewTotal}} {{taRatingReviewText}}地址{{address}}網址{{website}}更多資訊的甜點華美如藝術品，踏進店內猶如置身藝廊，各式精緻蛋糕、糖果叫人目不暇給。多層牛油奶油蛋糕、訂製餅乾、杯子蛋糕……每件甜點都讓人一試難忘。
+Statement前往{{title}}{{taRatingReviewTotal}} {{taRatingReviewText}}地址{{address}}網址{{website}}更多資訊位於姊妹餐廳The Chinese Library旁邊，主廚Arron Rhodes擅長創新英倫菜式。菜單既有大家熟悉的溫馨味道，例如慢火熬煮24小時的英式燴牛尾，也有充滿創意的現代菜式，如韃靼紅蝦配海膽鮭魚子。主菜可別吃太撐，因為甜點同樣吸引，經典太妃糖布丁、奶油糖醬布丁和凝脂奶油都在等著你。
+本欄目所述資料會不時更新，恕不另行預告。如有任何疑問，請向有關方面查詢。
+香港旅遊發展局對本欄目所述資料，包括商店、餐館、貨品及服務等概不負責，並對此等資料，包括商店、餐館、貨品及服務等均不作任何保證或陳述，包括其商業適用性、準確性、足夠性及可靠性等。
+{{post.type}}

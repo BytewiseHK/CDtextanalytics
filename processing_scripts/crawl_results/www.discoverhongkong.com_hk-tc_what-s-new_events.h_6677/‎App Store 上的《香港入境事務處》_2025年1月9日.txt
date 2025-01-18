@@ -1,0 +1,24 @@
+Title: ‎App Store 上的《香港入境事務處》
+Date: 2025年1月9日
+URL: https://apps.apple.com/hk/app/xiang-gang-ru-jing-shi-wu-chu/id578918010?ls=1
+
+香港入境事務處流動應用程式載有下列功能及資訊:• 預約服務• 申請服務• 填寫表格• 陸路邊境管制站等候時間• 我的籌號• 「電子簽証」• 遞交文件• 聯絡協助在外香港居民小組• 非觸式e-道• 入境處提提您• 其他服務;及• 入境事務處YouTube頻道注意事項:• 由於使用香港入境事務處流動應用程式須經手機傳送數據，故用戶可能須繳付數據傳輸費用。流動數據用戶應留意所使用的數據用量。
+版本 2.9.5
+• 提升用戶的體驗
+339 個評分
+Not stellar, but it works for applying passport.Yes, you need to ready the photo file beforehand, such as copying it to iCloud first, but you need to take the passport picture in shops anyway, just ask for softcopy.  It is unrealistic to expect you can take your passport picture at home with your phone.
+For the renew ID part, the program refuse to let use pre-fill forms on the day of booking. I understand the logic of refusing to change or delete booking, but there is no reason that refusing the pre-filling forms on the booking day. The data of the form should be updated just before the user present to the your office to process the operation. Therefore, the pre-fill form should not be together with change and delete. Another issue is that your warning message in IOS app is covered when you redirect to your web application.
+The app did not do user test properly before launch. The form prefilling is a painful experience. The address and below forms unable to input. You tab on the fields but it won’t allow you to input. It get stuck in the mid way of form filling. At the end page, it give you big buttons to confirm or cancel, they don’t work properly either. I spent 30 minutes to complete 1 page form filling. The internet version is much better. Please do not waste taxpayer money.
+開發者表明Hong Kong Immigration Department的私隱慣例或包括下列資料的處理。詳情請參閱開發者的私隱政策。
+開發者不會從此 App 收集任何資料。
+私隱慣例或因使用的功能或年齡等因素而異。進一步了解
+簡體中文、繁體中文、英文
+非觸式e-道
+入境事務處六十周年紀念
+智方便 iAM Smart
+防騙視伏APP
+綠綠賞手機應用程式
+CLP HK
+My HKBN: 驚喜獎賞及服務資訊
+csl.
+Copyright © 2025Apple Inc.保留一切權利。

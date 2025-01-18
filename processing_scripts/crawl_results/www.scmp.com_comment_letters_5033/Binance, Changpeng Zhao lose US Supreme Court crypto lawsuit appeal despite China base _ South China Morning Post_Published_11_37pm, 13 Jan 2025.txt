@@ -1,0 +1,11 @@
+Title: Binance, Changpeng Zhao lose US Supreme Court crypto lawsuit appeal despite China base | South China Morning Post
+Date: Published:11:37pm, 13 Jan 2025
+URL: https://www.scmp.com/news/world/united-states-canada/article/3294603/china-founded-binance-changpeng-zhao-lose-us-supreme-court-appeal-avoid-crypto-lawsuit
+
+The court’s decision allows a class-action lawsuit to proceed, finding that US securities laws apply despite Binance’s foreign operations
+The US Supreme Court turned away on Monday a bid by Binance and founder Changpeng Zhao to avoid a lawsuit by investors who accused the world’s largest cryptocurrency exchange of illegally selling unregistered tokens that lost much of their value.
+The justices declined to hear an appeal by Binance and Zhao of a lower court’s decision to let the proposed class action proceed.
+The 2nd US Circuit Court of Appeals in Manhattan ruled that domestic securities laws could apply despite Binance not being a US company because token purchases became irrevocable in the United States once investors paid for them.
+The 2nd Circuit in its March 2024 ruling noted Binance’s use of domestic servers from Amazon in concluding that the lawsuit could continue. Binance, founded in China, has argued that it should not be governed by US securities laws.
+Chief Executive Richard Teng said in December that Binance has yet to decide where it should be headquartered, years after the exchange had indicated a decision was imminent.
+Investors who bought ELF, EOS, FUN, ICX, OMG, QSP and TRX tokens through Binance starting in 2017 accused the exchange of failing to warn about the “significant risks” of the tokens, and sought in the class action to recoup what they paid.

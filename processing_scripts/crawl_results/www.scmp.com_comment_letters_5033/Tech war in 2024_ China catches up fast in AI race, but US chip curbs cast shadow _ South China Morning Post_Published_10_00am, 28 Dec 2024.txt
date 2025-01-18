@@ -1,0 +1,9 @@
+Title: Tech war in 2024: China catches up fast in AI race, but US chip curbs cast shadow | South China Morning Post
+Date: Published:10:00am, 28 Dec 2024
+URL: https://www.scmp.com/tech/big-tech/article/3292447/tech-war-2024-china-catches-fast-ai-race-us-chip-curbs-cast-shadow#comments
+
+Abundant investment and an open-source approach have pushed China to the AI forefront, but a lack of advanced chips may prove devastating
+“Whenever there’s a new product release, I’ll give it a try,” Shi said. If a certain tool impressed him, he would pay for a subscription.
+Shi is among the many tech-savvy Chinese users spoiled by a bevy of home-grown generative AI (GenAI) services, as tech giants and cash-flush start-ups battle for customers in a fast-growing market. As of November, regulators had approved 252 GenAI services for public release in the country.
+While mainland businesses initially fell behind their Western peers in the AI arms race triggered by OpenAI’s release of ChatGPT late in 2022, Chinese firms have moved up quickly this year.
+When OpenAI teased Sora early in February and provided limited access to a group of testers, it looked like China’s AI players, already hindered by escalating US chip curbs, were lagging behind.

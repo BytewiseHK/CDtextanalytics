@@ -1,0 +1,40 @@
+Title: 湛江政协网
+Date: None
+URL: http://www.gdzjzx.gov.cn/
+
+湛江政协微信公众号
+湛江市干部在线学习中心
+{{item.title}}
+{{item.title}}
+{{item.title}}
+{{item.title}}
+{{item.title}}
+{{item.title}}
+{{item.title}}
+{{item.title}}
+{{item.title}}
+{{item.title}}
+{{pd.zhuanWeiHuiGongZuo.first.title || ''}}
+{{item.title}}
+{{item.title}}
+{{item.title}}
+{{item.title}}
+{{item.title}}
+{{pd.diaoYanShiCa.first.summary || ''}}
+{{item.title}}
+{{item.title}}
+{{item.title}}
+{{item.title}}
+{{item.title}}
+{{item.title}}
+{{item.title}}
+{{pd.tiAnJianYan.first.summary || ''}}
+{{item.title}}
+{{item.title}}
+{{item.title}}
+{{pd.meiTiJvJiao.first.summary}}
+{{item.title}}
+{{item.title}}
+{{item.title}}
+{{item.linkText}}
+{{item.linkText}}

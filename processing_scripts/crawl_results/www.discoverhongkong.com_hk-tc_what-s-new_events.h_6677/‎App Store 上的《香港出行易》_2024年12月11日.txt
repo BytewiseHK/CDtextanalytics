@@ -1,0 +1,25 @@
+Title: ‎App Store 上的《香港出行易》
+Date: 2024年12月11日
+URL: https://apps.apple.com/hk/app/%E9%A6%99%E6%B8%AF%E5%87%BA%E8%A1%8C%E6%98%93/id426108163
+
+運輸署的「香港出行易」是一個一站式交通運輸流動應用程式，提供個人化交通及公共運輸資訊。市民可方便快捷地搜尋不同出行方式的路線、行程時間及交通費用，並獲取即時交通消息，從而便利市民出行和計劃行程。此流動應用程式的主要特式包括：1. 公共交通、駕駛及步行路線搜尋；2. 實時交通及運輸資訊 (包括交通情況快拍、空置車位及公共交通實時到站資訊)；3. 單車徑路線搜尋；4. 交通消息朗讀功能；5. 個人化設定，建立書籤及標記常用功能；6. 口岸交通資訊（包括辦公時間及客運通關輪候狀況等）；以及7. 長者模式，令長者更容易取得各種公共交通工具路線的資訊6.2版本優化用戶介面及體驗，包括首頁的捲動和擴展操作，及書籤捷徑的新設計。- 新的書籤捷徑會直接在首頁上顯示並取替舊捷徑，加入個性化排位功能。- 書籤捷徑上的「公共交通到站時間」顯示更多內容，包括下一班到站時間倒數，地鐵及輕鐵月台號碼，電車路線方向等。(請注意，因配合新設計的使用介面及內容，以往加入的地鐵、輕鐵和電車「到站時間」書籤將會被清除。)- 「行人導向標示 」 (中港碼頭)頁面加入亙動功能，更方便直接查閱前往周邊地點的步行路線。
+版本 6.2.39
+- 解決已知問題
+891 個評分
+Have been using this app for quite a while and it’s been working for me, however it becomes inconvenient as it doesn’t fit in dark mode - most of the words (especially the numbers in changing departure time) become invisible under dark mode. Please fix and update.
+This is definitely a step back in terms of improvement.The previous version looks outdated as the buttons seem humongous, but at least those very buttons were very responsive.On the flip side, the new version looks nice and sleek with it's small buttons and various layouts and pages. BUT (with a big one)... it is extremely laggy and freezes when you press on buttons that changes the page. And once it does, you need to wait at least 10 seconds for it to load to the next page, just so you can press and wait again, repeat that a few times and you’ll eventually get to you page.. if you get fortunate enough that the app doesn’t reset itself.And choosing the elderly version won’t help the situation at all. (And the design of this is just plain illogical, how can elderly get used to small buttons with so many changing pages..)All in all, I used to use this a lot when it’s the old version, it’s as simple as it gets for you to check a wide range of public transportation with quick accurate precision.But this new one is just terrible and it’s just complicating things instead of simplifying them. Definitely the most un-user friendly HK public transportation search app.p.s. the only “mobility” part of this HKeMobility app is that you need to move a lot of pages to get to what you need... disappointed...p.s.2 shouldn’t this app be focusing on user friendly and simplicity?
+I think the Mobile App can add Real-time condition of each taxi station 的士站. For example the low resolution image every minute or the estimated number of Taxi and People waiting in the line. It is much helpful for people to consider to go to that station or not. Also for Taxi Driver to decide go there wait for queue. 避免人等車 or 車等人. This can really better utilise the resource. TD really don’t have to waste effort do something Google or Bus App already done. Better focus on something that only government can provide instead of doing something already provide by others.
+開發者表明Transport Department, HKSAR Government的私隱慣例或包括下列資料的處理。詳情請參閱開發者的私隱政策。
+開發者可能會收集以下資料，但不會連結你的個人身份：
+私隱慣例或因使用的功能或年齡等因素而異。進一步了解
+簡體中文、繁體中文、英文
+入錶易
+易通行
+易通行商用車司機版
+城巴 Citybus
+hkbus.app - 巴士到站預報
+MTR Mobile
+85飛的 - HK Taxi 香港Call的士App
+永安旅遊 - 機票、酒店、自由行、旅行團
+App1933 - KMB ‧ LWB
+Copyright © 2025Apple Inc.保留一切權利。

@@ -1,0 +1,134 @@
+URL Report for: https://news.sun0769.com/national/zh/202501/t20250118_16386073.shtml
+==================================================
+
+Page Title: 文脉华章|不断提升国家文化软实力_东莞阳光网
+
+Meta Tags:
+- <meta charset="utf-8"/>
+- <meta content="东莞阳光网 阳光网 东莞 " name="keywords"/>
+- <meta content="" name="Description"/>
+- <meta content="IE=Edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta content="width=device-width,maximum-scale=1.0" name="viewport">
+<link href="//www.sun0769.com/favicon.ico" rel="shortcut icon"/>
+<link href="//libs.sun0769.com/swiper/3.4.2/css/swiper.min.css" media="screen and (max-width:760px)" rel="stylesheet" type="text/css"/>
+<!-- 全局样式 Begin -->
+<link href="//images.sun0769.com/wwwimg/article/css/global.min.css" rel="stylesheet" type="text/css"/>
+<!-- 全局样式 End -->
+<!-- 频道自定义样式（主要针对侧边栏） Begin -->
+<link href="//images.sun0769.com/wwwimg/article/css/style.css" rel="stylesheet" type="text/css"/>
+<!-- 频道自定义样式（主要针对侧边栏） End -->
+</meta></meta>
+- <meta content="width=device-width,maximum-scale=1.0" name="viewport">
+<link href="//www.sun0769.com/favicon.ico" rel="shortcut icon"/>
+<link href="//libs.sun0769.com/swiper/3.4.2/css/swiper.min.css" media="screen and (max-width:760px)" rel="stylesheet" type="text/css"/>
+<!-- 全局样式 Begin -->
+<link href="//images.sun0769.com/wwwimg/article/css/global.min.css" rel="stylesheet" type="text/css"/>
+<!-- 全局样式 End -->
+<!-- 频道自定义样式（主要针对侧边栏） Begin -->
+<link href="//images.sun0769.com/wwwimg/article/css/style.css" rel="stylesheet" type="text/css"/>
+<!-- 频道自定义样式（主要针对侧边栏） End -->
+</meta>
+
+Page Structure (div classes and IDs):
+- ID: None, Class: ['wrap']
+- ID: news-header, Class: ['topA']
+- ID: None, Class: ['logoNews']
+- ID: None, Class: ['logoB']
+- ID: None, Class: ['searchA']
+- ID: None, Class: ['sArea']
+- ID: news-nav, Class: ['w1200']
+- ID: None, Class: ['navNews', 'clearfix']
+- ID: news-topgg, Class: ['w1200']
+- ID: None, Class: ['advC']
+- ID: news-appheader, Class: ['appheader']
+- ID: None, Class: ['box_con']
+- ID: None, Class: ['box_t']
+- ID: None, Class: ['box_txt']
+- ID: news-content, Class: ['w1200', 'clearfix']
+- ID: news-main, Class: ['newsMain']
+- ID: news-articNav, Class: ['articNav', 'linkC']
+- ID: news-articTit, Class: ['articTit', 'linkC']
+- ID: news-articMain, Class: ['articMain']
+- ID: showVideo, Class: None
+- ID: None, Class: ['append']
+- ID: idTRSNavigator, Class: ['clsTRSNavigatorDIV']
+- ID: news-emit , Class: ['emit']
+- ID: None, Class: ['share-btn']
+- ID: None, Class: ['button']
+- ID: None, Class: ['button']
+- ID: news-centerdownload, Class: ['centerdownload']
+- ID: news-advertises, Class: None
+- ID: news-ggmobile, Class: ['swiper-container']
+- ID: news-shengming, Class: ['copyText']
+- ID: None, Class: ['ewmC']
+- ID: news-relative, Class: ['relative']
+- ID: news-relalist, Class: None
+- ID: news-comment, Class: ['uTalk']
+- ID: None, Class: ['tForm']
+- ID: showComment, Class: None
+- ID: comment-section, Class: None
+- ID: news-side, Class: ['newsSide']
+- ID: newsside-hot, Class: ['sideA']
+- ID: None, Class: ['sideList']
+- ID: newsside-photo, Class: ['sideA']
+- ID: news-sidepics, Class: ['sideList']
+- ID: newsside-gsp, Class: ['sideA']
+- ID: None, Class: ['sidePicList', 'clearfix']
+- ID: None, Class: ['sideListV']
+- ID: newsside-recommend, Class: ['sideA']
+- ID: None, Class: ['sideList']
+- ID: foot, Class: None
+- ID: c_foot, Class: ['c_foot']
+- ID: None, Class: ['fc1']
+- ID: None, Class: ['fc2']
+- ID: None, Class: ['fc3', 'static']
+- ID: None, Class: ['fc4']
+- ID: news-replay, Class: ['replay']
+- ID: sun_stat, Class: None
+
+All Links Found on the Page:
+- //www.sun0769.com
+- //z.sun0769.com/zhidongguan/
+- /
+- /dg/
+- /town/
+- /national/
+- /bayarea/
+- //v.sun0769.com/v4/list.action?catalog.id=272
+- /photo/
+- /zhuanti/
+- /opinion/
+- https://a.app.qq.com/o/simple.jsp?pkgname=com.sun0769.zdg
+- //www.sun0769.com
+- ../../../
+- ../
+- https://a.app.qq.com/o/simple.jsp?pkgname=com.sun0769.zdg
+- http://news.sun0769.com/dg/headnews/202412/t20241231_16383496.shtml
+- http://news.sun0769.com/dg/headnews/202412/t20241228_16382980.shtml
+- http://news.sun0769.com/dg/headnews/202412/t20241231_16383493.shtml
+- http://news.sun0769.com/dg/headnews/202412/t20241231_16383491.shtml
+- http://news.sun0769.com/dg/headnews/202412/t20241231_16383489.shtml
+- http://news.sun0769.com/town/ms/202501/t20250102_16383920.shtml
+- http://news.sun0769.com/dg/headnews/202412/t20241231_16383494.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250103_16384009.shtml
+- /photo/
+- http://news.sun0769.com/photo/dg/202501/t20250116_16385807.shtml
+- http://news.sun0769.com/photo/dg/202501/t20250115_16385733.shtml
+- //v.sun0769.com/v5/list2.action?catalogId=634
+- /recommend/
+- http://news.sun0769.com/dg/headnews/202412/t20241227_16382960.shtml
+- http://news.sun0769.com/dg/headnews/202412/t20241228_16382968.shtml
+- http://news.sun0769.com/dg/headnews/202412/t20241228_16382980.shtml
+- http://news.sun0769.com/dg/headnews/202412/t20241228_16383030.shtml
+- http://news.sun0769.com/dg/headnews/202412/t20241228_16383033.shtml
+- http://news.sun0769.com/dg/headnews/202412/t20241228_16383053.shtml
+- http://news.sun0769.com/dg/headnews/202412/t20241211_16380803.shtml
+- http://z.sun0769.com/2017/about/
+- http://z.sun0769.com/2017/about/copyright2018.shtml
+- http://z.sun0769.com/2017/about/contact2018.shtml
+- http://www.sun0769.com/dgrtvad/price1.html
+- http://www.sun0769.com/dgrtvad/
+- http://z.sun0769.com/2017/about/icp2018.shtml
+- http://z.sun0769.com/2017/about/newsc2018.shtml
+- http://beian.miit.gov.cn/
+- http://www.12377.cn

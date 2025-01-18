@@ -1,0 +1,7 @@
+Title: Những điều mới mẻ | Hong Kong Tourism Board
+Date: None
+URL: https://www.discoverhongkong.com/vn/what-s-new.html
+
+Ở thành phố có nhịp sống vội vã như Hồng Kông, những điều mới mẻ luôn luôn tìm đến. Từ điểm tham quan mới đến các sự kiện sắp diễn ra, mỗi ngày ở nơi đây đều tràn ngập những điều bất ngờ thú vị.
+{{column.label}}"
+{{column.title}}

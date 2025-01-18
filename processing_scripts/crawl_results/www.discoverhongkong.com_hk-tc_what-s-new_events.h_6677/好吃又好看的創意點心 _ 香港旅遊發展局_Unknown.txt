@@ -1,0 +1,14 @@
+Title: 好吃又好看的創意點心 | 香港旅遊發展局
+Date: None
+URL: https://www.discoverhongkong.com/hk-tc/explore/dining/innovative-dim-sum-restaurants.html
+
+喜歡吃點心的你，對蝦餃、燒賣、腸粉等美味已無比熟悉？以下幾家餐廳的創意，或許會顛覆你對點心的想像。
+點點心前往{{title}}{{taRatingReviewTotal}} {{taRatingReviewText}}地址{{address}}網址{{website}}更多資訊在香港有多家分店，由於顧客反應熱烈，業務更擴展至上海。點點心的過人之處在於糅合多國風格的菜式，例如燒汁釀茄子和千島蝦春卷。
+米芝蓮星級餐廳都爹利會館前往{{title}}{{taRatingReviewTotal}} {{taRatingReviewText}}地址{{address}}網址{{website}}更多資訊環境時尚優雅，在這裡可以吃到多款以創新手法改良的傳統點心。千萬不要錯過鮑魚雞粒酥，還有加入了豬肉、鮮蝦、干貝和魚子醬的改良版燒賣皇。
+六公館前往{{title}}{{taRatingReviewTotal}} {{taRatingReviewText}}地址{{address}}網址{{website}}更多資訊於2017年開張時引起不少話題，全因餐館為傳統粵菜加入現代風味。這裡值得一嚐的創新點心包括菠菜芝士餃子和黑豚叉燒腸粉。
+卅二公館前往{{title}}{{taRatingReviewTotal}} {{taRatingReviewText}}地址{{address}}網址{{website}}更多資訊標榜「以創新手法呈現傳統中菜」，為客人帶來全香港數一數二的用餐體驗。這裡的新派點心相當吸引，不容錯過的菜式包括黑椒牛柳酥、金箔黑魚籽賽螃蟹餃。
+飲茶前往{{title}}{{taRatingReviewTotal}} {{taRatingReviewText}}地址{{address}}網址{{website}}更多資訊主打造型可愛的道地點心，由於大受歡迎，現在於香港已有四家分店。會爆漿的流沙包於香港人的Instagram上大熱，狗不理腸（小狗造型臘腸卷）和豬八戒造型的叉燒包，同樣可愛得叫人捨不得咬下去。
+Man Mo Dim Sum的瑞士主廚Nicolas Elalouf擅長炮製糅合多國風格的點心，他大膽突破傳統香港菜式的框架，加入異國風味。這裡的脆炸能多益榛果可可醬球、番茄水牛芝士餃子搭配新鮮九層塔特別出色。
+本文所述資料會不時更新，恕不另行預告。如有任何疑問，請向有關方面查詢。
+香港旅遊發展局對本文所述資料，包括商店、餐館、貨品及服務等概不負責，並對此等資料，不作任何保證或陳述，包括其商業適用性、準確性、足夠性及可靠性等。
+{{post.type}}

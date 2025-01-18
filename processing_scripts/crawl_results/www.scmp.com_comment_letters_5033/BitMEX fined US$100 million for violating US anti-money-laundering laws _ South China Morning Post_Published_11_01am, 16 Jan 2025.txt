@@ -1,0 +1,10 @@
+Title: BitMEX fined US$100 million for violating US anti-money-laundering laws | South China Morning Post
+Date: Published:11:01am, 16 Jan 2025
+URL: https://www.scmp.com/tech/blockchain/article/3294953/bitmex-fined-us100-million-violating-us-anti-money-laundering-laws
+
+Prosecutors accuse BitMEX and its founders of failing to adopt anti-money-laundering and “know your customer” programmes
+BitMEX, also known as HDR Global Trading, was sentenced by US District Judge John Koeltl in Manhattan after pleading guilty last July.
+The sentence includes two years of probation. BitMEX and its founders, who entered related guilty pleas in 2022 and were sentenced to probation, previously paid about US$110 million in related criminal and civil cases, court papers show.
+Lawyers for BitMEX did not immediately respond to requests for comment.
+Prosecutors accused BitMEX and founders Benjamin Delo, Arthur Hayes and Samuel Reed of wilfully violating the Bank Secrecy Act between 2015 and 2020 by failing to adopt anti-money-laundering and “know your customer” programmes, effectively turning the exchange into a money-laundering platform.
+In 2021, BitMEX agreed to pay up to US$100 million to settle civil charges by two US regulators it improperly screened customers, and accepted their money to trade cryptocurrencies without being registered.

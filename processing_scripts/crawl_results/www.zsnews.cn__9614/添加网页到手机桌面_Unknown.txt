@@ -1,0 +1,5 @@
+Title: 添加网页到手机桌面
+Date: None
+URL: http://odp.cn/desk/?txt=%E5%85%B3%E6%B3%A8%E6%A3%AE%E6%9E%97&url=http://www.isenlin.cn/
+
+点开顶端右侧三个点，选择“在浏览器打开”（或“在Safari中打开”）。

@@ -1,0 +1,26 @@
+Title: ‎App Store 上的《App1933 - KMB ‧ LWB》
+Date: 2024年3月22日
+URL: https://apps.apple.com/hk/app/app1933-kmb-lwb/id1170003707
+
+最新版本的九巴．龍運手機程式APP1933，隨時隨地掌握巴士到站時間及路線資訊，讓你每個行程都更有預算。重點功能簡介 :1 智能主頁-         當收藏上車站位於附近時，優先顯示收藏站到站時間。上班時，顯示上班路線到站時間，回家時，顯示回家路線到站時間。2 顯示行車時間-         進入「車程」顯示前往各站的預算行車時間。3 顯示附近到站時間-         按地圖上的巴士站，顯示該站附近其他路線的到站時間。4 收藏地方-         搜尋由當前位置前往收藏地方的路線。5 收藏上車站-         直接顯示常用路線的到站時間。6 智能路線輸入-         輸入路線時篩選有效號碼及字母。7 計算八達通轉乘優惠-         點對點路線搜尋結果中即時計算出八達通轉乘優惠。備註 : 會增加電池用量
+版本 2.2.0
+穩定性提升Stability Improvement
+1.4万 個評分
+Just opening this app, it takes about 15-30 seconds to load the main page logo, and there are a lot of ads. It would be fine if the ads were fixed, but even when you press the back button, ads pop up, and they use data to load the ads. The interface of the KMB app used to be very user-friendly, but now it's slower than the Citybus app. It's really disappointing how it gets slower with each update.
+I actually admired their efforts to update their apps and provide new features that’s helpful to travelers, like the estimate time from one stop to another. I would hope they could let me choose the stop which I get on and the stop which I get off and how much time that would take, even I know it’s just an estimate depending on traffic. But some of it obviously is not realistic, like 260x it’s showing 7 mins to get from Jordan Road to Tuen Mun is wildly underestimated.Plus, of coz the accuracy of bus arrival time and also the ads. problem mentioned by others could be improved. If u have to show ads, please make it less tricky and annoying at least. Or make it smarter to show relevant info instead, after all you got the location info of where the user will go.
+It was once a very joyful experience to use this app, first that the time of arriving buses is pretty accurate, and that it never forces people to update when newer version comes out.If the older version allows users to continue use the app functions without clashes, why force users to update so hastily?Solely for the purpose of forcing users to watch the latest ads? That would defeat the original purpose of letting users conveniently get to know the latest arrival buses information.Now that I have to spend extra data on the streets (I used to update it when I have time and when I have WiFi access) and extra time to download the update. It completely ruins the purpose of and experience in using it. Wake up, KMB, users' comments are important, stop being so money-driven by only entertaining the ads interest.
+開發者表明The Kowloon Motor Bus Company (1933) Limited的私隱慣例或包括下列資料的處理。詳情請參閱開發者的私隱政策。
+以下資料可能會用於追蹤你在其他公司的 App 和網站的活動：
+開發者可能會收集以下資料並連結你的個人身份：
+開發者可能會收集以下資料，但不會連結你的個人身份：
+私隱慣例或因使用的功能或年齡等因素而異。進一步了解
+簡體中文、繁體中文、英文
+Force1933
+砵車1933
+MTR Mobile
+城巴 Citybus
+巴士到站時間-就是這裏
+香港出行易
+永安旅遊 - 機票、酒店、自由行、旅行團
+85飛的 - HK Taxi 香港Call的士App
+Copyright © 2025Apple Inc.保留一切權利。

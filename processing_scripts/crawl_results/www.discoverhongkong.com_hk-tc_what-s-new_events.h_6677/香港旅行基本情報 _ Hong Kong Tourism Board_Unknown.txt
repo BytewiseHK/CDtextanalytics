@@ -1,0 +1,9 @@
+Title: 香港旅行基本情報 | Hong Kong Tourism Board
+Date: None
+URL: https://www.discoverhongkong.com/jp/plan/traveller-info.html
+
+日本語での香港の安全情報は、在香港日本国総領事館のホームページをご参照ください。
+{{post.type}}
+お知らせ：2025年1月1日より、ホテルやゲストハウスの宿泊料金のすべてに、宿泊税（HAT）が課税されます。 詳細はこちらをご覧ください。
+{{post.type}}
+これらのよくある質問への回答は、アトラクション、宿泊施設、交通機関など、香港旅行を計画する際の参考になります。

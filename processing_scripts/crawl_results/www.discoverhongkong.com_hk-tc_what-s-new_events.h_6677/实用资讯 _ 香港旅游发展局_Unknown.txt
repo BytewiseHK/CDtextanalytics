@@ -1,0 +1,8 @@
+Title: 实用资讯 | 香港旅游发展局
+Date: None
+URL: https://www.discoverhongkong.cn/china/plan/traveller-info.html
+
+{{post.type}}
+备注：2025年1月1日起，所有香港酒店或宾馆会征收酒店房租税，有关详情请按此。
+{{post.type}}
+透过一连串常见问题，您可以马上找到旅游香港的最佳方案！从来港前的入境申请准备，到抵港后的住宿、购物问题都可以找到！

@@ -1,0 +1,7 @@
+Title: 香港政府一站通：進階搜尋
+Date: None
+URL: https://www.search.gov.hk/search?ui_lang=zh-hk
+
+使用以上選項搜尋包含指定語言的網頁。
+使用以上選項搜尋一些在指定時間內建立或更新的內容。
+使用以上選項決定每頁可顯示的結果數目。

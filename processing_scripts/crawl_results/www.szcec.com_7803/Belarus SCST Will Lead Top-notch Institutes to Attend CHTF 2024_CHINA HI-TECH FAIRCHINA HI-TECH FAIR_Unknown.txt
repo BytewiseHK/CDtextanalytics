@@ -1,0 +1,30 @@
+Title: Belarus SCST Will Lead Top-notch Institutes to Attend CHTF 2024_CHINA HI-TECH FAIRCHINA HI-TECH FAIR
+Date: None
+URL: http://www.chtf.com/english/News/ChildNews/202411/t20241105_652.html
+
+The 26th China Hi-tech Fair (CHTF 2024) is coming close, which will be held from November 14-16 at the Shenzhen World Exhibition & Convention Center (Bao'an). The State Committee on Science and Technology of the Republic of Belarus (SCST) will lead a delegation composed of top-notch institutes to exhibit at CHTF 2024, the leading technology fair in China (Hall 15, B15).
+The State Committee on Science and Technology of the Republic of Belarus (SCST) is a national state governing entity carrying out the State policy, exercising control in the area of scientific-technical and innovation activities and in the sphere of rights protection of intellectual property objects and coordinating the activities of other national State governing bodies in the mentioned areas. The SCST is subordinated to the Council of Ministers of the Republic of Belarus.
+The developments of the National Academy of Sciences of Belarus and the Ministry of Communications and Informatization of the Republic of Belarus will be presented within the framework of the collective stand of the State Committee for Science and Technology of the Republic of Belarus.
+Featured Products
+1. ALOE air plasma jet generation device for sterilization and wound healing (B.I.Stepanov Institute of Physics of the National academy of science of Belarus)
+The device generates an air plasma jet containing nitrogen reactive particles, which has a bactericidal effect on microbial cells of different levels of organization and stimulates healing of infected wounds.
+Advantages:
+- providing therapeutic effect in sterilization and wound healing
+- stopping bleeding in the treatment of a number of skin diseases, including burns
+- possibility of application to heat-sensitive surfaces, including skin and mucous membranes
+2. Meteoblock (OJSC “MINSK RESEARCH INSTITUTE OF RADIOMATERIALS”)
+It is designed for measuring meteorological parameters of the atmosphere (pressure, temperature, air humidity, wind speed, wind direction and radiation level), processing of current information, its display for solving special tasks.
+- wind speed measurement range, not less than, m/s - 0-40;
+- wind direction measuring range, ang. deg. - 0-360;
+- atmospheric pressure measuring range, not less than, hPa -300-1100;
+- range of air temperature measurement, at not less than, oC - from -40 to +60
+3. Silicon sensor element of the axial type with increased pendularity and curved hangers for the tilt sensor of the navigation level (OJSC “MINSK RESEARCH INSTITUTE OF RADIOMATERIALS”)
+It is used in systems of horizonisation and orientation of objects in space.
+Silicon sensing elements are manufactured on 380 µm thick wafers.
+- suspension thickness - 10 microns;
+- size of sensitive elements - 15×15 mm;
+- measuring accuracy - 10 seconds
+4. The tilt angle sensor DUN-2 (OJSC “MINSK RESEARCH INSTITUTE OF RADIOMATERIALS”)
+The sensor is designed for converting tilt angles in one plane and outputting to consumers formatted electrical signals proportional to the measured values.
+- tilt angle conversion range, deg: ±5
+- angle conversion error in the operating temperature range, min: not more than ±1

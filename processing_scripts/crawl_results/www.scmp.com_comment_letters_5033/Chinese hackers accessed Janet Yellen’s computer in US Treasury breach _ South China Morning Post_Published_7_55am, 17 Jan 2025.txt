@@ -1,0 +1,11 @@
+Title: Chinese hackers accessed Janet Yellen’s computer in US Treasury breach | South China Morning Post
+Date: Published:7:55am, 17 Jan 2025
+URL: https://www.scmp.com/news/world/united-states-canada/article/3295105/chinese-hackers-accessed-janet-yellens-computer-us-treasury-breach?module=top_story&pgtype=subsection
+
+Fewer than 50 files on Yellen’s machine were accessed by attackers, who failed to penetrate the department’s email or classified systems
+US Treasury Secretary Janet Yellen’s computer was infiltrated and unclassified files were accessed as part of a broader breach of the agency by Chinese state-sponsored hackers, according to two people familiar with the matter.
+The attackers also hacked the computers of two of Yellen’s lieutenants, Deputy Secretary Wally Adeyemo and Acting Under Secretary Brad Smith, according to the people, who asked not to be identified discussing sensitive information.
+Fewer than 50 files on Yellen’s machine were accessed, one of the people said.
+Treasury spokesman Chris Hayden declined to comment on Thursday.
+The compromise of Yellen’s computer makes the Treasury breach the latest hack attributed to the Chinese government that has reached the top ranks of a US federal department.
+The attackers appeared to focus on Treasury’s role in sanctions, intelligence and international affairs, but didn’t penetrate the department’s email or classified systems, according to an Treasury report previously reviewed by Bloomberg News.

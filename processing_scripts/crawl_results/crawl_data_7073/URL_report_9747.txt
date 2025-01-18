@@ -1,0 +1,155 @@
+URL Report for: https://news.sun0769.com/dg/headnews/
+==================================================
+
+Page Title: ä¸èè¦é»_æ°é»é¢é_ä¸èé³åç½
+
+Meta Tags:
+- <meta charset="utf-8"/>
+- <meta content="ä¸èé³åç½,é³åç½,ä¸è,ä¸èè¦é»,æ°é»é¢é" name="keywords"/>
+- <meta content="è¿æ¯ä¸èé³åç½æ°é»é¢éé¢éçä¸èè¦é»æ ç®" name="Description"/>
+- <meta content="IE=Edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport"/>
+<link href="//www.sun0769.com/favicon.ico" rel="shortcut icon"/>
+<link href="//images.sun0769.com/wwwimg/article/css/global.min.css" rel="stylesheet" type="text/css"/>
+<!-- é¢éèªå®ä¹æ ·å¼ Begin -->
+<link href="//images.sun0769.com/wwwimg/article/css/style.css" rel="stylesheet" type="text/css"/>
+<!-- é¢éèªå®ä¹æ ·å¼ End -->
+<base target="_blank"/>
+</meta>
+- <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport"/>
+
+Page Structure (div classes and IDs):
+- ID: None, Class: ['wrap']
+- ID: news-header, Class: ['topA']
+- ID: None, Class: ['logoNews']
+- ID: None, Class: ['logoB']
+- ID: None, Class: ['searchA']
+- ID: None, Class: ['sArea']
+- ID: news-nav, Class: ['w1200']
+- ID: None, Class: ['navNews', 'clearfix']
+- ID: news-topgg, Class: ['w1200']
+- ID: None, Class: ['advC']
+- ID: newslist-content, Class: ['w1200', 'clearfix']
+- ID: newslist-main, Class: ['newsMain']
+- ID: newslist-nav, Class: ['newsTitleA']
+- ID: newslist-mainlist, Class: ['mainListAuto']
+- ID: newslist-pages, Class: None
+- ID: news-side, Class: ['newsSide']
+- ID: newsside-hot, Class: ['sideA']
+- ID: None, Class: ['sideList']
+- ID: newsside-photo, Class: ['sideA']
+- ID: news-sidepics, Class: ['sideList']
+- ID: newsside-gsp, Class: ['sideA']
+- ID: None, Class: ['sidePicList', 'clearfix']
+- ID: None, Class: ['sideListV']
+- ID: newsside-recommend, Class: ['sideA']
+- ID: None, Class: ['sideList']
+- ID: foot, Class: None
+- ID: c_foot, Class: ['c_foot']
+- ID: None, Class: ['fc1']
+- ID: None, Class: ['fc2']
+- ID: None, Class: ['fc3', 'static']
+- ID: None, Class: ['fc4']
+- ID: news-replay, Class: ['replay']
+
+All Links Found on the Page:
+- //www.sun0769.com
+- //z.sun0769.com/zhidongguan/
+- /
+- /dg/
+- /town/
+- /national/
+- /bayarea/
+- //v.sun0769.com/v4/list.action?catalog.id=272
+- /photo/
+- /zhuanti/
+- /opinion/
+- http://news.sun0769.com/dg/headnews/202501/t20250118_16386051.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250118_16386051.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250118_16386051.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386043.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386043.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386043.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386040.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386040.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386040.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386039.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386039.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386039.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386036.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386036.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386036.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386034.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386034.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386034.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386033.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386033.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386033.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386031.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386031.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386031.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386029.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386029.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386029.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386006.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386006.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386006.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386004.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386004.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386004.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386002.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386002.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386002.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386000.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386000.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16386000.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16385976.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16385976.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16385976.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16385974.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16385974.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16385974.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16385972.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16385972.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16385972.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16385956.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16385956.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16385956.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16385954.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16385954.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16385954.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16385952.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16385952.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16385952.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16385949.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16385949.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250117_16385949.shtml
+- http://news.sun0769.com/dg/headnews/202412/t20241231_16383496.shtml
+- http://news.sun0769.com/dg/headnews/202412/t20241228_16382980.shtml
+- http://news.sun0769.com/dg/headnews/202412/t20241231_16383493.shtml
+- http://news.sun0769.com/dg/headnews/202412/t20241231_16383491.shtml
+- http://news.sun0769.com/dg/headnews/202412/t20241231_16383489.shtml
+- http://news.sun0769.com/town/ms/202501/t20250102_16383920.shtml
+- http://news.sun0769.com/dg/headnews/202412/t20241231_16383494.shtml
+- http://news.sun0769.com/dg/headnews/202501/t20250103_16384009.shtml
+- /photo/
+- http://news.sun0769.com/photo/dg/202501/t20250116_16385807.shtml
+- http://news.sun0769.com/photo/dg/202501/t20250115_16385733.shtml
+- //v.sun0769.com/v5/list2.action?catalogId=634
+- /recommend/
+- http://news.sun0769.com/dg/headnews/202412/t20241227_16382960.shtml
+- http://news.sun0769.com/dg/headnews/202412/t20241228_16382968.shtml
+- http://news.sun0769.com/dg/headnews/202412/t20241228_16382980.shtml
+- http://news.sun0769.com/dg/headnews/202412/t20241228_16383030.shtml
+- http://news.sun0769.com/dg/headnews/202412/t20241228_16383033.shtml
+- http://news.sun0769.com/dg/headnews/202412/t20241228_16383053.shtml
+- http://news.sun0769.com/dg/headnews/202412/t20241211_16380803.shtml
+- http://z.sun0769.com/2017/about/
+- http://z.sun0769.com/2017/about/copyright2018.shtml
+- http://z.sun0769.com/2017/about/contact2018.shtml
+- http://www.sun0769.com/dgrtvad/price1.html
+- http://www.sun0769.com/dgrtvad/
+- http://z.sun0769.com/2017/about/icp2018.shtml
+- http://z.sun0769.com/2017/about/newsc2018.shtml
+- http://beian.miit.gov.cn/
+- http://www.12377.cn

@@ -1,0 +1,9 @@
+Title: The best AI chatbots seem like real humans, and that’s scaring people | South China Morning Post
+Date: Published:7:15pm, 6 Dec 2022
+URL: https://www.scmp.com/lifestyle/gadgets/article/3202134/best-ai-chatbots-seem-real-humans-and-thats-scaring-people?module=inline&pgtype=article
+
+California start-up OpenAI has released a chatbot capable of answering a variety of questions, but its impressive performance has reopened the debate on the risks linked to artificial intelligence (AI) technologies.
+The conversations with ChatGPT, posted on Twitter by fascinated users, show a kind of omniscient machine, capable of explaining scientific concepts and writing scenes for plays, university dissertations or even functional lines of computer code.
+“Its answer to the question ‘what to do if someone has a heart attack’ was incredibly clear and relevant,” says Claude de Loupy, head of Syllabs, a French company that specialises in automatic text generation.
+“When you start asking very specific questions, ChatGPT’s response can be off the mark,” de Loupy adds, but its overall performance remains “really impressive”, with a “high linguistic level”.
+OpenAI was co-founded in 2015 in San Francisco by billionaire tech mogul Elon Musk, who left the business in 2018, and received US$1 billion from Microsoft in 2019.

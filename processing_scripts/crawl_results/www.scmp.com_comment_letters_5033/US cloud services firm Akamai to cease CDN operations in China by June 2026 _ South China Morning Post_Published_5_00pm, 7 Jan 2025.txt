@@ -1,0 +1,8 @@
+Title: US cloud services firm Akamai to cease CDN operations in China by June 2026 | South China Morning Post
+Date: Published:5:00pm, 7 Jan 2025
+URL: https://www.scmp.com/tech/tech-trends/article/3293735/us-cloud-services-firm-akamai-cease-cdn-operations-china-june-2026
+
+Partners Tencent Cloud and Wangsu Science & Technology to ‘ensure smooth transition’ for Akamai’s content delivery network users in China
+“Effective June 30, 2026, all China CDN services will reach their decommission date,” the Akamai letter said. “After this date, any remaining content requests will be automatically served from neighbouring countries, unless a country-specific partner solution is activated.”
+“All current China CDN customers must complete the transition to our partners’ solution by June 30, 2026, to maintain uninterrupted service,” Akamai said. The US firm assured customers that it is “actively collaborating with Wangsu to develop comprehensive migration and ongoing support offerings”.
+The US company’s retreat from CDN operations in China follows a broader trend of global tech firms scaling back their operations in the country amid the market’s push for greater tech self-sufficiency.

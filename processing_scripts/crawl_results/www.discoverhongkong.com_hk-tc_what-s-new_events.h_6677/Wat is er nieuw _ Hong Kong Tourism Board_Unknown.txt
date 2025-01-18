@@ -1,0 +1,7 @@
+Title: Wat is er nieuw | Hong Kong Tourism Board
+Date: None
+URL: https://www.discoverhongkong.com/nl/what-s-new.html
+
+In een snelle stad als Hongkong gebeurt er altijd iets nieuws. Van nieuwe attracties tot aankomende evenementen, er is nooit een saaie dag in Hongkong.
+{{column.label}}"
+{{column.title}}

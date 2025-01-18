@@ -1,0 +1,7 @@
+Title: Cuộc đua xe đạp Cyclothon Hồng Kông | Hong Kong Tourism Board
+Date: None
+URL: https://www.discoverhongkong.com/vn/what-s-new/events/dhk-highlighted-events/cyclothon.html
+
+Mỗi năm, hàng nghìn tay đua nghiệp dư và chuyên nghiệp nhiệt tình tận hưởng hành trình vượt gió trên những chặng đường kín qua nhiều biểu tượng cơ sở hạ tầng khi chiêm ngưỡng cảnh quan thành phố độc đáo của Hồng Kông. Dọc theo đường chân trời tuyệt đẹp của Cảng Victoria, những tay đua từ khắp nơi trên thế giới có thể cạnh tranh với nhau để giành chiến thắng, đồng thời tận hưởng cảm giác hồi hộp khi phóng nhanh qua các tòa nhà chọc trời ở phía Đông Tiêm Sa Chủy, trải nghiệm năng lượng và sự sôi động của thành phố này.
+Cùng hồi tưởng lại những trải nghiệm mãn nhãn từ các sự kiện nổi bật đã diễn ra:
+{{post.type}}

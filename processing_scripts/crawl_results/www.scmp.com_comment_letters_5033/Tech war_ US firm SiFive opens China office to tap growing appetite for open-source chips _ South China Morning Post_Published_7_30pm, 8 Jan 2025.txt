@@ -1,0 +1,8 @@
+Title: Tech war: US firm SiFive opens China office to tap growing appetite for open-source chips | South China Morning Post
+Date: Published:7:30pm, 8 Jan 2025
+URL: https://www.scmp.com/tech/tech-war/article/3293911/tech-war-us-firm-sifive-opens-china-office-tap-growing-appetite-open-source-chips
+
+California-based SiFive has set up a subsidiary in Shanghai to help customers ‘achieve technological breakthroughs’
+Santa Clara, California-based SiFive established a local subsidiary, Shanghai Xinwu Technology, with offices based in the Pudong New Area free-trade zone, the firm said in a statement on WeChat on Tuesday. The move was aimed at “meeting the strong demand” in the “highly valued” Chinese market, it said.
+Started in 2015, SiFive is one of the major players in RISC-V, which lets developers configure and customise their own chip designs. It competes with Intel’s X86 and British company Arm Holdings’ architecture, which dominate in the personal computer and smartphone markets, respectively.
+Chinese businesses and institutes are betting on RISC-V (pronounced “risk five”) to help reduce their reliance on overseas suppliers, as the US tightens export restrictions on advanced chip technology.

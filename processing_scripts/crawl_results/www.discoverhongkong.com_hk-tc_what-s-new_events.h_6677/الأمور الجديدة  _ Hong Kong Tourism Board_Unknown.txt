@@ -1,0 +1,7 @@
+Title: الأمور الجديدة  | Hong Kong Tourism Board
+Date: None
+URL: https://www.discoverhongkong.com/ae/what-s-new.html
+
+هل تخطط لزيارة هونغ كونغ في هذا الوقت من العام؟ إليك مجموعة غنية من التجارب والخبرات الموسمية التي يمكنك القيام بها في هونغ، والتي لا يمكنك أن تفوت فرصة تجربتها
+{{column.label}}"
+{{column.title}}

@@ -1,0 +1,9 @@
+Title: Google Analytics (分析) 不透露資訊瀏覽器外掛程式下載網頁
+Date: None
+URL: https://tools.google.com/dlpage/gaoptout?hl=zh-TW
+
+有些網站訪客不想讓 Google Analytics (分析) 收集並使用自己的資料，為此，我們針對使用 Google Analytics (分析) JavaScript (analytics.js、gtag.js) 支援版本的網站開發了 Google Analytics (分析) 不透露資訊瀏覽器外掛程式。您如果不想透露資訊，請下載這個外掛程式並安裝在網路瀏覽器中。Google Analytics (分析) 不透露資訊外掛程式可與 Chrome、Safari、Firefox 及 Microsoft Edge 相容。這個不透露資訊外掛程式必須能在瀏覽器中正確載入並執行，方能正常運作。若要進一步瞭解這項不透露資訊功能，以及如何安裝這個瀏覽器外掛程式，請參閱本文。
+您如果不想透露資訊，請下載這個外掛程式並安裝在網路瀏覽器中。Google Analytics (分析) 不透露資訊外掛程式可與 Chrome、Safari、Firefox 及 Microsoft Edge 相容。這個不透露資訊外掛程式必須能在瀏覽器中正確載入並執行，方能正常運作。若要進一步瞭解這項不透露資訊功能，以及如何安裝這個瀏覽器外掛程式，請參閱本文。
+適用於 Google Chrome、Mozilla Firefox、Apple Safari 及 Microsoft Edge。
+進一步瞭解 Google Analytics (分析) 的隱私權政策 »
+©2025 Google   -隱私權政策-說明

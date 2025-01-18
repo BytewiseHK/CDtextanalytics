@@ -1,0 +1,9 @@
+Title: Chip war: Chinese scientists vow to launch breakthrough RISC-V open-source CPU in 2025 | South China Morning Post
+Date: Published:8:00pm, 6 Jan 2025
+URL: https://www.scmp.com/tech/tech-war/article/3293610/chip-war-chinese-scientists-vow-launch-breakthrough-risc-v-open-source-cpu-2025#comments
+
+Efforts by the Chinese Academy of Sciences form part of Beijing’s push to reduce reliance on foreign semiconductor technology
+The Chinese Academy of Sciences (CAS) will be able to deliver its XiangShan open-source central processing unit in 2025, wrote Bao Yungang, deputy director at the academy’s Institute of Computing Technology, in a Weibo post on Sunday.
+Initiated by the CAS in 2019, the XiangShan project aims to develop high-performance open-source processors. During a presentation at the Hot Chips 2024 semiconductor conference in Silicon Valley in August, the CAS research team described XiangShan’s goal as eventually becoming “the Linux of processors”.
+Bao, who is also the secretary general of the China Open Command Ecology (RISC-V) Alliance, said the team strives to break the traditional perception that open source means low performance and low quality. It also wants to prove that an open-source project initiated by academia can result in scalable applications.
+XiangShan is part of China’s growing efforts to adopt RISC-V, an open-source chip architecture that lets developers configure and customise their designs. Chinese developers are hoping that RISC-V, pronounced “risk five”, can help them reduce reliance on foreign suppliers amid an intensifying tech war with the US.

@@ -1,0 +1,13 @@
+Title: Google Marketing Platform 廣告產品和 Google Ad Manager 如何使用 Cookie - Campaign Manager 360說明
+Date: None
+URL: https://support.google.com/dcm/answer/2839090?hl=zh-Hant&reg_topic=4387660&visit_id=636628356538576427-4199277083&rd=1
+
+Cookie 是儲存在瀏覽器中的小型文字檔。大多數 Cookie 都帶有一個專用識別碼 (由一串字元組成的 Cookie ID)；利用這個識別碼，網站和伺服器就能識別存放 Cookie 的瀏覽器。如此一來，網站和伺服器就能區分儲存不同 Cookie 的瀏覽器，並依據專屬的 Cookie ID 識別每一個瀏覽器。
+網站和伺服器廣泛使用 Cookie 來提供許多基本的網路服務。假設您上網購物，購物網站可以透過 Cookie 記住您放進虛擬購物車的商品。如果您在某網站上調整了偏好設定，網站可以經由 Cookie 記住您的喜好，然後在您再度造訪時根據您的設定顯示內容。如果您登入了某網站，網站之後可能會使用 Cookie 來辨識您的瀏覽器，省下您再次登入的麻煩。此外，網站也可以透過 Cookie 收集使用者活動相關資料，例如某網頁每個月的不重複訪客人數。這些應用都倚賴 Cookie 中所儲存的資訊。
+Google Marketing Platform 廣告產品 (Display & Video 360、Search Ads 360 和 Campaign Manager 360) 和 Google Ad Manager 使用 Cookie 來改善廣告放送方式。常見的應用方式包括根據使用者的相關需求指定廣告、改善廣告活動成效的報表功能，以及避免顯示使用者已看過的廣告。
+Cookie 本身並不包含個人識別資訊。取決於發布商和使用者的設定，系統可能會在使用者的 Google 帳戶中，加入用於放送廣告的 Cookie 相關資訊。停用廣告個人化
+如果使用者透過 Google 的廣告設定停用廣告個人化功能，就不會再收到 Google 提供的個人化廣告。
+每回發生廣告曝光、點擊等會呼叫 Google 伺服器的活動，Google Marketing Platform 廣告產品和 Google Ad Manager 就會向瀏覽器發出一個 Cookie。如果瀏覽器接受這個 Cookie，就會加以儲存。
+使用者造訪了顯示 Google Marketing Platform 廣告產品和 Google Ad Manager 廣告的網頁後，Google Marketing Platform 廣告產品和 Google Ad Manager 通常會傳送 Cookie 給使用者所用的瀏覽器。刊登 Google Marketing Platform 廣告產品或 Google Ad Manager 廣告的網頁中所包含的廣告代碼，會指示瀏覽器向 Google 伺服器請求廣告內容；伺服器則會在放送廣告素材時一併傳送 Cookie。不過，沒有顯示 Google Marketing Platform 廣告產品或 Google Ad Manager 廣告的網頁一樣可以傳送 Cookie，只要網頁中包含 Google Marketing Platform 廣告產品或 Google Ad Manager 廣告代碼即可；該代碼會改為載入點擊追蹤程式或曝光像素。
+所有發布商都必須清楚顯示一份隱私權政策，讓訪客知道網站會使用 Cookie。此外，所有發布商在收集網站訪客的相關資訊時，都必須遵循相關的適用法律。
+根據 Cookie 是否與使用者造訪網站的網域連結而定，可以分為第三方和第一方兩個類別。第三方 Cookie 連結的網域與使用者造訪網站的網域不同。Google Marketing Platform 廣告產品和 Google Ad Manager 在廣告用途中所使用的第三方 Cookie 可能連結doubleclick.net或特定國家/地區的 Google 網域 (如google.com)。請注意，這個分類不會影響實際 Cookie 的名稱和內容。第三方和第一方 Cookie 兩者的差異僅在於瀏覽器指向的網域；這兩種情況所傳送的 Cookie 類型可能完全相同。

@@ -1,0 +1,7 @@
+Title: Hong Kong Cyclothon | Hong Kong Tourism Board
+Date: None
+URL: https://www.discoverhongkong.com/fr/what-s-new/events/dhk-highlighted-events/cyclothon.html
+
+Chaque année, des milliers de cyclistes passionnés - amateurs et professionnels - se lancent dans un parcours sur des routes fermées, passant par un certain nombre de sites emblématiques tout en admirant le paysage urbain unique de Hong Kong. Le long de la baie Victoria, les cyclistes du monde entier se disputent le trophée en pédalant à toute vitesse devant les gratte-ciel de Tsim Sha Tsui East, en synergie avec le dynamisme de notre ville.
+Revivez cette compétition palpitante avec les moments forts de la dernière édition :
+{{post.type}}

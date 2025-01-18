@@ -1,0 +1,8 @@
+Title: Полезная информация | Hong Kong Tourism Board
+Date: None
+URL: https://www.discoverhongkong.com/ru/plan/traveller-info.html
+
+{{post.type}}
+Notice:Starting 1 January 2025, a Hotel Accommodation Tax (HAT) will be imposed on all accommodation charges received by hotels or guesthouses. Please clickherefor more information.
+{{post.type}}
+Ответы на эти часто задаваемые вопросы помогут вам спланировать вашу поездку в Гонконг. Они касаются достопримечательностей, проживания и транспорта.

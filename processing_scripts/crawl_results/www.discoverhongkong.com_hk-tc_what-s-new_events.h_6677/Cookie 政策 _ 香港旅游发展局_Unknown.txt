@@ -1,0 +1,21 @@
+Title: Cookie 政策 | 香港旅游发展局
+Date: None
+URL: https://www.discoverhongkong.cn/china/cookies.html
+
+香港旅游发展局，营业地点位于香港北角威非路道18号万国宝通中心9至11楼（“我们”）经营网站www.discoverhongkong.cn（“网站”）以及其他应用程序和应用程序编程接口（APIs）（统称为“服务”）。
+我们的服务通过cookies和其他工具来区分您和其他服务使用者。这有助于我们能够在您使用服务时为您提供良好的服务体验并同时有助于我们改进服务。
+Cookies是一种包含少量信息的小型文本文件。这些文件类似网站的内存，将会下载并或者会储存在您任何可上网的装置内，例如您的电脑、智能手机或平板电脑。
+因此，当您浏览本网站时，我们将会自动收集并储存以下的相关信息：
+另外，我们亦利用网络信标（web beacons）、追踪网址（tracking URLs）或软件开发工具包（SDKs）等其他技术。网络信标是包含独特标识符的小型图形档案，我们可以透过档案查看您是否曾浏览某些内容；追踪网址有助我们了解本服务的浏览量源自何处，而软件开发工具包则是一组用于开发应用程序的程序及工具，功能类似cookies及网络信标。就本Cookie政策而言，以上此类技术均统称为“Cookies”。
+这里的资料私隐政策详列了我们收集的其他信息，以及您的个人资料用途。
+按此查阅我们使用的cookies列表。
+我们使用下列各种cookies：
+本网站内部分cookies及本服务某些部分由第三方管理，包括广告平台，视频、地图及社交媒体应用程序编程接口等功能，以及提供外部网站如网站使用分析的服务供货商。他们大多使用分析／效能cookies或目标cookies。如欲了解第三方如何使用您的信息，请参考其cookie及私隐政策。
+本服务使用的第三方cookies，包括但不限于：
+我们使用Google Analytics cookies了解访客浏览页面的方式，并计算访客数目，以帮助我们改善整体服务。
+我们所使用的Google Analytics，由Google Inc提供，它透过 “效能cookies”（performance cookies）及“目标cookies”（targeting cookies），分析访客浏览页面的方式。Cookies产生有关您使用网站的相关信息（包括您的IP地址），将传输给Google，并储存在该公司设于美国的服务器上。此外，本网站在使用Google Analytics时，Google会采用“_anonymizeIp()'”的扩展名，对来自欧盟成员国的IP地址的最后八位字节，做出缩短或匿名处理。
+Google以本局的名义，使用收集到的相关信息，评估访客浏览页面的方式、编制关于网站活动的报告，并向我们提供与网站活动及互联网使用相关的其他服务。Google不会将您的IP地址与Google持有的任何其他数据相互关联。访客可以修改浏览器设置，以停用cookies。此外，访客也可以透过下载（地址：https://tools.google.com/dlpage/gaoptout?hl=zh-CN#）和安装浏览器插件，以阻止Google收集和使用相关信息（Cookies和IP地址）。访客还可以透过禁用Google Analytics的链接，来停止使用Google Analytics。该链接会创建一个“退出cookie”，以阻止Google Analytics进一步处理您的数据。更多关于Google Analytics cookies的相关信息，请浏览“Google用户中心”（Google Help）页面，并参阅Google的隐私权政策。如果您不同意使用上述cookies，我们将无法就所提供的服务做出保证。
+您可以通过修改所使用之浏览器的设置，以停用所有或部分cookies。请注意，如果您透过修改浏览器设置，停用所有cookies（包括基本cookies），您或无法使用我们所提供的全部或部分服务。
+如果您在任何时候希望更改我们网站的cookies设定，可以按此使用我们的“Cookie设定”以启用/禁用某些cookies。请注意，如果禁用cookies，某些服务将无法正常运行。
+有关如何执行此操作的更多资讯，请参见http://www.allaboutcookies.org/manage-cookies/clear-cookies-installed.html或遵照您互联网浏览器中的“帮助”选项。
+二Ｏ二三年五月更新

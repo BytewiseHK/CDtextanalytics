@@ -1,0 +1,29 @@
+Title: ‎App Store 上的《My HKG (Official)》
+Date: 2024年12月17日
+URL: https://apps.apple.com/hk/app/my-hkg-official/id1488720261
+
+「My HKG」是由香港國際機場製作的官方流動應用程式。請即下載，讓您隨心所想體驗機場！主要功能：- 實時航班資訊及通知- 機場服務預約及餐飲預訂- 互動地圖附設客運大樓導航功能- 自動 Wi-Fi 連接功能- 聊天機械人解答有關機場的查詢- 個人檔案可儲存機場優惠券及「行李通」資料「My HKG」流動應用程式提供中文、英文、日文及韓文版。請注意：流動網絡服務供應商會向用戶收取使用數據服務的費用，請確保已關閉流動裝置「設定」中的「數據漫遊」選項。
+版本 1.9.3
+定期優化及改善「My HKG」應用程式，以提升旅客的機場體驗。
+1,183 個評分
+The app functionalities are OK.   However, the app will drain the battery even I leave it in the background, and my phone run out of battery over night!    And the phone alarm couldn’t ring, and people could miss flight because of this.
+Convenient transport booking options.
+I downloaded it yet it took forever to load to the main page.It’s still loading after a few mins.  I thought it’s my network but it still the same problem after I switched to another network.I removed and deleted the app.
+Dear Sir / Madam,Thank you for your feedback.The loading time of the app may vary depending on device and network conditions. We recommend users to allow more time for the initial load for the first time after downloading, as it may take longer than usual. Enhancements have been made in the latest version of the app. Please visit the app store to update to the version 1.8.3 and try again.Once again thank you for your valuable feedback.Regards,My HKG App Team
+開發者表明Airport Authority Hong Kong的私隱慣例或包括下列資料的處理。詳情請參閱開發者的私隱政策。
+以下資料可能會用於追蹤你在其他公司的 App 和網站的活動：
+開發者可能會收集以下資料並連結你的個人身份：
+開發者可能會收集以下資料，但不會連結你的個人身份：
+私隱慣例或因使用的功能或年齡等因素而異。進一步了解
+日文、簡體中文、繁體中文、英文、韓文
+HKG Community
+機場的士易
+HKIA Cargo
+空港多式貨運數據平台
+香港航空
+HK Express
+香港國際機場航班資訊 HK Flight Info Lite
+易通行
+香港出行易
+永安旅遊 - 機票、酒店、自由行、旅行團
+Copyright © 2025Apple Inc.保留一切權利。

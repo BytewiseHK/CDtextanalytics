@@ -1,0 +1,7 @@
+Title: Alibaba powers AI drive of Transsion, the top Chinese smartphone vendor in Africa | South China Morning Post
+Date: Published:5:30pm, 8 Jan 2025
+URL: https://www.scmp.com/tech/tech-trends/article/3293897/alibaba-powers-ai-drive-transsion-top-chinese-smartphone-vendor-africa
+
+Alibaba’s Tongyi Qianwen model will enable the GenAI features of the Phantom V Fold2, Transsion’s latest 5G smartphone under its Tecno brand
+The two firms’ on-device GenAI service makes use of a so-called AI button, which enables a user to conduct multiple rounds of AI conversations and quickly make summaries of documents and phone call messages.
+In the Alibaba Cloud statement, Shi said the “optimisation of inferencing energy consumption” has become a major challenge for integrating AI models on devices. AI inferencing is the process that a trained model uses to draw conclusions or solve tasks based on brand-new live data.

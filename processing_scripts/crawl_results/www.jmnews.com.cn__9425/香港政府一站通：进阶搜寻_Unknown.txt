@@ -1,0 +1,7 @@
+Title: 香港政府一站通：进阶搜寻
+Date: None
+URL: https://www.search.gov.hk/search?ui_charset=utf-8&ui_lang=zh-cn
+
+使用以上选项搜寻包含指定语言的网页。
+使用以上选项搜寻一些在指定时间内建立或更新的内容。
+使用以上选项决定每页可显示的结果数目。

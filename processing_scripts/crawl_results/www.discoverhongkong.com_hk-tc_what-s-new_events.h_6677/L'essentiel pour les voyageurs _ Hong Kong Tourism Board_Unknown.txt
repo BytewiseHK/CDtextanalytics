@@ -1,0 +1,8 @@
+Title: L'essentiel pour les voyageurs | Hong Kong Tourism Board
+Date: None
+URL: https://www.discoverhongkong.com/fr/plan/traveller-info.html
+
+{{post.type}}
+Annonce:À partir du 1er janvier 2025, une taxe sur l'hébergement hôtelier (HAT) sera appliquée sur tous les frais d'hébergement perçus par les hôtels ou chambres d’hôtes. Cliquezicipour plus d'informations.
+{{post.type}}
+Les réponses à ces questions fréquemment posées par nos visiteurs, notamment sur les visites, hébergements et transports, vous aideront à planifier votre voyage.

@@ -1,0 +1,12 @@
+Title: 30% of travel platforms fail to state data retention policies: Hong Kong watchdog | South China Morning Post
+Date: Published:5:09pm, 18 Nov 2024
+URL: https://www.scmp.com/news/hong-kong/society/article/3287059/30-travel-platforms-fail-state-data-retention-policies-hong-kong-watchdog
+
+Watchdog reviews privacy policies of 10 travel platforms, finds three have yet to add data retention sections after being contacted
+About one-third of online travel platforms do not state their data retention policies, Hong Kong’s privacy watchdog has said, urging operators to appoint staff to monitor compliance with regulations and to make the most protective option the default setting for customers.
+The Office of the Privacy Commissioner for Personal Data said on Monday that a review of 10 online travel platforms also found two of the operators had stated users’ personal data could be used in services powered by artificial intelligence (AI).
+“The review aims to assist travel platforms in enhancing the quality of their services and increasing transparency in their collection of personal data,” privacy commissioner Ada Chung Lai-ling said.
+“It also seeks to help residents better understand the privacy protection policies and user interface design of these platforms, thereby strengthening the protection of personal data privacy when they place orders for travel products online.”
+The review, which took place between February and October, covered the websites and mobile applications of 10 platforms.
+Among the 10, only Agoda, EGL Tours, Expedia, Trip.com and WWPKG had sections on data retention in their privacy policies.
+The watchdog also highlighted Expedia’s practice of setting clear deadlines and conditions for retaining user data in its policy, describing the move as desirable.

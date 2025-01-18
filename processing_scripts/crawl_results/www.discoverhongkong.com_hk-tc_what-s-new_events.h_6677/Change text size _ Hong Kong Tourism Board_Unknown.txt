@@ -1,0 +1,23 @@
+Title: Change text size | Hong Kong Tourism Board
+Date: None
+URL: https://www.discoverhongkong.com/jp/text-size.html
+
+日本語での香港の安全情報は、在香港日本国総領事館のホームページをご参照ください。
+Now with this responsive web design, you can easily change the text size to fit your eyesight needs.
+If you browse DiscoverHongKong.com on a desktop computer, a modern web browser will allow you to hold down the Ctrl key (Command key on a Macintosh) and press the + or - key to increase or decrease the text size, and 0 to go back to the default size.
+On a smartphone or a tablet, you can simply pinch open on the screen to zoom in (ie to enlarge) and pinch close to zoom out (ie to reduce).
+You may also change the text size from the menu. Choose from the following web browsers for specific instructions:
+Chrome
+On the Page menu, select Zoom, then Larger.
+Firefox
+On the View menu, select Zoom, then Zoom In.
+Or you may click on the Menu icon and select + or - to make the text size bigger or smaller.
+Internet Explorer / Edge
+On the View menu, select Text Size, then Largest.
+Or you may click on the IE Settings icon, select Zoom, then choose a percentage or click Zoom In.
+Opera
+On the View menu, select Zoom. Then choose a percentage.
+Safari
+On the View menu, select Make Text Bigger.
+Endorsement Disclaimer
+Hong Kong Tourism Board does not endorse specific web browsers or recommend one browser over another. While some popular browsers are included here, mention of a specific browser does not imply any endorsement or recommendation.

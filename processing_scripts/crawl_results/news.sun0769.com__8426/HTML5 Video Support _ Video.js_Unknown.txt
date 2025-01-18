@@ -1,0 +1,8 @@
+Title: HTML5 Video Support | Video.js
+Date: None
+URL: https://videojs.com/html5-video-support/
+
+For a more detailed writeup of the various codecs and their browser support, we highly suggest Mozilla'sexcellent documentation.
+* Legacy Edge supported HEVC. Modern (Chromium) Edge does not.
+Video.js is a free and open source HTML5 video player framework.
+©Brightcove, Inc.

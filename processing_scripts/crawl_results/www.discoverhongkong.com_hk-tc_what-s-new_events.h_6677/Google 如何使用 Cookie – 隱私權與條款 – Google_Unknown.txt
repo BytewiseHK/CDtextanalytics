@@ -1,0 +1,32 @@
+Title: Google 如何使用 Cookie – 隱私權與條款 – Google
+Date: None
+URL: https://policies.google.com/technologies/cookies?hl=zh-TW
+
+本頁說明 Google 使用的 Cookie 類型和類似技術，同時也說明 Google 與合作夥伴在廣告中如何使用 Cookie。
+Cookie 是您在瀏覽網站時，網站傳送給瀏覽器的一小段文字，可讓網站儲存您的瀏覽資訊，方便您下次瀏覽相同網站時套用同樣的設定，以及為您提供更實用的服務。目前也有類似技術可用於上述目的，包括透過專屬 ID 辨識應用程式或裝置、像素廣告代碼和本機儲存空間。本頁提及的 Cookie 和類似技術可用於下列用途。
+如要瞭解 Google 在使用 Cookie 及其他資訊時如何保護您的隱私，請參閱我們的《隱私權政策》。
+您的瀏覽器、應用程式或裝置可能會儲存下列部分或所有 Cookie 或類似技術。如要管理 Cookie 的使用方式 (包括拒絕使用特定 Cookie)，可以前往g.co/privacytools。您也可以管理瀏覽器中的 Cookie(不過行動裝置的瀏覽器可能不支援查看 Cookie)。此外，您或許可在裝置設定或應用程式的設定中管理下列部分技術。
+用於維持功能運作的 Cookie 和類似技術可讓您使用特定服務的基本功能，包括記住所用選項和偏好設定 (例如您選用的語言)、儲存您的工作階段相關資訊 (例如購物車的內容)、啟用功能或執行您要求的工作，以及產品最佳化設定 (用來維護及改善服務體驗)。
+有些 Cookie 和類似技術是用來保留您的偏好設定。舉例來說，大多數 Google 服務使用者的瀏覽器都有「NID」或「_Secure-ENID」Cookie，但這點會因使用者的 Cookie 選擇而異。這些 Cookie 會用來記錄您的偏好設定和其他資訊，包括慣用語言、您希望單一搜尋結果頁面顯示的搜尋結果數量 (例如 10 或 20 個)，以及是否啟用 Google 的安全搜尋篩選器。每個「NID」Cookie 的有效期限是 6 個月 (從使用者最後一次使用的時間開始計算)，「_Secure-ENID」Cookie 的有效期限則為 13 個月。YouTube 有兩個用途相似的 Cookie，分別是「VISITOR_INFO1_LIVE」和「__Secure-YEC」。這兩個 Cookie 還可用來偵測及解決 YouTube 服務的問題，有效期限分別為 6 個月和 13 個月。
+其他 Cookie 和類似技術是用來維護及強化您在特定工作階段中的體驗。舉例來說，YouTube 使用「PREF」Cookie 儲存的資訊包括您的偏好頁面設定和播放偏好設定，例如直接設定的自動播放選擇、隨機播放的內容和播放器大小。在 YouTube Music 中，這個 Cookie 記錄的偏好設定則涵蓋音量、重複播放模式和自動播放。有效期限是 8 個月 (從使用者最後一次使用的時間開始計算)。此外，「pm_sess」Cookie 的用途也是協助保留您的瀏覽器工作階段，有效期限為 30 分鐘。
+Cookie 和類似技術也可能用來改善 Google 服務的效能。比方說，當使用者開始輸入內容時，系統就會透過「CGIC」Cookie 改善自動即時查詢的搜尋結果傳遞。這個 Cookie 的有效期限為 6 個月。
+Google 會使用「SOCS」Cookie 儲存使用者的 Cookie 選擇狀態，有效期限為 13 個月。
+用於確保安全性的 Cookie 和類似技術可協助驗證使用者身分、防範詐欺行為，並在您與服務互動時提供安全防護。
+用於驗證使用者身分的 Cookie 和類似技術可確保只有帳戶的擁有者才能存取該帳戶。舉例來說，「SID」和「HSID」Cookie 包含使用者的 Google 帳戶 ID 與最近登入時間的相關記錄，這些記錄都經過數位簽章與加密處理。Google 將這兩種 Cookie 搭配使用，以便阻擋多種攻擊。舉例來說，這些 Cookie 可防止他人竊取您在 Google 服務中提交的表單內容。
+有些 Cookie 和類似技術則是用來偵測垃圾內容、詐欺和濫用行為。舉例來說，「pm_sess」和「YSC」Cookie 可確保瀏覽工作階段中的要求是由使用者本人提出，而非來自其他網站，以便防止惡意網站在使用者不知情的情況下冒用身分執行操作。「pm_sess」Cookie 的有效期限為 30 分鐘，「YSC」Cookie 的有效期限則為使用者的瀏覽工作階段持續時間。「__Secure-YEC」和「AEC」Cookie 可用於偵測垃圾內容、詐欺和濫用行為，確保廣告主並未針對詐欺性或無效的廣告或互動次數付費，以及參與 YouTube 合作夥伴計畫的 YouTube 創作者都獲得合理的酬勞。「AEC」Cookie 的有效期限為 6 個月，「__Secure-YEC」Cookie 的有效期限則為 13 個月。
+用於分析用途的 Cookie 和類似技術可協助服務蒐集資料，以便瞭解您與特定服務的互動方式。相關的分析結果不但可以改善服務內容，也有助於開發更優質的功能，進而提升您的使用體驗。
+有些 Cookie 和類似技術可協助網站和應用程式瞭解訪客與服務的互動情形。舉例來說，Google Analytics (分析)會透過一組 Cookie 代表使用 Google Analytics (分析) 服務的商家蒐集資訊，並向這些商家回報網站使用情況統計資料，而不必辨識每個訪客。「_ga」是 Google Analytics (分析) 主要使用的 Cookie，可讓服務藉由這個 Cookie 分辨不同的訪客，有效期限為 2 年。凡是導入 Google Analytics (分析) 的網站 (包括 Google 服務)，都會使用「_ga」Cookie。每個資源都有專屬的「_ga」Cookie，因此無法用來在不相關的網站上追蹤指定使用者或瀏覽器。
+為了進行分析，Google 也會在 Google 搜尋上使用「NID」和「_Secure-ENID」Cookie，並在 YouTube 上使用「VISITOR_INFO1_LIVE」和「__Secure-YEC」Cookie。Google 行動應用程式可能也會為了進行分析而使用專屬 ID，例如「Google Usage ID」。
+Google 會將 Cookie 用於廣告用途，包括放送及顯示廣告、提供個人化廣告 (取決於您在myadcenter.google.com和adssettings.google.com/partnerads的設定)、限制相同廣告向同一使用者展示的次數、隱藏您選擇停止顯示的廣告，以及評估廣告成效。
+我們使用「NID」Cookie 在 Google 服務中向未登入帳戶的使用者顯示 Google 廣告，同時使用「ANID」、「IDE」和「id」Cookie 在非 Google 網站上顯示 Google 廣告。視您的裝置設定而定，我們會使用行動廣告 ID (例如 Android 的廣告 ID) 在行動應用程式上顯示 Google 廣告。當您啟用個人化廣告後，系統會使用「ANID」和「IDE」Cookie 向您顯示個人化廣告。當您停用個人化廣告後，系統會使用「ANID」和「id」Cookie 記錄這項偏好設定，因此您不會看到個人化廣告。「NID」Cookie 的有效期限是 6 個月 (從使用者最後一次使用的時間開始計算)。如果您位於歐洲經濟區 (EEA)、瑞士和英國 (UK)，「ANID」、「IDE」和「id」Cookie 的有效期限為 13 個月；如果您位於其他地區，這些 Cookie 的有效期限則為 24 個月。
+視您的廣告設定而定，YouTube 等其他 Google 服務也可能會將這些及其他 Cookie 和技術 (例如「VISITOR_INFO1_LIVE」Cookie) 用於廣告用途。
+有些用於廣告用途的 Cookie 和類似技術適用於已登入帳戶的 Google 服務使用者。舉例來說，我們會使用「DSID」Cookie 在非 Google 網站上辨識出已登入帳戶的使用者，以便套用使用者的廣告個人化設定。「DSID」Cookie 的有效期限為 2 週。
+企業可透過 Google 的廣告平台在 Google 服務及非 Google 網站上放送廣告。有些 Cookie 可讓 Google 在第三方網站上顯示廣告。這些 Cookie 是設在您造訪的網站所屬網域中。舉例來說，「_gads」可讓網站顯示 Google 廣告。名稱開頭為「_gac_」的 Cookie 來自 Google Analytics (分析)，廣告商可以使用這個 Cookie 評估使用者活動和廣告活動的成效。「_gads」Cookie 的有效期限為 13 個月，而「_gac_」Cookie 的有效期限為 90 天。
+有些 Cookie 和類似技術是用來評估廣告和廣告活動成效，以及 Google 廣告在您造訪的網站上有多少轉換率。舉例來說，名稱開頭為「_gcl_」的 Cookie 主要用途是協助廣告主判斷使用者在點選廣告後，在他們的網站上做出轉換操作 (例如購買產品) 的次數。用於評估轉換率的 Cookie 不會用於放送個人化廣告。「_gcl_」Cookie 的有效期限為 90 天。類似技術 (例如 Android 裝置的廣告 ID) 也可用來評估廣告和廣告活動的成效。您可以在 Android 裝置上管理廣告 ID 設定。
+您可以在此瞭解更多關於「廣告」用途 Cookie 的資訊。
+用於個人化用途的 Cookie 和類似技術可提供個人化的內容及功能，讓您享有更優質的體驗，實際的運作方式取決於您在g.co/privacytools頁面中選用的設定，或是您的應用程式和裝置設定。
+個人化內容和功能包括更貼近需求的搜尋結果和推薦內容、個人化 YouTube 首頁，以及根據您感興趣的主題放送的廣告等等。舉例來說，透過「VISITOR_INFO1_LIVE」Cookie，YouTube 可根據觀看記錄和搜尋記錄提供個人化推薦內容。當您在 Google 搜尋輸入搜尋字詞時，系統可透過「NID」Cookie 提供個人化的自動完成功能。這些 Cookie 的有效期限是 6 個月 (從使用者最後一次使用的時間開始計算)。
+另一個 Cookie「UULE」會將瀏覽器的精確位置資訊傳送到 Google 的伺服器，讓 Google 能根據您的所在位置顯示相關結果。這個 Cookie 的使用方式取決於瀏覽器設定，以及您是否開啟了瀏覽器的位置設定。「UULE」Cookie 的有效期限為 6 小時。
+即使您拒絕用於提供個人化用途的 Cookie 和類似技術，Google 提供非個人化的內容和功能時，仍可能會參考相關情境資訊，例如您的所在位置、語言、裝置類型，或您目前瀏覽的內容。
+大多數瀏覽器都可讓您控制 Cookie 在網頁瀏覽過程中的設定方式和使用方式，還能讓您清除 Cookie 和瀏覽資料。此外，您的瀏覽器可能也會有相關設定，方便您管理不同網站的 Cookie。舉例來說，Google Chrome 的設定 (chrome://settings/cookies) 可讓您刪除現有 Cookie、允許或封鎖所有 Cookie，以及選擇網站的 Cookie 偏好設定。Google Chrome 還提供無痕模式，在您關閉所有無痕式視窗後，就會刪除您在裝置上透過無痕式視窗瀏覽網頁的記錄，並清除相關 Cookie。
+大多數的行動裝置和應用程式都允許您管理類似技術的設定及使用方式，例如您可以管理用來辨識應用程式或裝置的專屬 ID。舉例來說，您可以透過裝置的設定管理 Android 裝置的廣告 ID 或 Apple 的廣告識別碼，而特定應用程式的 ID 則通常可在應用程式的設定中管理。

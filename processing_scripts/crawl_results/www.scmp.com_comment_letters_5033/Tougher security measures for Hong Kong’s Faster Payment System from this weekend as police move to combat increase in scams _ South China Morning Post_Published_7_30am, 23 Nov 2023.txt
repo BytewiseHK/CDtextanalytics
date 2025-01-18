@@ -1,0 +1,8 @@
+Title: Tougher security measures for Hong Kong’s Faster Payment System from this weekend as police move to combat increase in scams | South China Morning Post
+Date: Published:7:30am, 23 Nov 2023
+URL: https://www.scmp.com/news/hong-kong/law-and-crime/article/3242469/tougher-security-measures-hong-kongs-faster-payment-system-weekend-police-move-combat-increase-scams?module=inline&pgtype=article
+
+The suspicious proxy alert model will be used by the city’s 35 banks and nine stored-value facilities from Sunday and will trigger a warning when users enter the details of an account flagged as “high risk” by the police force’s Scameter search engine.
+“We hope that when residents see this warning, they will stop transferring money to prevent themselves from being scammed and leading to them suffering a loss,” Chief Superintendent Kelly Cheng Lai-ki of the force’s cybersecurity and technology crime bureau said.
+The system will send users a message that the FPS account they want to transfer money to is dangerous.
+The Scameter contains information to help the public identify suspicious web addresses, phone numbers, emails, platform usernames or IP addresses.

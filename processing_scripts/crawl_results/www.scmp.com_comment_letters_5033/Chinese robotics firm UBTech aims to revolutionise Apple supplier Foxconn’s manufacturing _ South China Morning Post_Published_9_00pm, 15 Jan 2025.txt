@@ -1,0 +1,11 @@
+Title: Chinese robotics firm UBTech aims to revolutionise Apple supplier Foxconn’s manufacturing | South China Morning Post
+Date: Published:9:00pm, 15 Jan 2025
+URL: https://www.scmp.com/tech/big-tech/article/3294903/chinese-robotics-maker-ubtech-aims-revolutionise-apple-supplier-foxconns-manufacturing
+
+UBTech and Foxconn have signed a ‘comprehensive long-term partnership’ to deploy more robots in the iPhone maker’s factories
+Shenzhen-based UBTech Robotics, China’s largest maker of humanoid robots, will deploy its robots in Apple supplier Foxconn’s factories to help with “complicated and delicate production”, according to a senior executive.
+The company is training its robots to handle different tasks required for modern-day manufacturing, chief brand officer Michael Tam said on the sidelines of the China conference in Nansha organised by the South China Morning Post.
+“For car manufacturing, there [are] thousands of tasks on our list,” he said. “In areas like 3C production, [these are] totally new skills for humanoid robots to learn.” 3C refers to computers, communication and consumer electronics. In the manufacturing industry, it is used to describe products and technologies related to these three categories.
+Hong Kong-listed UBTech on Wednesday announced a “comprehensive long-term partnership” with Foxconn, which assembles iPhones and is venturing into making electric vehicles, to deploy more robots in its factories.
+Walker S1, a humanoid robot launched last October, has completed two months of training for logistics operations at Foxconn’s factories in Shenzhen’s Longhua district, and it will soon go to the company’s car factory in Zhengzhou city, in Henan province, according to a statement from UBTech.
+Tam said the company aims to launch an upgraded version of S1, called Walker S2, in the second quarter of this year.

@@ -1,0 +1,12 @@
+Title: 党费缴纳平台
+Date: None
+URL: https://pub-zhtb.hizh.cn/a/202106/09/AP60bf2cf4e4b0da456124ee76.html
+
+所在支部：{{branchName}}
+业务订单编号：{{xqitem.orderNo}}
+缴费期次：{{xqitem.feeCycle}}
+已缴费金额：{{xqitem.payAmt}}元
+缴费日期：{{moment(xqitem.payDate).format('YYYY年MM月DD日')}}
+姓名：{{userName}}
+所属党委名称：{{orgName}}
+所属党支部名称：{{branchName}}

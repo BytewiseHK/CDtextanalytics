@@ -1,0 +1,8 @@
+Title: 實用資訊 | 香港旅遊發展局
+Date: None
+URL: https://www.discoverhongkong.com/tc/plan/traveller-info.html
+
+{{post.type}}
+備註：2025年1月1日起，所有香港酒店或賓館會徵收酒店房租税，有關詳情請按此。
+{{post.type}}
+透過一連串常見問題，您可以馬上找到旅遊香港的最佳方案！從來港前的入境申請準備，到抵港後的住宿、購物問題都可以找到！
