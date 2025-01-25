@@ -1,0 +1,3 @@
+[submodule "WeChatMoments"]
+	path = WeChatMoments
+	url = https://github.com/zxkane/WeChatMoments.git
