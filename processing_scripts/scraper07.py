@@ -92,7 +92,7 @@ def sanitize_filename(name):
         name = "Unknown"  # Default value for None
     return re.sub(r'[\/:*?"<>|]', '_', name)
 
-# Write content to a text file
+# Write content to a text file - this function needs some revision - we need to go through the whole file to look for content 
 def save_content_to_file(content, output_folder):
     """
     Saves the extracted article content to a text file.
