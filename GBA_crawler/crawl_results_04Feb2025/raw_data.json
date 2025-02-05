@@ -1,0 +1,101 @@
+[
+  {
+    "city": "广州",
+    "title": "商务专线5复行，助力批发商圈复工复产",
+    "dates": [
+      "2025-02-05"
+    ],
+    "date_contexts": [
+      "速恢复活力，一汽巴士三分公司积极行动，于2025年2月5日复行商务专线5，为服装从业者提供便捷、高"
+    ],
+    "summary": [
+      {
+        "text": "春节假期",
+        "label": "NOUN",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "助力",
+        "label": "NOUN",
+        "start": 27,
+        "end": 29
+      },
+      {
+        "text": "服装市场",
+        "label": "NOUN",
+        "start": 34,
+        "end": 38
+      }
+    ],
+    "translated": "News summary from 2025-02-04",
+    "impact": 0.0,
+    "url": "https://news.dayoo.com/guangdong/202502/04/139996_54782568.htm"
+  },
+  {
+    "city": "广州",
+    "title": "新春走基层 | 又是一年桔黄花红时",
+    "dates": [
+      "2025-02-08"
+    ],
+    "date_contexts": [
+      "0多株年桔，系统申报命中需要查检，船期在4天后，能否加急处理?”电话另一头——佰立园艺"
+    ],
+    "summary": [
+      {
+        "text": "蝴蝶兰",
+        "label": "NOUN",
+        "start": 3,
+        "end": 6
+      },
+      {
+        "text": "黄金",
+        "label": "NOUN",
+        "start": 10,
+        "end": 12
+      },
+      {
+        "text": "菊",
+        "label": "NOUN",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "translated": "News summary from 2025-02-04",
+    "impact": 0.0,
+    "url": "https://news.dayoo.com/guangdong/202502/04/139996_54782568.htm"
+  },
+  {
+    "city": "广州",
+    "title": "中国对原产于美国的部分进口商品加征关税",
+    "dates": [
+      "2025-02-10"
+    ],
+    "date_contexts": [
+      "律法规和国际法基本原则，经国务院批准，自2025年2月10日起，对原产于美国的部分进口商品加征关税。"
+    ],
+    "summary": [
+      {
+        "text": "财政部",
+        "label": "NOUN",
+        "start": 0,
+        "end": 3
+      },
+      {
+        "text": "网站",
+        "label": "NOUN",
+        "start": 3,
+        "end": 5
+      },
+      {
+        "text": "国务院",
+        "label": "NOUN",
+        "start": 8,
+        "end": 11
+      }
+    ],
+    "translated": "News summary from 2025-02-04",
+    "impact": 0.0,
+    "url": "https://news.dayoo.com/guangdong/202502/04/139996_54782568.htm"
+  }
+]

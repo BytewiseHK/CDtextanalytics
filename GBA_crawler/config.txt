@@ -1,0 +1,25 @@
+# 基于Docker的部署
+version: '3.8'
+
+services:
+  crawler:
+    image: python:3.9
+    command: python -m scheduler
+    environment:
+      - CRAWLER_WORKERS=10
+    volumes:
+      - ./config:/app/config
+
+  analytics:
+    image: tensorflow/serving
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./models:/models
+
+  storage:
+    image: minio/minio
+    ports:
+      - "9000:9000"
+    volumes:
+      - ./data:/data
