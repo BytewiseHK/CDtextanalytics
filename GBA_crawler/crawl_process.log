@@ -870,3 +870,58 @@
 2025-02-06 17:18:38,263 - WARNING - User interaction loop was cancelled.
 2025-02-06 17:18:38,264 - WARNING - Crawler was forcibly stopped.
 2025-02-06 17:18:38,265 - INFO - Report generated at news_data\report.txt
+2025-02-06 17:34:19,630 - INFO - Processing page: https://news.dayoo.com/guangzhou/ at depth 0
+2025-02-06 17:34:21,190 - INFO - Article saved: https://news.dayoo.com/guangzhou/
+2025-02-06 17:34:21,224 - INFO - Processing page: https://www.sznews.com/news/ at depth 0
+2025-02-06 17:34:22,535 - INFO - Processing page: https://news.hizh.cn/ at depth 0
+2025-02-06 17:34:22,575 - ERROR - Error fetching https://news.hizh.cn/: Cannot connect to host news.hizh.cn:443 ssl:default [getaddrinfo failed]
+2025-02-06 17:34:22,576 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/05/139995_54783035.htm at depth 1
+2025-02-06 17:34:23,446 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/05/139995_54783035.htm
+2025-02-06 17:34:23,510 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/06/139995_54783274.htm at depth 1
+2025-02-06 17:34:24,266 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/06/139995_54783274.htm
+2025-02-06 17:34:24,339 - INFO - Processing page: javascript:void(0) at depth 1
+2025-02-06 17:34:24,339 - ERROR - Error fetching javascript:void(0): javascript:void(0)
+2025-02-06 17:34:24,340 - INFO - Processing page: https://news.dayoo.com/society/202502/06/140000_54783281.htm at depth 1
+2025-02-06 17:34:25,093 - INFO - Processing page: https://news.dayoo.com/finance/139999.shtml at depth 1
+2025-02-06 17:34:25,405 - INFO - Processing page: https://news.dayoo.com/photo/202502/06/140003_54783297.htm at depth 1
+2025-02-06 17:34:26,143 - INFO - Article saved: https://news.dayoo.com/photo/202502/06/140003_54783297.htm
+2025-02-06 17:34:26,226 - INFO - Processing page: https://news.dayoo.com/guangzhou/202501/27/150952_54781199.htm at depth 1
+2025-02-06 17:34:27,045 - INFO - Article saved: https://news.dayoo.com/guangzhou/202501/27/150952_54781199.htm
+2025-02-06 17:34:27,119 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/06/139995_54783186.htm at depth 1
+2025-02-06 17:34:27,927 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/06/139995_54783186.htm
+2025-02-06 17:34:28,029 - INFO - Processing page: https://news.dayoo.com/guangzhou/159170.shtml at depth 1
+2025-02-06 17:34:28,319 - INFO - Processing page: javascript:void(0); at depth 1
+2025-02-06 17:34:28,319 - ERROR - Error fetching javascript:void(0);: javascript:void(0);
+2025-02-06 17:34:28,321 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/05/139995_54783088.htm at depth 1
+2025-02-06 17:34:29,147 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/05/139995_54783088.htm
+2025-02-06 17:34:29,215 - INFO - Processing page: https://news.dayoo.com/photo/202502/05/140003_54782736.htm at depth 1
+2025-02-06 17:34:29,952 - INFO - Article saved: https://news.dayoo.com/photo/202502/05/140003_54782736.htm
+2025-02-06 17:34:30,033 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/06/139995_54783185.htm at depth 1
+2025-02-06 17:34:30,730 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/06/139995_54783185.htm
+2025-02-06 17:34:30,807 - INFO - Processing page: https://news.dayoo.com/guangzhou/139995_4.shtml at depth 1
+2025-02-06 17:34:31,247 - INFO - Processing page: https://news.dayoo.com/world/139998.shtml at depth 1
+2025-02-06 17:34:31,570 - INFO - Processing page: https://news.dayoo.com/society/202502/05/140000_54783038.htm at depth 1
+2025-02-06 17:34:32,331 - INFO - Article saved: https://news.dayoo.com/society/202502/05/140000_54783038.htm
+2025-02-06 17:34:32,427 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/05/139995_54783040.htm at depth 1
+2025-02-06 17:34:33,155 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/05/139995_54783040.htm
+2025-02-06 17:34:33,392 - INFO - Processing page: https://news.dayoo.com/photo/140003.shtml at depth 1
+2025-02-06 17:34:33,822 - INFO - Processing page: http://www.dayoo.com at depth 1
+2025-02-06 17:34:34,473 - INFO - Processing page: https://news.dayoo.com/guangdong/202502/06/139996_54783174.htm at depth 1
+2025-02-06 17:34:35,173 - INFO - Article saved: https://news.dayoo.com/guangdong/202502/06/139996_54783174.htm
+2025-02-06 17:34:35,259 - INFO - Processing page: https://news.dayoo.com/guangzhou/202501/27/150952_54781201.htm at depth 1
+2025-02-06 17:34:36,038 - INFO - Article saved: https://news.dayoo.com/guangzhou/202501/27/150952_54781201.htm
+2025-02-06 17:34:36,123 - INFO - Processing page: https://news.dayoo.com/guangzhou/150956.shtml at depth 1
+2025-02-06 17:34:36,504 - INFO - Processing page: https://news.dayoo.com/guangzhou/139995.shtml at depth 1
+2025-02-06 17:34:36,851 - INFO - Article saved: https://news.dayoo.com/guangzhou/139995.shtml
+2025-02-06 17:34:36,906 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/06/139995_54783406.htm at depth 1
+2025-02-06 17:34:37,577 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/06/139995_54783406.htm
+2025-02-06 17:34:37,753 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/06/139995_54783269.htm at depth 1
+2025-02-06 17:34:38,528 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/06/139995_54783269.htm
+2025-02-06 17:34:38,617 - INFO - Processing page: https://news.dayoo.com/photo/202502/05/140003_54782740.htm at depth 1
+2025-02-06 17:34:39,312 - INFO - Article saved: https://news.dayoo.com/photo/202502/05/140003_54782740.htm
+2025-02-06 17:34:39,387 - INFO - Processing page: https://news.dayoo.com/guangzhou/150952.shtml at depth 1
+2025-02-06 17:34:39,810 - INFO - Processing page: https://news.dayoo.com/society/140000.shtml at depth 1
+2025-02-06 17:34:39,810 - WARNING - User interaction loop was cancelled.
+2025-02-06 17:34:39,814 - WARNING - Crawler was forcibly stopped.
+2025-02-06 17:34:39,818 - INFO - Text report generated at news_data\report.txt
+2025-02-06 17:34:39,821 - INFO - HTML report for future articles generated at news_data\future_articles_20250206_173439.html

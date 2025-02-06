@@ -145,8 +145,11 @@ class GBANewsMonitor:
         if "广告" in content or len(set(content.split())) < 20:  # Simple check for ads or repetitive text
             return None
 
+        # Here we're assuming the title can be extracted from the HTML. Adjust as needed.
+        title = soup.title.string if soup.title else "No Title"  # Or use some other method to get the title
         pub_date = datetime.now()  # Since we can't parse, we use current time for demonstration
         return {
+            "title": title,
             "content": content,
             "pub_date": pub_date,
             "url": url,
@@ -240,13 +243,30 @@ class GBANewsMonitor:
         await self.crawl_queue.join()
 
     def generate_report(self):
-        """Generate a report after crawling"""
+        """Generate a report after crawling including an HTML file with future articles"""
+        # Text report
         report_path = os.path.join(CONFIG["storage"]["output_dir"], "report.txt")
         with open(report_path, 'w', encoding='utf-8') as f:
             f.write(f"Total Pages Processed: {self.processed_pages}\n")
             f.write(f"Articles Found: {self.found_articles}\n")
             f.write(f"Future Articles: {len(self.future_articles)}\n")
-        self.logger.info(f"Report generated at {report_path}")
+        self.logger.info(f"Text report generated at {report_path}")
+
+        # HTML report for future articles
+        html_report_name = f"future_articles_{datetime.now().strftime('%Y%m%d_%H%M%S')}.html"
+        html_report_path = os.path.join(CONFIG["storage"]["output_dir"], html_report_name)
+        
+        with open(html_report_path, 'w', encoding='utf-8') as html_file:
+            html_file.write("<!DOCTYPE html><html><head><title>Future Articles Report</title></head><body>")
+            html_file.write("<h1>Future Articles Report</h1>")
+            html_file.write("<ul>")
+            for article in self.future_articles:
+                title = article.get('title', 'No Title')  # Assuming title is available or default to 'No Title'
+                url = article['url']
+                html_file.write(f'<li><a href="{url}" target="_blank">{title}</a></li>')
+            html_file.write("</ul></body></html>")
+        
+        self.logger.info(f"HTML report for future articles generated at {html_report_path}")
 
     async def run(self):
         """Main run function"""

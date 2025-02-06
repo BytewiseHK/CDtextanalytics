@@ -36,3 +36,6 @@
 {"url": "https://www6.sznews.com/tech/content/2022-02/11/content_24928086.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
 {"url": "https://www6.sznews.com/zhuanti/content/2021-11/26/content_24771035.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
 {"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787108.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://news.hizh.cn/", "error": "Cannot connect to host news.hizh.cn:443 ssl:default [getaddrinfo failed]"}
+{"url": "javascript:void(0)", "error": "javascript:void(0)"}
+{"url": "javascript:void(0);", "error": "javascript:void(0);"}
