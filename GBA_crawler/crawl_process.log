@@ -1,0 +1,872 @@
+2025-02-06 17:07:48,619 - INFO - Report generated at news_data\report.txt
+2025-02-06 17:09:55,666 - INFO - Processing page: https://news.dayoo.com/guangzhou/ at depth 0
+2025-02-06 17:09:57,161 - INFO - Article saved: https://news.dayoo.com/guangzhou/
+2025-02-06 17:09:57,190 - INFO - Processing page: https://www.sznews.com/news/ at depth 0
+2025-02-06 17:09:58,257 - INFO - Processing page: https://news.hizh.cn/ at depth 0
+2025-02-06 17:09:58,291 - ERROR - Error fetching https://news.hizh.cn/: Cannot connect to host news.hizh.cn:443 ssl:default [getaddrinfo failed]
+2025-02-06 17:09:58,295 - INFO - Processing page: https://www.dayoo.com/about/zhengshu/hlwxwxkz/gbdsjmzzjy2024.html at depth 1
+2025-02-06 17:09:58,982 - INFO - Processing page: https://news.dayoo.com/society/140000.shtml at depth 1
+2025-02-06 17:09:59,384 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/05/139995_54782972.htm at depth 1
+2025-02-06 17:10:00,111 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/05/139995_54782972.htm
+2025-02-06 17:10:00,173 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/06/139995_54783168.htm at depth 1
+2025-02-06 17:10:00,863 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/06/139995_54783168.htm
+2025-02-06 17:10:00,916 - INFO - Processing page: https://news.dayoo.com/guangzhou/139995_2.shtml at depth 1
+2025-02-06 17:10:01,215 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/06/139995_54783173.htm at depth 1
+2025-02-06 17:10:01,883 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/06/139995_54783173.htm
+2025-02-06 17:10:01,924 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/06/139995_54783185.htm at depth 1
+2025-02-06 17:10:04,747 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/06/139995_54783185.htm
+2025-02-06 17:10:04,783 - INFO - Processing page: https://news.dayoo.com/sports/202502/05/140001_54783084.htm at depth 1
+2025-02-06 17:10:05,290 - INFO - Article saved: https://news.dayoo.com/sports/202502/05/140001_54783084.htm
+2025-02-06 17:10:05,330 - INFO - Processing page: https://news.dayoo.com/guangzhou/150955.shtml at depth 1
+2025-02-06 17:10:05,633 - INFO - Processing page: https://news.dayoo.com/epaper.html at depth 1
+2025-02-06 17:10:05,920 - INFO - Processing page: https://news.dayoo.com/guangdong/202502/06/139996_54783179.htm at depth 1
+2025-02-06 17:10:06,670 - INFO - Article saved: https://news.dayoo.com/guangdong/202502/06/139996_54783179.htm
+2025-02-06 17:10:06,712 - INFO - Processing page: https://news.dayoo.com/guangzhou/202501/27/150952_54781197.htm at depth 1
+2025-02-06 17:10:07,384 - INFO - Article saved: https://news.dayoo.com/guangzhou/202501/27/150952_54781197.htm
+2025-02-06 17:10:07,434 - INFO - Processing page: https://news.dayoo.com/photo/202502/05/140003_54782737.htm at depth 1
+2025-02-06 17:10:08,144 - INFO - Article saved: https://news.dayoo.com/photo/202502/05/140003_54782737.htm
+2025-02-06 17:10:08,211 - INFO - Processing page: https://news.dayoo.com/guangzhou/153828.shtml at depth 1
+2025-02-06 17:10:08,565 - INFO - Processing page: https://news.dayoo.com/china/202108/12/139997_54017108.htm at depth 1
+2025-02-06 17:10:09,191 - INFO - Article saved: https://news.dayoo.com/china/202108/12/139997_54017108.htm
+2025-02-06 17:10:09,232 - INFO - Processing page: https://beian.miit.gov.cn/#/Integrated/recordQuery at depth 1
+2025-02-06 17:10:09,739 - WARNING - Fetching https://beian.miit.gov.cn/#/Integrated/recordQuery failed with status code: 521
+2025-02-06 17:10:09,739 - INFO - Processing page: https://news.dayoo.com/photo/140003.shtml at depth 1
+2025-02-06 17:10:10,015 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/05/139995_54783035.htm at depth 1
+2025-02-06 17:10:10,701 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/05/139995_54783035.htm
+2025-02-06 17:10:10,802 - INFO - Processing page: https://www.dayoo.com/about/zhengshu/hlwxwxkz/chuban2019.html at depth 1
+2025-02-06 17:10:10,900 - INFO - Processing page: http://news.dayoo.com/ at depth 1
+2025-02-06 17:10:11,630 - INFO - Processing page: https://news.dayoo.com/china/139997.shtml at depth 1
+2025-02-06 17:10:11,928 - INFO - Processing page: https://news.dayoo.com/photo/202502/05/140003_54782738.htm at depth 1
+2025-02-06 17:10:12,630 - INFO - Article saved: https://news.dayoo.com/photo/202502/05/140003_54782738.htm
+2025-02-06 17:10:12,685 - INFO - Processing page: https://news.dayoo.com/guangzhou/150952.shtml at depth 1
+2025-02-06 17:10:12,979 - INFO - Processing page: https://news.dayoo.com/finance/139999.shtml at depth 1
+2025-02-06 17:10:13,263 - INFO - Processing page: https://news.dayoo.com/guangzhou/139995_4.shtml at depth 1
+2025-02-06 17:10:13,965 - INFO - Processing page: https://news.dayoo.com/guangdong/202502/06/139996_54783174.htm at depth 1
+2025-02-06 17:10:14,677 - INFO - Article saved: https://news.dayoo.com/guangdong/202502/06/139996_54783174.htm
+2025-02-06 17:10:14,717 - INFO - Processing page: https://news.dayoo.com/guangzhou/159170.shtml at depth 1
+2025-02-06 17:10:14,935 - INFO - Processing page: https://news.dayoo.com/guangzhou/139995_5.shtml at depth 1
+2025-02-06 17:10:15,774 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/05/150952_54782747.htm at depth 1
+2025-02-06 17:10:16,422 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/05/150952_54782747.htm
+2025-02-06 17:10:16,476 - INFO - Processing page: https://news.dayoo.com/world/202502/06/139998_54783277.htm at depth 1
+2025-02-06 17:10:17,261 - INFO - Article saved: https://news.dayoo.com/world/202502/06/139998_54783277.htm
+2025-02-06 17:10:17,317 - INFO - Processing page: https://news.dayoo.com/guangzhou/202501/27/150952_54781201.htm at depth 1
+2025-02-06 17:10:18,023 - INFO - Article saved: https://news.dayoo.com/guangzhou/202501/27/150952_54781201.htm
+2025-02-06 17:10:18,068 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/05/139995_54783088.htm at depth 1
+2025-02-06 17:10:18,982 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/05/139995_54783088.htm
+2025-02-06 17:10:19,036 - INFO - Processing page: https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44010602000346 at depth 1
+2025-02-06 17:10:19,049 - WARNING - Fetching https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44010602000346 failed with status code: 500
+2025-02-06 17:10:19,050 - INFO - Processing page: http://dayoo.com/ at depth 1
+2025-02-06 17:10:19,384 - INFO - Processing page: javascript:void(0) at depth 1
+2025-02-06 17:10:19,384 - ERROR - Error fetching javascript:void(0): javascript:void(0)
+2025-02-06 17:10:19,385 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/05/139995_54783087.htm at depth 1
+2025-02-06 17:10:20,160 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/05/139995_54783087.htm
+2025-02-06 17:10:20,199 - INFO - Processing page: https://www.dayoo.com/about/zhengshu/hlwxwxkz/zzdxywjy2024.html at depth 1
+2025-02-06 17:10:20,591 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/05/139995_54783040.htm at depth 1
+2025-02-06 17:10:21,264 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/05/139995_54783040.htm
+2025-02-06 17:10:21,309 - INFO - Processing page: https://news.dayoo.com/guangzhou/202501/27/150952_54781375.htm at depth 1
+2025-02-06 17:10:22,032 - INFO - Article saved: https://news.dayoo.com/guangzhou/202501/27/150952_54781375.htm
+2025-02-06 17:10:22,102 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/06/139995_54783292.htm at depth 1
+2025-02-06 17:10:22,777 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/06/139995_54783292.htm
+2025-02-06 17:10:22,840 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/06/139995_54783176.htm at depth 1
+2025-02-06 17:10:23,591 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/06/139995_54783176.htm
+2025-02-06 17:10:23,640 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/06/139995_54783162.htm at depth 1
+2025-02-06 17:10:24,390 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/06/139995_54783162.htm
+2025-02-06 17:10:24,491 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/06/139995_54783316.htm at depth 1
+2025-02-06 17:10:25,051 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/06/139995_54783316.htm
+2025-02-06 17:10:25,097 - INFO - Processing page: https://news.dayoo.com/society/202502/05/140000_54783038.htm at depth 1
+2025-02-06 17:10:25,718 - INFO - Article saved: https://news.dayoo.com/society/202502/05/140000_54783038.htm
+2025-02-06 17:10:25,760 - INFO - Processing page: https://news.dayoo.com/photo/202502/05/140003_54782736.htm at depth 1
+2025-02-06 17:10:26,476 - INFO - Article saved: https://news.dayoo.com/photo/202502/05/140003_54782736.htm
+2025-02-06 17:10:26,539 - INFO - Processing page: https://news.dayoo.com/photo/202502/06/140003_54783296.htm at depth 1
+2025-02-06 17:10:27,251 - INFO - Article saved: https://news.dayoo.com/photo/202502/06/140003_54783296.htm
+2025-02-06 17:10:27,298 - INFO - Processing page: https://news.dayoo.com/guangdong/202502/06/139996_54783181.htm at depth 1
+2025-02-06 17:10:27,996 - INFO - Processing page: https://www.dayoo.com/about/zhengshu/hlwxwxkz/xinxifuwu2019.html at depth 1
+2025-02-06 17:10:28,088 - INFO - Processing page: https://news.dayoo.com/guangzhou/139995.shtml at depth 1
+2025-02-06 17:10:28,347 - INFO - Article saved: https://news.dayoo.com/guangzhou/139995.shtml
+2025-02-06 17:10:28,452 - INFO - Processing page: https://news.dayoo.com/photo/202502/06/140003_54783294.htm at depth 1
+2025-02-06 17:10:29,158 - INFO - Article saved: https://news.dayoo.com/photo/202502/06/140003_54783294.htm
+2025-02-06 17:10:29,207 - INFO - Processing page: https://www.sznews.com/news/content/2025-02/05/content_31458379.htm at depth 1
+2025-02-06 17:10:30,406 - INFO - Processing page: https://www.sznews.com/news/index_29.htm at depth 1
+2025-02-06 17:10:30,950 - INFO - Processing page: https://www.sznews.com/news/content/2025-02/05/content_31458273.htm at depth 1
+2025-02-06 17:10:31,330 - INFO - Processing page: https://www.sznews.com/news/content/2025-02/05/content_31458237.htm at depth 1
+2025-02-06 17:10:31,751 - INFO - Processing page: https://www.sznews.com/news/index_2.htm at depth 1
+2025-02-06 17:10:32,119 - INFO - Processing page: https://www.sznews.com/news/index_19.htm at depth 1
+2025-02-06 17:10:32,575 - INFO - Processing page: https://www.sznews.com/news/index_46.htm at depth 1
+2025-02-06 17:10:32,979 - INFO - Processing page: https://www.sznews.com/news/index_49.htm at depth 1
+2025-02-06 17:10:33,391 - INFO - Processing page: https://www.sznews.com/news/content/2025-02/06/content_31459314.htm at depth 1
+2025-02-06 17:10:33,642 - INFO - Processing page: https://www.sznews.com/news/index_9.htm at depth 1
+2025-02-06 17:10:34,002 - INFO - Processing page: https://www.sznews.com/news/content/2025-02/05/content_31457878.htm at depth 1
+2025-02-06 17:10:34,415 - INFO - Processing page: https://www.sznews.com/news/index_11.htm at depth 1
+2025-02-06 17:10:34,850 - INFO - Processing page: https://www.sznews.com/news/content/2025-02/05/content_31457870.htm at depth 1
+2025-02-06 17:10:35,331 - INFO - Processing page: https://vod-finance.cctv.cn/cctv/cctvh5/cctv2/2021/share/index.html?pageId=app://ARTI1738311614008364#/detail?link=ARTI1738311614008364 at depth 1
+2025-02-06 17:10:37,367 - INFO - Processing page: https://www.sznews.com/news/index_14.htm at depth 1
+2025-02-06 17:10:37,778 - INFO - Article saved: https://www.sznews.com/news/index_14.htm
+2025-02-06 17:10:37,801 - INFO - Processing page: https://www.sznews.com/news/content/2025-02/05/content_31458384.htm at depth 1
+2025-02-06 17:10:38,159 - INFO - Processing page: https://www.sznews.com/news/index_22.htm at depth 1
+2025-02-06 17:10:39,603 - INFO - Processing page: https://www.sznews.com/news/index_23.htm at depth 1
+2025-02-06 17:10:40,121 - INFO - Processing page: https://www.sznews.com/news/index_43.htm at depth 1
+2025-02-06 17:10:40,586 - INFO - Processing page: https://www.sznews.com/news/index_33.htm at depth 1
+2025-02-06 17:10:41,033 - INFO - Processing page: https://www.sznews.com/news/index_48.htm at depth 1
+2025-02-06 17:10:42,437 - INFO - Processing page: https://www.sznews.com/news/index_18.htm at depth 1
+2025-02-06 17:10:42,831 - INFO - Processing page: https://www.sznews.com/news/index_25.htm at depth 1
+2025-02-06 17:10:43,232 - INFO - Processing page: https://www.sznews.com/news/index_8.htm at depth 1
+2025-02-06 17:10:43,645 - INFO - Processing page: https://www.sznews.com/news/index_26.htm at depth 1
+2025-02-06 17:10:44,129 - INFO - Processing page: https://mp.weixin.qq.com/s/l_u3ogy8Y7ry3IIGIXSAAg at depth 1
+2025-02-06 17:10:44,498 - INFO - Processing page: https://www.sznews.com/news/content/2025-02/05/content_31457877.htm at depth 1
+2025-02-06 17:10:44,837 - INFO - Processing page: https://www.sznews.com/news/index_35.htm at depth 1
+2025-02-06 17:10:45,306 - INFO - Processing page: https://www.sznews.com/news/index_28.htm at depth 1
+2025-02-06 17:10:45,707 - INFO - Processing page: https://www.sznews.com/news/index_44.htm at depth 1
+2025-02-06 17:10:46,095 - INFO - Processing page: https://www.sznews.com/news/index_47.htm at depth 1
+2025-02-06 17:10:46,620 - INFO - Processing page: https://www.sznews.com/news/index_10.htm at depth 1
+2025-02-06 17:10:47,013 - INFO - Processing page: https://www.sznews.com/news/index_42.htm at depth 1
+2025-02-06 17:10:47,446 - INFO - Processing page: https://www.sznews.com/news/index_36.htm at depth 1
+2025-02-06 17:10:47,965 - INFO - Processing page: https://www.sznews.com/news/index_24.htm at depth 1
+2025-02-06 17:10:48,479 - INFO - Processing page: https://www.sznews.com/news/index_17.htm at depth 1
+2025-02-06 17:10:48,960 - INFO - Processing page: https://www.sznews.com/news/index_34.htm at depth 1
+2025-02-06 17:10:49,405 - INFO - Processing page: https://www.sznews.com/news/index_32.htm at depth 1
+2025-02-06 17:10:49,855 - INFO - Processing page: https://www.sznews.com/news/content/2025-02/06/content_31459112.htm at depth 1
+2025-02-06 17:10:50,097 - INFO - Processing page: https://www.sznews.com/news/index_6.htm at depth 1
+2025-02-06 17:10:50,474 - INFO - Processing page: https://www.sznews.com/news/index_20.htm at depth 1
+2025-02-06 17:10:50,857 - INFO - Processing page: https://www.sznews.com/news/index_45.htm at depth 1
+2025-02-06 17:10:51,321 - INFO - Processing page: https://www.sznews.com/news/content/2025-02/06/content_31459073.htm at depth 1
+2025-02-06 17:10:51,773 - INFO - Processing page: https://www.sznews.com/news/content/2025-02/05/content_31458248.htm at depth 1
+2025-02-06 17:10:52,128 - INFO - Processing page: https://mp.weixin.qq.com/s/tP4B2GgN-J53DR5yl-Un8A at depth 1
+2025-02-06 17:10:53,000 - INFO - Processing page: https://www.sznews.com/news/index_13.htm at depth 1
+2025-02-06 17:10:53,372 - INFO - Processing page: https://www.sznews.com/news/content/2025-02/05/content_31457845.htm at depth 1
+2025-02-06 17:10:53,861 - INFO - Processing page: https://www.sznews.com/news/index_38.htm at depth 1
+2025-02-06 17:10:54,301 - INFO - Processing page: https://www.sznews.com/news/content/2025-02/05/content_31457946.htm at depth 1
+2025-02-06 17:10:55,699 - INFO - Processing page: https://www.12377.cn/node_548446.htm at depth 2
+2025-02-06 17:10:56,502 - WARNING - Fetching https://www.12377.cn/node_548446.htm failed with status code: 403
+2025-02-06 17:10:56,503 - INFO - Processing page: http://www.12377.cn/ at depth 2
+2025-02-06 17:10:56,924 - WARNING - Fetching http://www.12377.cn/ failed with status code: 403
+2025-02-06 17:10:56,924 - INFO - Processing page: https://www.dayoo.com/ at depth 2
+2025-02-06 17:10:57,320 - INFO - Processing page: https://www.12377.cn/ at depth 2
+2025-02-06 17:10:58,888 - WARNING - Fetching https://www.12377.cn/ failed with status code: 403
+2025-02-06 17:10:58,889 - INFO - Processing page: https://www.dayoo.com/about/zhengshu/hlwxwxkz/xxwlcb2024.html at depth 2
+2025-02-06 17:10:58,998 - INFO - Processing page: https://news.dayoo.com/guangdong/139996.shtml at depth 2
+2025-02-06 17:11:00,223 - INFO - Processing page: https://news.dayoo.com/sports/140001.shtml at depth 2
+2025-02-06 17:11:00,625 - INFO - Processing page: https://news.dayoo.com/world/139998.shtml at depth 2
+2025-02-06 17:11:01,010 - INFO - Processing page: https://news.dayoo.com/society/202502/05/140000_54782657.htm at depth 2
+2025-02-06 17:11:01,822 - INFO - Processing page: https://news.dayoo.com/society/140000_4.shtml at depth 2
+2025-02-06 17:11:02,115 - INFO - Processing page: https://news.dayoo.com/society/202502/05/140000_54782875.htm at depth 2
+2025-02-06 17:11:02,862 - INFO - Article saved: https://news.dayoo.com/society/202502/05/140000_54782875.htm
+2025-02-06 17:11:02,862 - INFO - Processing page: https://news.dayoo.com/society/202502/05/140000_54782666.htm at depth 2
+2025-02-06 17:11:03,600 - INFO - Article saved: https://news.dayoo.com/society/202502/05/140000_54782666.htm
+2025-02-06 17:11:03,600 - INFO - Processing page: https://news.dayoo.com/sports/202502/05/140001_54783034.htm at depth 2
+2025-02-06 17:11:04,338 - INFO - Article saved: https://news.dayoo.com/sports/202502/05/140001_54783034.htm
+2025-02-06 17:11:04,338 - INFO - Processing page: https://news.dayoo.com/world/202502/06/139998_54783282.htm at depth 2
+2025-02-06 17:11:05,079 - INFO - Article saved: https://news.dayoo.com/world/202502/06/139998_54783282.htm
+2025-02-06 17:11:05,079 - INFO - Processing page: https://www.dayoo.com at depth 2
+2025-02-06 17:11:05,276 - INFO - Processing page: https://news.dayoo.com/world/202502/06/139998_54783362.htm at depth 2
+2025-02-06 17:11:06,054 - INFO - Article saved: https://news.dayoo.com/world/202502/06/139998_54783362.htm
+2025-02-06 17:11:06,056 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/06/139995_54783392.htm at depth 2
+2025-02-06 17:11:06,792 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/06/139995_54783392.htm
+2025-02-06 17:11:06,792 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/05/153828_54782622.htm at depth 2
+2025-02-06 17:11:07,381 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/05/153828_54782622.htm
+2025-02-06 17:11:07,381 - INFO - Processing page: https://news.dayoo.com/finance/202407/26/139999_54691950.htm at depth 2
+2025-02-06 17:11:08,126 - INFO - Article saved: https://news.dayoo.com/finance/202407/26/139999_54691950.htm
+2025-02-06 17:11:08,127 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/06/153828_54783190.htm at depth 2
+2025-02-06 17:11:08,985 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/06/153828_54783190.htm
+2025-02-06 17:11:08,987 - INFO - Processing page: https://news.dayoo.com/sports/202502/05/140001_54782735.htm at depth 2
+2025-02-06 17:11:10,175 - INFO - Article saved: https://news.dayoo.com/sports/202502/05/140001_54782735.htm
+2025-02-06 17:11:10,176 - INFO - Processing page: https://news.dayoo.com/finance/202407/26/139999_54691876.htm at depth 2
+2025-02-06 17:11:10,882 - INFO - Article saved: https://news.dayoo.com/finance/202407/26/139999_54691876.htm
+2025-02-06 17:11:10,883 - INFO - Processing page: https://news.dayoo.com/guangdong/202502/06/139996_54783204.htm at depth 2
+2025-02-06 17:11:11,588 - INFO - Article saved: https://news.dayoo.com/guangdong/202502/06/139996_54783204.htm
+2025-02-06 17:11:11,589 - INFO - Processing page: https://news.dayoo.com/guangdong/202502/06/139996_54783345.htm at depth 2
+2025-02-06 17:11:12,342 - INFO - Article saved: https://news.dayoo.com/guangdong/202502/06/139996_54783345.htm
+2025-02-06 17:11:12,342 - INFO - Processing page: https://news.dayoo.com/world/202502/06/139998_54783421.htm at depth 2
+2025-02-06 17:11:13,060 - INFO - Article saved: https://news.dayoo.com/world/202502/06/139998_54783421.htm
+2025-02-06 17:11:13,060 - INFO - Processing page: https://news.dayoo.com/sports/202502/05/140001_54782742.htm at depth 2
+2025-02-06 17:11:13,799 - INFO - Article saved: https://news.dayoo.com/sports/202502/05/140001_54782742.htm
+2025-02-06 17:11:13,799 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/06/139995_54783275.htm at depth 2
+2025-02-06 17:11:14,527 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/06/139995_54783275.htm
+2025-02-06 17:11:14,527 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/05/139995_54782718.htm at depth 2
+2025-02-06 17:11:15,299 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/05/139995_54782718.htm
+2025-02-06 17:11:15,300 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/05/139995_54782731.htm at depth 2
+2025-02-06 17:11:16,052 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/05/139995_54782731.htm
+2025-02-06 17:11:16,052 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/05/139995_54782989.htm at depth 2
+2025-02-06 17:11:16,852 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/05/139995_54782989.htm
+2025-02-06 17:11:16,852 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/05/139995_54782720.htm at depth 2
+2025-02-06 17:11:17,679 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/05/139995_54782720.htm
+2025-02-06 17:11:17,679 - INFO - Processing page: https://news.dayoo.com/guangdong/202502/05/139996_54782986.htm at depth 2
+2025-02-06 17:11:18,392 - INFO - Article saved: https://news.dayoo.com/guangdong/202502/05/139996_54782986.htm
+2025-02-06 17:11:18,392 - INFO - Processing page: https://news.dayoo.com/society/202502/05/140000_54782732.htm at depth 2
+2025-02-06 17:11:19,109 - INFO - Article saved: https://news.dayoo.com/society/202502/05/140000_54782732.htm
+2025-02-06 17:11:19,110 - INFO - Processing page: https://news.dayoo.com/society/202502/06/140000_54783281.htm at depth 2
+2025-02-06 17:11:19,813 - INFO - Processing page: https://news.dayoo.com/society/202502/05/140000_54782878.htm at depth 2
+2025-02-06 17:11:20,550 - INFO - Article saved: https://news.dayoo.com/society/202502/05/140000_54782878.htm
+2025-02-06 17:11:20,550 - INFO - Processing page: https://news.dayoo.com/society/202502/05/140000_54782959.htm at depth 2
+2025-02-06 17:11:21,260 - INFO - Article saved: https://news.dayoo.com/society/202502/05/140000_54782959.htm
+2025-02-06 17:11:21,261 - INFO - Processing page: https://news.dayoo.com/photo/202502/05/140003_54782740.htm at depth 2
+2025-02-06 17:11:21,994 - INFO - Article saved: https://news.dayoo.com/photo/202502/05/140003_54782740.htm
+2025-02-06 17:11:21,994 - INFO - Processing page: https://news.dayoo.com/guangzhou/150956.shtml at depth 2
+2025-02-06 17:11:22,269 - INFO - Processing page: https://news.dayoo.com/guangzhou/150955_4.shtml at depth 2
+2025-02-06 17:11:22,705 - INFO - Article saved: https://news.dayoo.com/guangzhou/150955_4.shtml
+2025-02-06 17:11:22,705 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/05/139995_54783086.htm at depth 2
+2025-02-06 17:11:26,042 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/05/139995_54783086.htm
+2025-02-06 17:11:26,042 - INFO - Processing page: http://www.dayoo.com at depth 2
+2025-02-06 17:11:27,750 - INFO - Processing page: https://news.dayoo.com/world/202502/06/139998_54783356.htm at depth 2
+2025-02-06 17:11:28,516 - INFO - Article saved: https://news.dayoo.com/world/202502/06/139998_54783356.htm
+2025-02-06 17:11:28,516 - INFO - Processing page: https://news.dayoo.com/guangdong/202502/06/139996_54783338.htm at depth 2
+2025-02-06 17:11:29,506 - INFO - Article saved: https://news.dayoo.com/guangdong/202502/06/139996_54783338.htm
+2025-02-06 17:11:29,506 - INFO - Processing page: https://news.dayoo.com/guangzhou/202501/24/153828_54779864.htm at depth 2
+2025-02-06 17:11:30,286 - INFO - Article saved: https://news.dayoo.com/guangzhou/202501/24/153828_54779864.htm
+2025-02-06 17:11:30,286 - INFO - Processing page: https://news.dayoo.com/guangzhou/153828_2.shtml at depth 2
+2025-02-06 17:11:30,617 - INFO - Processing page: https://news.dayoo.com/guangzhou/202501/23/153828_54779172.htm at depth 2
+2025-02-06 17:11:31,334 - INFO - Article saved: https://news.dayoo.com/guangzhou/202501/23/153828_54779172.htm
+2025-02-06 17:11:31,335 - INFO - Processing page: https://news.dayoo.com/guangzhou/202501/23/153828_54779173.htm at depth 2
+2025-02-06 17:11:32,029 - INFO - Article saved: https://news.dayoo.com/guangzhou/202501/23/153828_54779173.htm
+2025-02-06 17:11:32,030 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/05/153828_54782635.htm at depth 2
+2025-02-06 17:11:32,773 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/05/153828_54782635.htm
+2025-02-06 17:11:32,773 - INFO - Processing page: https://news.dayoo.com/guangzhou/153828_5.shtml at depth 2
+2025-02-06 17:11:33,518 - INFO - Processing page: https://news.dayoo.com/world/202502/06/139998_54783307.htm at depth 2
+2025-02-06 17:11:34,277 - INFO - Article saved: https://news.dayoo.com/world/202502/06/139998_54783307.htm
+2025-02-06 17:11:34,277 - INFO - Processing page: https://news.dayoo.com/photo/140003_5.shtml at depth 2
+2025-02-06 17:11:35,113 - INFO - Processing page: https://news.dayoo.com/photo/202501/27/140003_54781308.htm at depth 2
+2025-02-06 17:11:35,829 - INFO - Article saved: https://news.dayoo.com/photo/202501/27/140003_54781308.htm
+2025-02-06 17:11:35,829 - INFO - Processing page: https://news.dayoo.com/photo/140003_2.shtml at depth 2
+2025-02-06 17:11:36,446 - INFO - Processing page: https://news.dayoo.com/photo/140003_10.shtml at depth 2
+2025-02-06 17:11:37,161 - INFO - Processing page: https://news.dayoo.com/photo/202501/27/140003_54781320.htm at depth 2
+2025-02-06 17:11:37,850 - INFO - Article saved: https://news.dayoo.com/photo/202501/27/140003_54781320.htm
+2025-02-06 17:11:37,850 - INFO - Processing page: https://news.dayoo.com/society/202502/05/140000_54782871.htm at depth 2
+2025-02-06 17:11:38,588 - INFO - Article saved: https://news.dayoo.com/society/202502/05/140000_54782871.htm
+2025-02-06 17:11:38,588 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/06/151174_54783419.htm at depth 2
+2025-02-06 17:11:39,415 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/06/151174_54783419.htm
+2025-02-06 17:11:39,416 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/05/139995_54782908.htm at depth 2
+2025-02-06 17:11:39,985 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/05/139995_54782908.htm
+2025-02-06 17:11:39,986 - INFO - Processing page: https://m.dayoo.com/202003/24/155268_53223894.htm at depth 2
+2025-02-06 17:11:41,033 - INFO - Processing page: https://news.dayoo.com/kechuang/155401.shtml at depth 2
+2025-02-06 17:11:41,338 - INFO - Article saved: https://news.dayoo.com/kechuang/155401.shtml
+2025-02-06 17:11:41,338 - INFO - Processing page: https://news.dayoo.com/guangzhou/202407/26/139995_54691969.htm at depth 2
+2025-02-06 17:11:42,045 - INFO - Article saved: https://news.dayoo.com/guangzhou/202407/26/139995_54691969.htm
+2025-02-06 17:11:42,046 - INFO - Processing page: https://news.dayoo.com/guangdong/202407/17/139996_54688912.htm at depth 2
+2025-02-06 17:11:42,791 - INFO - Article saved: https://news.dayoo.com/guangdong/202407/17/139996_54688912.htm
+2025-02-06 17:11:42,791 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/05/139995_54782965.htm at depth 2
+2025-02-06 17:11:43,633 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/05/139995_54782965.htm
+2025-02-06 17:11:43,633 - INFO - Processing page: https://news.dayoo.com/guangzhou/202406/04/139995_54675559.htm at depth 2
+2025-02-06 17:11:44,352 - INFO - Article saved: https://news.dayoo.com/guangzhou/202406/04/139995_54675559.htm
+2025-02-06 17:11:44,352 - INFO - Processing page: https://m.dayoo.com/202003/20/155268_53214852.htm at depth 2
+2025-02-06 17:11:45,103 - INFO - Processing page: https://news.dayoo.com/guangzhou/150956.shtml  at depth 2
+2025-02-06 17:11:45,981 - INFO - Processing page: https://m.dayoo.com/202004/23/155268_53304365.htm at depth 2
+2025-02-06 17:11:46,733 - INFO - Processing page: https://m.dayoo.com/202003/25/155268_53226462.htm at depth 2
+2025-02-06 17:11:47,488 - INFO - Processing page: https://news.dayoo.com/guangdong/202406/25/139996_54682591.htm at depth 2
+2025-02-06 17:11:48,218 - INFO - Article saved: https://news.dayoo.com/guangdong/202406/25/139996_54682591.htm
+2025-02-06 17:11:48,220 - INFO - Processing page: https://news.dayoo.com/guangzhou/202410/29/139995_54738927.htm at depth 2
+2025-02-06 17:11:51,164 - INFO - Article saved: https://news.dayoo.com/guangzhou/202410/29/139995_54738927.htm
+2025-02-06 17:11:51,164 - INFO - Processing page: https://m.dayoo.com/202003/25/155268_53226691.htm at depth 2
+2025-02-06 17:11:52,022 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/06/153828_54783189.htm at depth 2
+2025-02-06 17:11:52,777 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/06/153828_54783189.htm
+2025-02-06 17:11:52,777 - INFO - Processing page: https://news.dayoo.com/guangzhou/202407/26/139995_54691974.htm at depth 2
+2025-02-06 17:11:53,496 - INFO - Article saved: https://news.dayoo.com/guangzhou/202407/26/139995_54691974.htm
+2025-02-06 17:11:53,496 - INFO - Processing page: https://news.dayoo.com/china/202502/05/139997_54783108.htm at depth 2
+2025-02-06 17:11:54,285 - INFO - Article saved: https://news.dayoo.com/china/202502/05/139997_54783108.htm
+2025-02-06 17:11:54,285 - INFO - Processing page: https://news.dayoo.com/china/202502/05/139997_54783073.htm at depth 2
+2025-02-06 17:11:54,857 - INFO - Article saved: https://news.dayoo.com/china/202502/05/139997_54783073.htm
+2025-02-06 17:11:54,858 - INFO - Processing page: https://news.dayoo.com/china/202502/05/139997_54783091.htm at depth 2
+2025-02-06 17:11:55,482 - INFO - Article saved: https://news.dayoo.com/china/202502/05/139997_54783091.htm
+2025-02-06 17:11:55,482 - INFO - Processing page: https://news.dayoo.com/index.shtml at depth 2
+2025-02-06 17:11:55,743 - INFO - Processing page: https://news.dayoo.com/china/202502/06/139997_54783209.htm at depth 2
+2025-02-06 17:11:59,101 - INFO - Article saved: https://news.dayoo.com/china/202502/06/139997_54783209.htm
+2025-02-06 17:11:59,101 - INFO - Processing page: https://news.dayoo.com/china/202502/05/139997_54783069.htm at depth 2
+2025-02-06 17:11:59,835 - INFO - Article saved: https://news.dayoo.com/china/202502/05/139997_54783069.htm
+2025-02-06 17:11:59,835 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/05/150952_54782643.htm at depth 2
+2025-02-06 17:12:00,587 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/05/150952_54782643.htm
+2025-02-06 17:12:00,587 - INFO - Processing page: https://news.dayoo.com/photo/202502/05/140003_54782738_7.htm at depth 2
+2025-02-06 17:12:01,337 - INFO - Article saved: https://news.dayoo.com/photo/202502/05/140003_54782738_7.htm
+2025-02-06 17:12:01,337 - INFO - Processing page: https://news.dayoo.com/photo/202502/05/140003_54782738_6.htm at depth 2
+2025-02-06 17:12:02,081 - INFO - Article saved: https://news.dayoo.com/photo/202502/05/140003_54782738_6.htm
+2025-02-06 17:12:02,081 - INFO - Processing page: https://news.dayoo.com/photo/202502/05/140003_54782738_5.htm at depth 2
+2025-02-06 17:12:02,803 - INFO - Article saved: https://news.dayoo.com/photo/202502/05/140003_54782738_5.htm
+2025-02-06 17:12:02,804 - INFO - Processing page: https://news.dayoo.com/guangzhou/202501/23/150952_54779196.htm at depth 2
+2025-02-06 17:12:05,744 - INFO - Article saved: https://news.dayoo.com/guangzhou/202501/23/150952_54779196.htm
+2025-02-06 17:12:05,744 - INFO - Processing page: https://news.dayoo.com/guangzhou/202501/26/150952_54781006.htm at depth 2
+2025-02-06 17:12:06,610 - INFO - Article saved: https://news.dayoo.com/guangzhou/202501/26/150952_54781006.htm
+2025-02-06 17:12:06,611 - INFO - Processing page: https://news.dayoo.com/guangzhou/202501/20/150952_54777900.htm at depth 2
+2025-02-06 17:12:07,376 - INFO - Article saved: https://news.dayoo.com/guangzhou/202501/20/150952_54777900.htm
+2025-02-06 17:12:07,376 - INFO - Processing page: https://news.dayoo.com/guangzhou/202501/15/150952_54775408.htm at depth 2
+2025-02-06 17:12:08,136 - INFO - Article saved: https://news.dayoo.com/guangzhou/202501/15/150952_54775408.htm
+2025-02-06 17:12:08,136 - INFO - Processing page: https://news.dayoo.com/guangzhou/202501/13/150952_54774527.htm at depth 2
+2025-02-06 17:12:08,890 - INFO - Article saved: https://news.dayoo.com/guangzhou/202501/13/150952_54774527.htm
+2025-02-06 17:12:08,891 - INFO - Processing page: https://news.dayoo.com/guangzhou/150952_5.shtml at depth 2
+2025-02-06 17:12:09,651 - INFO - Processing page: https://news.dayoo.com/guangzhou/202501/15/150952_54775403.htm at depth 2
+2025-02-06 17:12:10,425 - INFO - Article saved: https://news.dayoo.com/guangzhou/202501/15/150952_54775403.htm
+2025-02-06 17:12:10,426 - INFO - Processing page: https://news.dayoo.com/guangzhou/202501/15/150952_54775341.htm at depth 2
+2025-02-06 17:12:11,175 - INFO - Article saved: https://news.dayoo.com/guangzhou/202501/15/150952_54775341.htm
+2025-02-06 17:12:11,176 - INFO - Processing page: https://news.dayoo.com/guangzhou/150952_3.shtml at depth 2
+2025-02-06 17:12:12,055 - INFO - Processing page: https://news.dayoo.com/finance/139999_8.shtml at depth 2
+2025-02-06 17:12:12,739 - INFO - Processing page: https://news.dayoo.com/finance/202502/06/171077_54783249.htm at depth 2
+2025-02-06 17:12:13,431 - INFO - Article saved: https://news.dayoo.com/finance/202502/06/171077_54783249.htm
+2025-02-06 17:12:13,431 - INFO - Processing page: https://news.dayoo.com/finance/202502/06/171077_54783453.htm at depth 2
+2025-02-06 17:12:14,075 - INFO - Processing page: https://news.dayoo.com/finance/139999_10.shtml at depth 2
+2025-02-06 17:12:14,781 - INFO - Processing page: https://news.dayoo.com/finance/202411/07/171090_54754788.htm at depth 2
+2025-02-06 17:12:15,539 - INFO - Article saved: https://news.dayoo.com/finance/202411/07/171090_54754788.htm
+2025-02-06 17:12:15,539 - INFO - Processing page: https://news.dayoo.com/finance/171090.shtml at depth 2
+2025-02-06 17:12:16,228 - INFO - Processing page: https://news.dayoo.com/finance/139999_7.shtml at depth 2
+2025-02-06 17:12:17,023 - INFO - Processing page: https://news.dayoo.com/finance/202502/06/171077_54783450.htm at depth 2
+2025-02-06 17:12:17,707 - INFO - Article saved: https://news.dayoo.com/finance/202502/06/171077_54783450.htm
+2025-02-06 17:12:17,707 - INFO - Processing page: https://news.dayoo.com/finance/202502/06/171077_54783236.htm at depth 2
+2025-02-06 17:12:18,378 - INFO - Article saved: https://news.dayoo.com/finance/202502/06/171077_54783236.htm
+2025-02-06 17:12:18,379 - INFO - Processing page: https://news.dayoo.com/finance/139999_9.shtml at depth 2
+2025-02-06 17:12:19,063 - INFO - Processing page: https://news.dayoo.com/finance/202502/06/171077_54783239.htm at depth 2
+2025-02-06 17:12:19,726 - INFO - Article saved: https://news.dayoo.com/finance/202502/06/171077_54783239.htm
+2025-02-06 17:12:19,726 - INFO - Processing page: https://news.dayoo.com/finance/139999_5.shtml at depth 2
+2025-02-06 17:12:19,977 - INFO - Processing page: https://news.dayoo.com/finance/202502/06/171077_54783375.htm at depth 2
+2025-02-06 17:12:20,661 - INFO - Article saved: https://news.dayoo.com/finance/202502/06/171077_54783375.htm
+2025-02-06 17:12:20,661 - INFO - Processing page: https://news.dayoo.com/finance/202502/05/171077_54782848.htm at depth 2
+2025-02-06 17:12:21,147 - INFO - Article saved: https://news.dayoo.com/finance/202502/05/171077_54782848.htm
+2025-02-06 17:12:21,147 - INFO - Processing page: https://news.dayoo.com/finance/202412/28/171090_54767520.htm at depth 2
+2025-02-06 17:12:21,848 - INFO - Article saved: https://news.dayoo.com/finance/202412/28/171090_54767520.htm
+2025-02-06 17:12:21,848 - INFO - Processing page: https://news.dayoo.com/finance/202502/06/171077_54783241.htm at depth 2
+2025-02-06 17:12:22,560 - INFO - Article saved: https://news.dayoo.com/finance/202502/06/171077_54783241.htm
+2025-02-06 17:12:22,561 - INFO - Processing page: https://news.dayoo.com/finance/202502/06/171077_54783254.htm at depth 2
+2025-02-06 17:12:23,274 - INFO - Article saved: https://news.dayoo.com/finance/202502/06/171077_54783254.htm
+2025-02-06 17:12:23,274 - INFO - Processing page: https://news.dayoo.com/finance/202411/28/171077_54753431.htm at depth 2
+2025-02-06 17:12:23,973 - INFO - Article saved: https://news.dayoo.com/finance/202411/28/171077_54753431.htm
+2025-02-06 17:12:23,973 - INFO - Processing page: https://news.dayoo.com/finance/202410/27/171090_54754803.htm at depth 2
+2025-02-06 17:12:24,744 - INFO - Article saved: https://news.dayoo.com/finance/202410/27/171090_54754803.htm
+2025-02-06 17:12:24,744 - INFO - Processing page: https://news.dayoo.com/finance/202411/07/171090_54754773.htm at depth 2
+2025-02-06 17:12:25,411 - INFO - Article saved: https://news.dayoo.com/finance/202411/07/171090_54754773.htm
+2025-02-06 17:12:25,412 - INFO - Processing page: https://news.dayoo.com/guangzhou/139995_3.shtml at depth 2
+2025-02-06 17:12:25,786 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/03/139995_54782404.htm at depth 2
+2025-02-06 17:12:26,478 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/03/139995_54782404.htm
+2025-02-06 17:12:26,478 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/03/139995_54782333.htm at depth 2
+2025-02-06 17:12:27,155 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/03/139995_54782333.htm
+2025-02-06 17:12:27,155 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/03/139995_54782432.htm at depth 2
+2025-02-06 17:12:27,842 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/03/139995_54782432.htm
+2025-02-06 17:12:27,842 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/03/139995_54782452.htm at depth 2
+2025-02-06 17:12:28,549 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/03/139995_54782452.htm
+2025-02-06 17:12:28,549 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/03/139995_54782403.htm at depth 2
+2025-02-06 17:12:29,226 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/03/139995_54782403.htm
+2025-02-06 17:12:29,226 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/03/139995_54782434.htm at depth 2
+2025-02-06 17:12:29,931 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/03/139995_54782434.htm
+2025-02-06 17:12:29,932 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/03/139995_54782405.htm at depth 2
+2025-02-06 17:12:30,627 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/03/139995_54782405.htm
+2025-02-06 17:12:30,627 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/03/139995_54782490.htm at depth 2
+2025-02-06 17:12:31,319 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/03/139995_54782490.htm
+2025-02-06 17:12:31,319 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/02/139995_54782340.htm at depth 2
+2025-02-06 17:12:32,031 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/02/139995_54782340.htm
+2025-02-06 17:12:32,031 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/02/139995_54782319.htm at depth 2
+2025-02-06 17:12:32,832 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/02/139995_54782319.htm
+2025-02-06 17:12:32,832 - INFO - Processing page: https://news.dayoo.com/world/202502/06/139998_54783420.htm at depth 2
+2025-02-06 17:12:33,612 - INFO - Article saved: https://news.dayoo.com/world/202502/06/139998_54783420.htm
+2025-02-06 17:12:33,613 - INFO - Processing page: https://news.dayoo.com/sports/202502/05/140001_54782652.htm at depth 2
+2025-02-06 17:12:34,274 - INFO - Article saved: https://news.dayoo.com/sports/202502/05/140001_54782652.htm
+2025-02-06 17:12:34,274 - INFO - Processing page: https://dayoo.com/ at depth 2
+2025-02-06 17:12:36,640 - INFO - Processing page: https://news.dayoo.com/guangzhou/150954.shtml at depth 2
+2025-02-06 17:12:37,000 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/02/139995_54782191.htm at depth 2
+2025-02-06 17:12:37,703 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/02/139995_54782191.htm
+2025-02-06 17:12:37,703 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/01/139995_54782132.htm at depth 2
+2025-02-06 17:12:38,395 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/01/139995_54782132.htm
+2025-02-06 17:12:38,395 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/02/139995_54782272.htm at depth 2
+2025-02-06 17:12:39,093 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/02/139995_54782272.htm
+2025-02-06 17:12:39,093 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/01/139995_54782131.htm at depth 2
+2025-02-06 17:12:39,758 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/01/139995_54782131.htm
+2025-02-06 17:12:39,758 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/01/139995_54782038.htm at depth 2
+2025-02-06 17:12:40,483 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/01/139995_54782038.htm
+2025-02-06 17:12:40,483 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/02/139995_54782254.htm at depth 2
+2025-02-06 17:12:41,140 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/02/139995_54782254.htm
+2025-02-06 17:12:41,140 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/01/139995_54782116.htm at depth 2
+2025-02-06 17:12:42,028 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/01/139995_54782116.htm
+2025-02-06 17:12:42,028 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/02/139995_54782194.htm at depth 2
+2025-02-06 17:12:42,747 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/02/139995_54782194.htm
+2025-02-06 17:12:42,748 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/06/139995_54783472.htm at depth 2
+2025-02-06 17:12:43,454 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/06/139995_54783472.htm
+2025-02-06 17:12:43,454 - INFO - Processing page: https://news.dayoo.com/finance/202407/30/139999_54693993.htm at depth 2
+2025-02-06 17:12:44,141 - INFO - Article saved: https://news.dayoo.com/finance/202407/30/139999_54693993.htm
+2025-02-06 17:12:44,141 - INFO - Processing page: https://news.dayoo.com/show/159142.shtml at depth 2
+2025-02-06 17:12:44,471 - INFO - Processing page: https://news.dayoo.com/guangzhou/169600.shtml at depth 2
+2025-02-06 17:12:44,782 - INFO - Processing page: http://www.guangzhou.gov.cn/ at depth 2
+2025-02-06 17:12:46,133 - INFO - Processing page: https://news.dayoo.com/china/202502/06/139997_54783491.htm at depth 2
+2025-02-06 17:12:46,776 - INFO - Article saved: https://news.dayoo.com/china/202502/06/139997_54783491.htm
+2025-02-06 17:12:46,778 - INFO - Processing page: https://news.dayoo.com/guangzhou/171208.shtml at depth 2
+2025-02-06 17:12:47,036 - INFO - Processing page: http://m.dayoo.com at depth 2
+2025-02-06 17:12:47,853 - INFO - Processing page: https://news.dayoo.com/Community/159139.shtml at depth 2
+2025-02-06 17:12:48,174 - INFO - Processing page: https://news.dayoo.com/china/202205/10/139997_54259758.htm at depth 2
+2025-02-06 17:12:48,853 - INFO - Article saved: https://news.dayoo.com/china/202205/10/139997_54259758.htm
+2025-02-06 17:12:48,853 - INFO - Processing page: https://life.dayoo.com/house/ at depth 2
+2025-02-06 17:12:49,512 - INFO - Processing page: https://life.dayoo.com/auto/202501/14/154622_54774706.htm at depth 2
+2025-02-06 17:12:50,000 - INFO - Article saved: https://life.dayoo.com/auto/202501/14/154622_54774706.htm
+2025-02-06 17:12:50,000 - INFO - Processing page: https://news.dayoo.com/china/202502/06/139997_54783427.htm at depth 2
+2025-02-06 17:12:50,646 - INFO - Article saved: https://news.dayoo.com/china/202502/06/139997_54783427.htm
+2025-02-06 17:12:50,647 - INFO - Processing page: https://life.dayoo.com/house/index.shtml at depth 2
+2025-02-06 17:13:00,514 - INFO - Processing page: https://news.dayoo.com/finance/202501/03/171077_54769991.htm at depth 2
+2025-02-06 17:13:01,321 - INFO - Article saved: https://news.dayoo.com/finance/202501/03/171077_54769991.htm
+2025-02-06 17:13:01,321 - INFO - Processing page: https://news.dayoo.com/guangzhou/202501/27/139995_54781393.htm at depth 2
+2025-02-06 17:13:01,983 - INFO - Article saved: https://news.dayoo.com/guangzhou/202501/27/139995_54781393.htm
+2025-02-06 17:13:01,983 - INFO - Processing page: https://news.dayoo.com/society/202501/26/140000_54780812.htm at depth 2
+2025-02-06 17:13:02,694 - INFO - Article saved: https://news.dayoo.com/society/202501/26/140000_54780812.htm
+2025-02-06 17:13:02,694 - INFO - Processing page: https://life.dayoo.com/meal/202412/24/154540_54765360.htm at depth 2
+2025-02-06 17:13:03,239 - INFO - Article saved: https://life.dayoo.com/meal/202412/24/154540_54765360.htm
+2025-02-06 17:13:03,239 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/03/139995_54782430.htm at depth 2
+2025-02-06 17:13:03,922 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/03/139995_54782430.htm
+2025-02-06 17:13:03,923 - INFO - Processing page: https://news.dayoo.com/finance/202501/13/171077_54774240.htm at depth 2
+2025-02-06 17:13:04,605 - INFO - Article saved: https://news.dayoo.com/finance/202501/13/171077_54774240.htm
+2025-02-06 17:13:04,605 - INFO - Processing page: https://news.dayoo.com/guangzhou/171213.shtml at depth 2
+2025-02-06 17:13:05,217 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/06/153828_54783188.htm at depth 2
+2025-02-06 17:13:05,727 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/06/153828_54783188.htm
+2025-02-06 17:13:05,727 - INFO - Processing page: https://news.dayoo.com/photo/202502/05/140003_54782736_2.htm at depth 2
+2025-02-06 17:13:06,436 - INFO - Article saved: https://news.dayoo.com/photo/202502/05/140003_54782736_2.htm
+2025-02-06 17:13:06,436 - INFO - Processing page: https://news.dayoo.com/photo/202502/05/140003_54782736_3.htm at depth 2
+2025-02-06 17:13:07,116 - INFO - Article saved: https://news.dayoo.com/photo/202502/05/140003_54782736_3.htm
+2025-02-06 17:13:07,116 - INFO - Processing page: https://news.dayoo.com/photo/202502/06/140003_54783296_0.htm at depth 2
+2025-02-06 17:13:07,819 - INFO - Article saved: https://news.dayoo.com/photo/202502/06/140003_54783296_0.htm
+2025-02-06 17:13:07,820 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/06/139995_54783354.htm at depth 2
+2025-02-06 17:13:08,537 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/06/139995_54783354.htm
+2025-02-06 17:13:08,537 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/06/139995_54783268.htm at depth 2
+2025-02-06 17:13:09,315 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/06/139995_54783268.htm
+2025-02-06 17:13:09,315 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/06/139995_54783435.htm at depth 2
+2025-02-06 17:13:10,037 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/06/139995_54783435.htm
+2025-02-06 17:13:10,037 - INFO - Processing page: https://page.dayoo.com/liveHtml/embed/player.html?roomID=5696 at depth 2
+2025-02-06 17:13:11,094 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/06/139995_54783165.htm at depth 2
+2025-02-06 17:13:11,828 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/06/139995_54783165.htm
+2025-02-06 17:13:11,828 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/06/139995_54783269.htm at depth 2
+2025-02-06 17:13:12,547 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/06/139995_54783269.htm
+2025-02-06 17:13:12,547 - INFO - Processing page: javascript:void(0); at depth 2
+2025-02-06 17:13:12,547 - ERROR - Error fetching javascript:void(0);: javascript:void(0);
+2025-02-06 17:13:12,549 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/06/139995_54783186.htm at depth 2
+2025-02-06 17:13:13,300 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/06/139995_54783186.htm
+2025-02-06 17:13:13,300 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/06/139995_54783178.htm at depth 2
+2025-02-06 17:13:14,049 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/06/139995_54783178.htm
+2025-02-06 17:13:14,049 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/06/139995_54783291.htm at depth 2
+2025-02-06 17:13:14,783 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/06/139995_54783291.htm
+2025-02-06 17:13:14,783 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/06/139995_54783184.htm at depth 2
+2025-02-06 17:13:15,478 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/06/139995_54783184.htm
+2025-02-06 17:13:15,478 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/06/139995_54783276.htm at depth 2
+2025-02-06 17:13:16,200 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/06/139995_54783276.htm
+2025-02-06 17:13:16,200 - INFO - Processing page: https://news.dayoo.com/guangzhou/202502/05/150952_54782745.htm at depth 2
+2025-02-06 17:13:16,917 - INFO - Article saved: https://news.dayoo.com/guangzhou/202502/05/150952_54782745.htm
+2025-02-06 17:13:16,918 - INFO - Processing page: https://news.dayoo.com/photo/202502/06/140003_54783298.htm at depth 2
+2025-02-06 17:13:17,770 - INFO - Article saved: https://news.dayoo.com/photo/202502/06/140003_54783298.htm
+2025-02-06 17:13:17,770 - INFO - Processing page: https://news.dayoo.com/photo/202502/06/140003_54783294_0.htm at depth 2
+2025-02-06 17:13:18,504 - INFO - Article saved: https://news.dayoo.com/photo/202502/06/140003_54783294_0.htm
+2025-02-06 17:13:18,505 - INFO - Processing page: https://news.dayoo.com/photo/202502/06/140003_54783294_2.htm at depth 2
+2025-02-06 17:13:19,203 - INFO - Article saved: https://news.dayoo.com/photo/202502/06/140003_54783294_2.htm
+2025-02-06 17:13:19,204 - INFO - Processing page: https://www.sznews.com/news/content/2023-11/08/content_30576421.htm at depth 2
+2025-02-06 17:13:20,158 - INFO - Processing page: https://www.sznews.com/zhuanti/content/2025-01/23/content_31447811.htm at depth 2
+2025-02-06 17:13:20,386 - INFO - Processing page: https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787114.htm at depth 2
+2025-02-06 17:13:20,511 - ERROR - Error fetching https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787114.htm: Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]
+2025-02-06 17:13:20,513 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/15/content_31394265.htm at depth 2
+2025-02-06 17:13:20,918 - INFO - Processing page: https://www6.sznews.com/zhuanti/content/2022-02/17/content_24938052.htm at depth 2
+2025-02-06 17:13:20,927 - ERROR - Error fetching https://www6.sznews.com/zhuanti/content/2022-02/17/content_24938052.htm: Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]
+2025-02-06 17:13:20,929 - INFO - Processing page: javascript:; at depth 2
+2025-02-06 17:13:20,930 - ERROR - Error fetching javascript:;: javascript:;
+2025-02-06 17:13:20,931 - INFO - Processing page: http://news.sznews.com/node_18234.htm at depth 2
+2025-02-06 17:13:21,558 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/20/content_31364262.htm at depth 2
+2025-02-06 17:13:21,790 - INFO - Processing page: https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787115.htm at depth 2
+2025-02-06 17:13:21,793 - ERROR - Error fetching https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787115.htm: Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]
+2025-02-06 17:13:21,794 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/13/content_31267675.htm at depth 2
+2025-02-06 17:13:22,246 - INFO - Processing page: https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787125.htm at depth 2
+2025-02-06 17:13:22,248 - ERROR - Error fetching https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787125.htm: Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]
+2025-02-06 17:13:22,250 - INFO - Processing page: https://www6.sznews.com/zhuanti/content/2021-11/26/content_24771038.htm at depth 2
+2025-02-06 17:13:22,251 - ERROR - Error fetching https://www6.sznews.com/zhuanti/content/2021-11/26/content_24771038.htm: Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]
+2025-02-06 17:13:22,252 - INFO - Processing page: https://szbbs.sznews.com/thread-4316065-1-1.html at depth 2
+2025-02-06 17:13:37,941 - ERROR - Error fetching https://szbbs.sznews.com/thread-4316065-1-1.html: 
+2025-02-06 17:13:37,942 - INFO - Processing page: https://www.sznews.com/zhuanti/node_239632.htm at depth 2
+2025-02-06 17:13:40,858 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/23/content_31444886.htm at depth 2
+2025-02-06 17:13:41,278 - INFO - Processing page: https://www.sznews.com/zhuanti/node_231155.html at depth 2
+2025-02-06 17:13:43,183 - INFO - Processing page: https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787136.htm at depth 2
+2025-02-06 17:13:43,232 - ERROR - Error fetching https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787136.htm: Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]
+2025-02-06 17:13:43,233 - INFO - Processing page: https://www.sznews.com/zhuanti/node_305054.htm at depth 2
+2025-02-06 17:13:43,889 - INFO - Processing page: https://www6.sznews.com/tech/content/2022-02/11/content_24928086.htm at depth 2
+2025-02-06 17:13:43,892 - ERROR - Error fetching https://www6.sznews.com/tech/content/2022-02/11/content_24928086.htm: Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]
+2025-02-06 17:13:43,893 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/20/content_31405289.htm at depth 2
+2025-02-06 17:13:44,318 - INFO - Processing page: https://www.sznews.com/zhuanti/node_307173.htm at depth 2
+2025-02-06 17:13:44,825 - INFO - Processing page: http://www.sznews.com/news/content/2022-08/23/content_25325597.htm at depth 2
+2025-02-06 17:13:45,400 - INFO - Processing page: http://www.sznews.com/news/content/2022-07/13/content_25245035.htm at depth 2
+2025-02-06 17:13:46,009 - INFO - Processing page: https://www6.sznews.com/zhuanti/content/2021-11/26/content_24771035.htm at depth 2
+2025-02-06 17:13:46,011 - ERROR - Error fetching https://www6.sznews.com/zhuanti/content/2021-11/26/content_24771035.htm: Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]
+2025-02-06 17:13:46,013 - INFO - Processing page: https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787108.htm at depth 2
+2025-02-06 17:13:46,014 - ERROR - Error fetching https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787108.htm: Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]
+2025-02-06 17:13:46,016 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/05/content_31317834.htm at depth 2
+2025-02-06 17:13:46,627 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/06/content_31318757.htm at depth 2
+2025-02-06 17:13:47,019 - INFO - Processing page: https://static.nfnews.com/content/202411/06/c10227175.html?colID=0&firstColID=1617&appversion=11800&from=weChatMessage&enterColumnId=0 at depth 2
+2025-02-06 17:13:48,052 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/05/content_31317121.htm at depth 2
+2025-02-06 17:13:48,648 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/05/content_31318189.htm at depth 2
+2025-02-06 17:13:49,265 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/30/content_31454913.htm at depth 2
+2025-02-06 17:13:50,551 - INFO - Processing page: https://mp.weixin.qq.com/s/Ku5yBLmvd9NkYg6zej_idw at depth 2
+2025-02-06 17:13:51,464 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/30/content_31454914.htm at depth 2
+2025-02-06 17:13:51,972 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/27/content_31453415.htm at depth 2
+2025-02-06 17:13:52,533 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/27/content_31452552.htm at depth 2
+2025-02-06 17:13:52,991 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/30/content_31455071.htm at depth 2
+2025-02-06 17:13:53,490 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/12/content_31387739.htm at depth 2
+2025-02-06 17:13:54,055 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/10/content_31384633.htm at depth 2
+2025-02-06 17:13:54,693 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/12/content_31387982.htm at depth 2
+2025-02-06 17:13:55,336 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/10/content_31384903.htm at depth 2
+2025-02-06 17:13:55,986 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/12/content_31387976.htm at depth 2
+2025-02-06 17:13:56,546 - INFO - Article saved: https://www.sznews.com/news/content/2024-12/12/content_31387976.htm
+2025-02-06 17:13:56,546 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/15/content_31216409.htm at depth 2
+2025-02-06 17:13:57,259 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/15/content_31216408.htm at depth 2
+2025-02-06 17:13:57,861 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/15/content_31216736.htm at depth 2
+2025-02-06 17:13:58,395 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/14/content_31213690.htm at depth 2
+2025-02-06 17:13:58,952 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/15/content_31216479.htm at depth 2
+2025-02-06 17:14:00,427 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/15/content_31216322.htm at depth 2
+2025-02-06 17:14:00,926 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/14/content_31214544.htm at depth 2
+2025-02-06 17:14:01,366 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/08/content_31199692.htm at depth 2
+2025-02-06 17:14:01,975 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/07/content_31198107.htm at depth 2
+2025-02-06 17:14:02,456 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/09/content_31201576.htm at depth 2
+2025-02-06 17:14:02,977 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/09/content_31200574.htm at depth 2
+2025-02-06 17:14:03,416 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/10/content_31203081.htm at depth 2
+2025-02-06 17:14:04,160 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/08/content_31199601.htm at depth 2
+2025-02-06 17:14:04,533 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/10/content_31203092.htm at depth 2
+2025-02-06 17:14:05,073 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/09/content_31200478.htm at depth 2
+2025-02-06 17:14:05,611 - INFO - Processing page: https://www.sznews.com/news/content/2025-02/06/content_31459314_2.htm at depth 2
+2025-02-06 17:14:06,261 - INFO - Processing page: https://www.sznews.com/news/content/2025-02/06/content_31459314_8.htm at depth 2
+2025-02-06 17:14:06,749 - INFO - Processing page: https://www.sznews.com/news/content/2025-02/06/content_31459314_0.htm at depth 2
+2025-02-06 17:14:07,540 - INFO - Processing page: https://www.sznews.com/news/content/2025-02/06/content_31459314_3.htm at depth 2
+2025-02-06 17:14:08,114 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/10/content_31432481.htm at depth 2
+2025-02-06 17:14:08,722 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/09/content_31431842.htm at depth 2
+2025-02-06 17:14:09,279 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/11/content_31434106.htm at depth 2
+2025-02-06 17:14:09,815 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/08/content_31430083.htm at depth 2
+2025-02-06 17:14:10,989 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/10/content_31432511.htm at depth 2
+2025-02-06 17:14:11,760 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/10/content_31432484.htm at depth 2
+2025-02-06 17:14:12,310 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/09/content_31430886.htm at depth 2
+2025-02-06 17:14:13,027 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/03/content_31422564.htm at depth 2
+2025-02-06 17:14:13,737 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/03/content_31422952.htm at depth 2
+2025-02-06 17:14:14,357 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/03/content_31422932.htm at depth 2
+2025-02-06 17:14:15,995 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/03/content_31422930.htm at depth 2
+2025-02-06 17:14:16,371 - INFO - Article saved: https://www.sznews.com/news/content/2025-01/03/content_31422930.htm
+2025-02-06 17:14:16,372 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/03/content_31422570.htm at depth 2
+2025-02-06 17:14:16,941 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/06/content_31425906.htm at depth 2
+2025-02-06 17:14:17,322 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/02/content_31420875.htm at depth 2
+2025-02-06 17:14:18,005 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/25/content_31408614.htm at depth 2
+2025-02-06 17:14:18,550 - INFO - Article saved: https://www.sznews.com/news/content/2024-12/25/content_31408614.htm
+2025-02-06 17:14:18,550 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/26/content_31410154.htm at depth 2
+2025-02-06 17:14:19,473 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/27/content_31412190.htm at depth 2
+2025-02-06 17:14:19,890 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/27/content_31411926.htm at depth 2
+2025-02-06 17:14:20,502 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/25/content_31408610.htm at depth 2
+2025-02-06 17:14:21,156 - INFO - Article saved: https://www.sznews.com/news/content/2024-12/25/content_31408610.htm
+2025-02-06 17:14:21,156 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/27/content_31411911.htm at depth 2
+2025-02-06 17:14:22,029 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/28/content_31413976.htm at depth 2
+2025-02-06 17:14:22,673 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/27/content_31411927.htm at depth 2
+2025-02-06 17:14:23,268 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/27/content_31412193.htm at depth 2
+2025-02-06 17:14:23,943 - INFO - Article saved: https://www.sznews.com/news/content/2024-12/27/content_31412193.htm
+2025-02-06 17:14:23,945 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/26/content_31410192.htm at depth 2
+2025-02-06 17:14:24,718 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/29/content_31365664.htm at depth 2
+2025-02-06 17:14:25,349 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/02/content_31369990.htm at depth 2
+2025-02-06 17:14:25,764 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/29/content_31366536.htm at depth 2
+2025-02-06 17:14:26,678 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/29/content_31365769.htm at depth 2
+2025-02-06 17:14:27,466 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/29/content_31365736.htm at depth 2
+2025-02-06 17:14:27,982 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/02/content_31370838.htm at depth 2
+2025-02-06 17:14:28,801 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/02/content_31369677.htm at depth 2
+2025-02-06 17:14:29,183 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/30/content_31367738.htm at depth 2
+2025-02-06 17:14:29,711 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/26/content_31359746.htm at depth 2
+2025-02-06 17:14:30,329 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/29/content_31365420.htm at depth 2
+2025-02-06 17:14:30,839 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/27/content_31361559.htm at depth 2
+2025-02-06 17:14:31,259 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/28/content_31363606.htm at depth 2
+2025-02-06 17:14:32,071 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/28/content_31363585.htm at depth 2
+2025-02-06 17:14:32,651 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/28/content_31363595.htm at depth 2
+2025-02-06 17:14:33,361 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/26/content_31359742.htm at depth 2
+2025-02-06 17:14:34,037 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/28/content_31364130.htm at depth 2
+2025-02-06 17:14:34,668 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/28/content_31364478.htm at depth 2
+2025-02-06 17:14:35,162 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/24/content_31232362.htm at depth 2
+2025-02-06 17:14:35,600 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/20/content_31225475.htm at depth 2
+2025-02-06 17:14:36,237 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/24/content_31232367.htm at depth 2
+2025-02-06 17:14:36,796 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/23/content_31229567.htm at depth 2
+2025-02-06 17:14:37,415 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/20/content_31225999.htm at depth 2
+2025-02-06 17:14:37,903 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/23/content_31229551.htm at depth 2
+2025-02-06 17:14:38,735 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/21/content_31227138.htm at depth 2
+2025-02-06 17:14:39,437 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/21/content_31227776.htm at depth 2
+2025-02-06 17:14:39,923 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/23/content_31229586.htm at depth 2
+2025-02-06 17:14:40,440 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/25/content_31294947.htm at depth 2
+2025-02-06 17:14:41,081 - INFO - Processing page: https://mp.weixin.qq.com/s/ParTjyGCEm_0hDZiSgJuEw at depth 2
+2025-02-06 17:14:42,274 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/26/content_31297636.htm at depth 2
+2025-02-06 17:14:42,792 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/28/content_31300196.htm at depth 2
+2025-02-06 17:14:43,438 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/26/content_31297517.htm at depth 2
+2025-02-06 17:14:43,838 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/25/content_31295260.htm at depth 2
+2025-02-06 17:14:44,373 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/28/content_31300029.htm at depth 2
+2025-02-06 17:14:44,948 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/28/content_31299767.htm at depth 2
+2025-02-06 17:14:45,482 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/26/content_31297640.htm at depth 2
+2025-02-06 17:14:46,022 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/25/content_31295266.htm at depth 2
+2025-02-06 17:14:46,523 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/26/content_31297515.htm at depth 2
+2025-02-06 17:14:47,426 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/11/content_31205790.htm at depth 2
+2025-02-06 17:14:48,048 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/10/content_31204260.htm at depth 2
+2025-02-06 17:14:48,655 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/12/content_31208041.htm at depth 2
+2025-02-06 17:14:49,179 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/10/content_31203832.htm at depth 2
+2025-02-06 17:14:49,694 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/11/content_31206425.htm at depth 2
+2025-02-06 17:14:50,407 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/12/content_31208065.htm at depth 2
+2025-02-06 17:14:51,934 - INFO - Processing page: https://www.sznews.com/news/index_41.htm at depth 2
+2025-02-06 17:14:52,365 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/10/content_31203923.htm at depth 2
+2025-02-06 17:14:52,859 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/12/content_31208105.htm at depth 2
+2025-02-06 17:14:53,517 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/14/content_31391825.htm at depth 2
+2025-02-06 17:14:54,185 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/14/content_31391826.htm at depth 2
+2025-02-06 17:14:55,033 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/12/content_31388650.htm at depth 2
+2025-02-06 17:14:55,451 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/12/content_31388026.htm at depth 2
+2025-02-06 17:14:55,927 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/14/content_31391824.htm at depth 2
+2025-02-06 17:14:56,746 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/14/content_31391829.htm at depth 2
+2025-02-06 17:14:58,388 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/13/content_31390490.htm at depth 2
+2025-02-06 17:14:58,999 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/13/content_31389819.htm at depth 2
+2025-02-06 17:15:00,773 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/13/content_31389928.htm at depth 2
+2025-02-06 17:15:01,369 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/13/content_31390491.htm at depth 2
+2025-02-06 17:15:02,239 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/20/content_31349651.htm at depth 2
+2025-02-06 17:15:02,800 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/19/content_31347854.htm at depth 2
+2025-02-06 17:15:03,273 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/19/content_31347726.htm at depth 2
+2025-02-06 17:15:03,836 - INFO - Processing page: https://mp.weixin.qq.com/s/iRRzXXPXv5Gab82_RHmWYg at depth 2
+2025-02-06 17:15:04,899 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/19/content_31347723.htm at depth 2
+2025-02-06 17:15:05,686 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/20/content_31349654.htm at depth 2
+2025-02-06 17:15:06,259 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/17/content_31344093.htm at depth 2
+2025-02-06 17:15:06,917 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/20/content_31349687.htm at depth 2
+2025-02-06 17:15:07,444 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/18/content_31346267.htm at depth 2
+2025-02-06 17:15:09,160 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/21/content_31351580.htm at depth 2
+2025-02-06 17:15:09,767 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/13/content_31435996.htm at depth 2
+2025-02-06 17:15:11,233 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/13/content_31436109.htm at depth 2
+2025-02-06 17:15:11,799 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/13/content_31437063.htm at depth 2
+2025-02-06 17:15:12,371 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/14/content_31437491.htm at depth 2
+2025-02-06 17:15:12,696 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/14/content_31437291.htm at depth 2
+2025-02-06 17:15:13,349 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/13/content_31436126.htm at depth 2
+2025-02-06 17:15:13,879 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/14/content_31437544.htm at depth 2
+2025-02-06 17:15:14,460 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/13/content_31436085.htm at depth 2
+2025-02-06 17:15:14,873 - INFO - Processing page: https://mp.weixin.qq.com/s/R0YHaIPVWh5Oc1BqQ4Q2xQ at depth 2
+2025-02-06 17:15:15,721 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/11/content_31434453.htm at depth 2
+2025-02-06 17:15:16,339 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/13/content_31436647.htm at depth 2
+2025-02-06 17:15:16,905 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/14/content_31329787.htm at depth 2
+2025-02-06 17:15:17,309 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/14/content_31329793.htm at depth 2
+2025-02-06 17:15:17,903 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/14/content_31329695.htm at depth 2
+2025-02-06 17:15:18,475 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/13/content_31329143.htm at depth 2
+2025-02-06 17:15:19,235 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/15/content_31330506.htm at depth 2
+2025-02-06 17:15:19,725 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/13/content_31329137.htm at depth 2
+2025-02-06 17:15:20,191 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/15/content_31330520.htm at depth 2
+2025-02-06 17:15:20,546 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/13/content_31328862.htm at depth 2
+2025-02-06 17:15:21,152 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/14/content_31329789.htm at depth 2
+2025-02-06 17:15:21,933 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/13/content_31329152.htm at depth 2
+2025-02-06 17:15:22,520 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/22/content_31287327.htm at depth 2
+2025-02-06 17:15:23,026 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/21/content_31285341.htm at depth 2
+2025-02-06 17:15:23,709 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/22/content_31287524.htm at depth 2
+2025-02-06 17:15:24,188 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/21/content_31285377.htm at depth 2
+2025-02-06 17:15:25,847 - INFO - Article saved: https://www.sznews.com/news/content/2024-10/21/content_31285377.htm
+2025-02-06 17:15:25,848 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/22/content_31287344.htm at depth 2
+2025-02-06 17:15:26,392 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/21/content_31285741.htm at depth 2
+2025-02-06 17:15:27,608 - INFO - Processing page: https://mp.weixin.qq.com/s/rPIJUfaF-ybAJdQssjCCgw at depth 2
+2025-02-06 17:15:28,665 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/22/content_31287322.htm at depth 2
+2025-02-06 17:15:29,221 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/21/content_31285754.htm at depth 2
+2025-02-06 17:15:29,837 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/19/content_31282241.htm at depth 2
+2025-02-06 17:15:30,341 - INFO - Processing page: https://mp.weixin.qq.com/s/kJ6vpImq4vH5RLy3OgmtHw at depth 2
+2025-02-06 17:15:31,533 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/09/content_31325154.htm at depth 2
+2025-02-06 17:15:32,156 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/07/content_31321865.htm at depth 2
+2025-02-06 17:15:32,823 - INFO - Processing page: https://mp.weixin.qq.com/s/ebf2eKsdn7BnPbtvZpN7qg at depth 2
+2025-02-06 17:15:33,778 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/08/content_31322979.htm at depth 2
+2025-02-06 17:15:34,343 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/07/content_31320878.htm at depth 2
+2025-02-06 17:15:35,170 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/08/content_31323029.htm at depth 2
+2025-02-06 17:15:35,676 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/07/content_31320845.htm at depth 2
+2025-02-06 17:15:36,407 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/08/content_31324071.htm at depth 2
+2025-02-06 17:15:36,757 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/08/content_31322980.htm at depth 2
+2025-02-06 17:15:37,298 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/09/content_31325344.htm at depth 2
+2025-02-06 17:15:37,910 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/07/content_31320907.htm at depth 2
+2025-02-06 17:15:38,600 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/20/content_31225200.htm at depth 2
+2025-02-06 17:15:39,225 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/20/content_31224526.htm at depth 2
+2025-02-06 17:15:39,758 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/19/content_31223298.htm at depth 2
+2025-02-06 17:15:40,364 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/19/content_31222934.htm at depth 2
+2025-02-06 17:15:40,880 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/19/content_31222454.htm at depth 2
+2025-02-06 17:15:41,435 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/19/content_31223045.htm at depth 2
+2025-02-06 17:15:42,011 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/19/content_31222294.htm at depth 2
+2025-02-06 17:15:42,623 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/19/content_31223044.htm at depth 2
+2025-02-06 17:15:43,024 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/19/content_31223145.htm at depth 2
+2025-02-06 17:15:43,646 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/20/content_31224446.htm at depth 2
+2025-02-06 17:15:43,993 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/19/content_31223230.htm at depth 2
+2025-02-06 17:15:44,569 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/20/content_31225253.htm at depth 2
+2025-02-06 17:15:45,065 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/20/content_31224571.htm at depth 2
+2025-02-06 17:15:45,612 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/19/content_31222569.htm at depth 2
+2025-02-06 17:15:46,164 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/12/content_31208346.htm at depth 2
+2025-02-06 17:15:46,608 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/13/content_31211258.htm at depth 2
+2025-02-06 17:15:47,197 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/12/content_31208969.htm at depth 2
+2025-02-06 17:15:47,756 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/12/content_31208628.htm at depth 2
+2025-02-06 17:15:48,463 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/12/content_31208990.htm at depth 2
+2025-02-06 17:15:49,950 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/12/content_31208277.htm at depth 2
+2025-02-06 17:15:50,489 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/13/content_31212233.htm at depth 2
+2025-02-06 17:15:50,949 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/13/content_31212017.htm at depth 2
+2025-02-06 17:15:51,722 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/12/content_31209583.htm at depth 2
+2025-02-06 17:15:52,182 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/13/content_31210999.htm at depth 2
+2025-02-06 17:15:52,882 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/12/content_31208370.htm at depth 2
+2025-02-06 17:15:53,479 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/13/content_31211088.htm at depth 2
+2025-02-06 17:15:54,092 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/13/content_31212115.htm at depth 2
+2025-02-06 17:15:54,805 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/08/content_31429591.htm at depth 2
+2025-02-06 17:15:55,265 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/08/content_31429135.htm at depth 2
+2025-02-06 17:15:55,981 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/07/content_31427522.htm at depth 2
+2025-02-06 17:15:57,786 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/08/content_31429424.htm at depth 2
+2025-02-06 17:15:58,301 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/07/content_31427938.htm at depth 2
+2025-02-06 17:15:58,935 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/07/content_31427573.htm at depth 2
+2025-02-06 17:16:00,506 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/07/content_31427478.htm at depth 2
+2025-02-06 17:16:01,037 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/07/content_31427480.htm at depth 2
+2025-02-06 17:16:01,534 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/06/content_31426549.htm at depth 2
+2025-02-06 17:16:02,020 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/08/content_31429138.htm at depth 2
+2025-02-06 17:16:02,706 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/08/content_31429718.htm at depth 2
+2025-02-06 17:16:03,249 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/08/content_31429130.htm at depth 2
+2025-02-06 17:16:03,818 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/07/content_31427524.htm at depth 2
+2025-02-06 17:16:05,522 - INFO - Processing page: https://www.sznews.com/news/index_12.htm at depth 2
+2025-02-06 17:16:06,003 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/26/content_31237008.htm at depth 2
+2025-02-06 17:16:06,505 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/28/content_31242282.htm at depth 2
+2025-02-06 17:16:07,108 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/26/content_31237010.htm at depth 2
+2025-02-06 17:16:07,921 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/27/content_31239718.htm at depth 2
+2025-02-06 17:16:08,373 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/25/content_31234765.htm at depth 2
+2025-02-06 17:16:08,969 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/25/content_31234747.htm at depth 2
+2025-02-06 17:16:09,579 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/26/content_31237249.htm at depth 2
+2025-02-06 17:16:10,168 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/27/content_31239717.htm at depth 2
+2025-02-06 17:16:10,791 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/25/content_31234675.htm at depth 2
+2025-02-06 17:16:11,403 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/25/content_31234753.htm at depth 2
+2025-02-06 17:16:12,019 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/25/content_31234671.htm at depth 2
+2025-02-06 17:16:13,825 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/27/content_31239724.htm at depth 2
+2025-02-06 17:16:14,221 - INFO - Processing page: https://www.sznews.com/news/index_7.htm at depth 2
+2025-02-06 17:16:14,898 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/27/content_31239648.htm at depth 2
+2025-02-06 17:16:15,477 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/16/content_31274701.htm at depth 2
+2025-02-06 17:16:16,146 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/17/content_31278087.htm at depth 2
+2025-02-06 17:16:18,599 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/17/content_31277368.htm at depth 2
+2025-02-06 17:16:20,207 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/16/content_31274690.htm at depth 2
+2025-02-06 17:16:21,283 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/16/content_31274957.htm at depth 2
+2025-02-06 17:16:22,172 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/16/content_31274702.htm at depth 2
+2025-02-06 17:16:22,760 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/15/content_31272403.htm at depth 2
+2025-02-06 17:16:24,480 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/14/content_31269826.htm at depth 2
+2025-02-06 17:16:25,021 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/15/content_31272327.htm at depth 2
+2025-02-06 17:16:25,610 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/18/content_31279977.htm at depth 2
+2025-02-06 17:16:27,344 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/18/content_31279973.htm at depth 2
+2025-02-06 17:16:27,992 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/15/content_31273456.htm at depth 2
+2025-02-06 17:16:28,610 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/15/content_31272255.htm at depth 2
+2025-02-06 17:16:29,251 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/15/content_31272220.htm at depth 2
+2025-02-06 17:16:29,891 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/18/content_31280055.htm at depth 2
+2025-02-06 17:16:30,487 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/17/content_31278061.htm at depth 2
+2025-02-06 17:16:31,161 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/22/content_31353743.htm at depth 2
+2025-02-06 17:16:32,920 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/22/content_31353604.htm at depth 2
+2025-02-06 17:16:33,528 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/25/content_31357681.htm at depth 2
+2025-02-06 17:16:34,134 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/25/content_31357683.htm at depth 2
+2025-02-06 17:16:34,644 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/23/content_31355439.htm at depth 2
+2025-02-06 17:16:35,203 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/21/content_31351662.htm at depth 2
+2025-02-06 17:16:35,840 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/21/content_31351586.htm at depth 2
+2025-02-06 17:16:36,464 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/22/content_31354556.htm at depth 2
+2025-02-06 17:16:37,022 - INFO - Article saved: https://www.sznews.com/news/content/2024-11/22/content_31354556.htm
+2025-02-06 17:16:37,022 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/21/content_31351700.htm at depth 2
+2025-02-06 17:16:37,506 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/25/content_31357346.htm at depth 2
+2025-02-06 17:16:38,086 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/21/content_31351885.htm at depth 2
+2025-02-06 17:16:39,777 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/21/content_31352094.htm at depth 2
+2025-02-06 17:16:40,153 - INFO - Processing page: https://www.sznews.com/news/index_15.htm at depth 2
+2025-02-06 17:16:40,843 - INFO - Processing page: https://www.sznews.com/news/index_3.htm at depth 2
+2025-02-06 17:16:41,464 - INFO - Processing page: https://www.sznews.com/news/content/2024-11/25/content_31357685.htm at depth 2
+2025-02-06 17:16:43,047 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/16/content_31393522.htm at depth 2
+2025-02-06 17:16:43,656 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/17/content_31395609.htm at depth 2
+2025-02-06 17:16:44,077 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/17/content_31395723.htm at depth 2
+2025-02-06 17:16:44,679 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/18/content_31397380.htm at depth 2
+2025-02-06 17:16:45,121 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/16/content_31394272.htm at depth 2
+2025-02-06 17:16:45,815 - INFO - Article saved: https://www.sznews.com/news/content/2024-12/16/content_31394272.htm
+2025-02-06 17:16:45,815 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/17/content_31395874.htm at depth 2
+2025-02-06 17:16:46,210 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/15/content_31392752.htm at depth 2
+2025-02-06 17:16:46,668 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/16/content_31393497.htm at depth 2
+2025-02-06 17:16:47,242 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/15/content_31392748.htm at depth 2
+2025-02-06 17:16:48,778 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/16/content_31393506.htm at depth 2
+2025-02-06 17:16:50,220 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/17/content_31396070.htm at depth 2
+2025-02-06 17:16:50,905 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/17/content_31395613.htm at depth 2
+2025-02-06 17:16:51,576 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/16/content_31393488.htm at depth 2
+2025-02-06 17:16:52,352 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/17/content_31395614.htm at depth 2
+2025-02-06 17:16:54,207 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/24/content_31292874.htm at depth 2
+2025-02-06 17:16:55,947 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/23/content_31290377.htm at depth 2
+2025-02-06 17:16:56,509 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/23/content_31290218.htm at depth 2
+2025-02-06 17:16:57,174 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/24/content_31292488.htm at depth 2
+2025-02-06 17:16:57,780 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/22/content_31288539.htm at depth 2
+2025-02-06 17:16:58,497 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/25/content_31294793.htm at depth 2
+2025-02-06 17:16:59,159 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/23/content_31290713.htm at depth 2
+2025-02-06 17:16:59,709 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/24/content_31293251.htm at depth 2
+2025-02-06 17:17:00,366 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/24/content_31292739.htm at depth 2
+2025-02-06 17:17:01,947 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/23/content_31291146.htm at depth 2
+2025-02-06 17:17:02,492 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/24/content_31292740.htm at depth 2
+2025-02-06 17:17:03,047 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/23/content_31291151.htm at depth 2
+2025-02-06 17:17:03,714 - INFO - Processing page: https://mp.weixin.qq.com/s/QFCs3YlSOQSGtr6HieXybw at depth 2
+2025-02-06 17:17:04,693 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/25/content_31295238.htm at depth 2
+2025-02-06 17:17:05,239 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/23/content_31290777.htm at depth 2
+2025-02-06 17:17:05,745 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/30/content_31304799.htm at depth 2
+2025-02-06 17:17:06,406 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/29/content_31302364.htm at depth 2
+2025-02-06 17:17:06,800 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/29/content_31302501.htm at depth 2
+2025-02-06 17:17:07,407 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/29/content_31302507.htm at depth 2
+2025-02-06 17:17:08,014 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/29/content_31302753.htm at depth 2
+2025-02-06 17:17:08,857 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/29/content_31302504.htm at depth 2
+2025-02-06 17:17:09,439 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/29/content_31303646.htm at depth 2
+2025-02-06 17:17:10,026 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/29/content_31302371.htm at depth 2
+2025-02-06 17:17:10,733 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/28/content_31300711.htm at depth 2
+2025-02-06 17:17:11,382 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/30/content_31304783.htm at depth 2
+2025-02-06 17:17:12,098 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/30/content_31304807.htm at depth 2
+2025-02-06 17:17:12,919 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/30/content_31305022.htm at depth 2
+2025-02-06 17:17:14,148 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/30/content_31304800.htm at depth 2
+2025-02-06 17:17:15,620 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/30/content_31304909.htm at depth 2
+2025-02-06 17:17:16,321 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/30/content_31304782.htm at depth 2
+2025-02-06 17:17:17,064 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/28/content_31300650.htm at depth 2
+2025-02-06 17:17:18,619 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/17/content_31441119.htm at depth 2
+2025-02-06 17:17:20,212 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/19/content_31443265.htm at depth 2
+2025-02-06 17:17:20,651 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/18/content_31442487.htm at depth 2
+2025-02-06 17:17:21,233 - INFO - Processing page: https://mp.weixin.qq.com/s/gxIFyA8xNMLsH3sxYJB0vw at depth 2
+2025-02-06 17:17:22,300 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/17/content_31441152.htm at depth 2
+2025-02-06 17:17:22,925 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/17/content_31441603.htm at depth 2
+2025-02-06 17:17:24,810 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/16/content_31440544.htm at depth 2
+2025-02-06 17:17:25,539 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/17/content_31441364.htm at depth 2
+2025-02-06 17:17:26,045 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/18/content_31442479.htm at depth 2
+2025-02-06 17:17:26,549 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/20/content_31443756.htm at depth 2
+2025-02-06 17:17:27,060 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/17/content_31441170.htm at depth 2
+2025-02-06 17:17:27,694 - INFO - Processing page: https://mp.weixin.qq.com/s/nCJaqGNamaeHYhwk6bKaSQ at depth 2
+2025-02-06 17:17:28,861 - INFO - Processing page: https://www.sznews.com/news/content/2025-01/17/content_31441781.htm at depth 2
+2025-02-06 17:17:29,226 - INFO - Processing page: https://www.sznews.com/news/index_50.htm at depth 2
+2025-02-06 17:17:29,750 - INFO - Article saved: https://www.sznews.com/news/index_50.htm
+2025-02-06 17:17:29,751 - INFO - Processing page: https://www.sznews.com/news/index_37.htm at depth 2
+2025-02-06 17:17:30,621 - INFO - Processing page: https://www.sznews.com/news/index_39.htm at depth 2
+2025-02-06 17:17:32,203 - INFO - Processing page: https://www.sznews.com/news/node_226127.htm at depth 2
+2025-02-06 17:17:32,543 - WARNING - Fetching https://www.sznews.com/news/node_226127.htm failed with status code: 404
+2025-02-06 17:17:32,544 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/09/content_31383280.htm at depth 2
+2025-02-06 17:17:33,794 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/06/content_31378035.htm at depth 2
+2025-02-06 17:17:34,420 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/05/content_31377096.htm at depth 2
+2025-02-06 17:17:34,796 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/07/content_31379974.htm at depth 2
+2025-02-06 17:17:35,234 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/06/content_31378129.htm at depth 2
+2025-02-06 17:17:35,599 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/09/content_31382321.htm at depth 2
+2025-02-06 17:17:36,080 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/10/content_31384574.htm at depth 2
+2025-02-06 17:17:36,455 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/06/content_31378197.htm at depth 2
+2025-02-06 17:17:36,823 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/09/content_31382280.htm at depth 2
+2025-02-06 17:17:37,213 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/06/content_31378150.htm at depth 2
+2025-02-06 17:17:37,513 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/09/content_31382863.htm at depth 2
+2025-02-06 17:17:37,889 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/07/content_31379980.htm at depth 2
+2025-02-06 17:17:38,319 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/10/content_31384599.htm at depth 2
+2025-02-06 17:17:39,747 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/09/content_31382047.htm at depth 2
+2025-02-06 17:17:40,116 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/15/content_31216737.htm at depth 2
+2025-02-06 17:17:40,473 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/18/content_31220050.htm at depth 2
+2025-02-06 17:17:40,857 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/18/content_31219755.htm at depth 2
+2025-02-06 17:17:41,311 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/18/content_31220728.htm at depth 2
+2025-02-06 17:17:42,692 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/16/content_31217731.htm at depth 2
+2025-02-06 17:17:43,063 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/18/content_31220045.htm at depth 2
+2025-02-06 17:17:43,428 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/16/content_31217534.htm at depth 2
+2025-02-06 17:17:43,845 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/17/content_31219016.htm at depth 2
+2025-02-06 17:17:44,228 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/19/content_31222009.htm at depth 2
+2025-02-06 17:17:44,629 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/17/content_31218923.htm at depth 2
+2025-02-06 17:17:46,032 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/16/content_31217937.htm at depth 2
+2025-02-06 17:17:46,407 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/18/content_31219761.htm at depth 2
+2025-02-06 17:17:46,780 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/19/content_31222077.htm at depth 2
+2025-02-06 17:17:47,132 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/18/content_31219782.htm at depth 2
+2025-02-06 17:17:47,539 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/16/content_31217603.htm at depth 2
+2025-02-06 17:17:47,925 - INFO - Processing page: https://www.sznews.com/news/content/2024-09/19/content_31222136.htm at depth 2
+2025-02-06 17:17:48,283 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/30/content_31416509.htm at depth 2
+2025-02-06 17:17:48,665 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/28/content_31413983.htm at depth 2
+2025-02-06 17:17:49,015 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/28/content_31414402.htm at depth 2
+2025-02-06 17:17:49,386 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/28/content_31413980.htm at depth 2
+2025-02-06 17:17:49,796 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/30/content_31416518.htm at depth 2
+2025-02-06 17:17:51,182 - INFO - Processing page: https://mp.weixin.qq.com/s/80E5k8YqQjhEbyu-oB8Qdg at depth 2
+2025-02-06 17:17:52,419 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/30/content_31416081.htm at depth 2
+2025-02-06 17:17:52,793 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/30/content_31416171.htm at depth 2
+2025-02-06 17:17:53,244 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/30/content_31416537.htm at depth 2
+2025-02-06 17:17:54,626 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/30/content_31416168.htm at depth 2
+2025-02-06 17:17:54,990 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/29/content_31414951.htm at depth 2
+2025-02-06 17:17:55,351 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/30/content_31416037.htm at depth 2
+2025-02-06 17:17:55,766 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/29/content_31415018.htm at depth 2
+2025-02-06 17:17:56,147 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/30/content_31416104.htm at depth 2
+2025-02-06 17:17:57,577 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/30/content_31416513.htm at depth 2
+2025-02-06 17:17:57,952 - INFO - Processing page: https://www.sznews.com/news/content/2024-12/29/content_31415017.htm at depth 2
+2025-02-06 17:17:59,321 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/11/content_31264276.htm at depth 2
+2025-02-06 17:17:59,772 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/10/content_31263221.htm at depth 2
+2025-02-06 17:18:00,141 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/10/content_31262742.htm at depth 2
+2025-02-06 17:18:00,549 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/10/content_31262507.htm at depth 2
+2025-02-06 17:18:00,957 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/11/content_31264286.htm at depth 2
+2025-02-06 17:18:01,333 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/11/content_31264726.htm at depth 2
+2025-02-06 17:18:01,741 - INFO - Processing page: https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=14012638571684410562&t=1728636497795&toc_style_id=feeds_default&track_id=BEC8394C-D8C0-4074-BF53-C604B405EF81_750329330622&share_to=wechat at depth 2
+2025-02-06 17:18:02,476 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/11/content_31264292.htm at depth 2
+2025-02-06 17:18:02,837 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/11/content_31264960.htm at depth 2
+2025-02-06 17:18:03,196 - INFO - Processing page: https://mp.weixin.qq.com/s/jETszKY2TBsv1eco2OxdJw at depth 2
+2025-02-06 17:18:03,499 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/10/content_31262667.htm at depth 2
+2025-02-06 17:18:03,935 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/10/content_31262202.htm at depth 2
+2025-02-06 17:18:04,311 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/10/content_31262752.htm at depth 2
+2025-02-06 17:18:04,945 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/11/content_31264291.htm at depth 2
+2025-02-06 17:18:05,353 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/11/content_31264233.htm at depth 2
+2025-02-06 17:18:05,757 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/10/content_31262439.htm at depth 2
+2025-02-06 17:18:06,164 - INFO - Processing page: https://www.sznews.com/news/content/2024-10/10/content_31262564.htm at depth 2
+2025-02-06 17:18:38,263 - WARNING - User interaction loop was cancelled.
+2025-02-06 17:18:38,264 - WARNING - Crawler was forcibly stopped.
+2025-02-06 17:18:38,265 - INFO - Report generated at news_data\report.txt
