@@ -12,6 +12,8 @@ import jieba
 import asyncio
 import logging
 from jieba import posseg
+from typing import List, Dict, Set
+import itertools
 from jinja2 import Template
 
 # Configuration parameters
@@ -65,31 +67,33 @@ CONFIG = {
     "content_rules": {
         "keywords": ["政策", "规划", "建设", "交通", "发展", "会议", "项目"],  # Example keywords for user input
         "future_days_threshold": 3,
-        "min_content_length": 100
+        "min_content_length": 100,
+        "date_formats": [
+            r'\d{4}年\d{1,2}月\d{1,2}日',
+            r'\d{4}-\d{2}-\d{2}',
+            r'\d{4}/\d{2}/\d{2}',
+            r'(?:下月|下周|明年|未来\d+天)'
+        ],
+        "synonyms": {
+            "政策": ["条例", "法规", "办法"],
+            "建设": ["建造", "修建", "施工"],
+            "发展": ["开发", "推进", "促进"]
+        }
     },
     "storage": {
         "output_dir": "news_data",
         "log_file": "crawl_log.jsonl"
     },
     "ui": {
-        "progress_refresh": 0.5
+        "progress_refresh": 0.5,
+        "bootstrap_css": "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css",
+        "font_awesome": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     }
 }
 
 # Setup logging
 logging.basicConfig(filename='crawl_process.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
-
-def expand_keywords(keywords):
-    """Expand keywords with similar terms or synonyms"""
-    expanded_keywords = set(keywords)
-    for keyword in keywords:
-        for word, flag in posseg.cut(keyword):
-            if flag in ['n', 'v']:  # Nouns and verbs might have synonyms or be used in similar contexts
-                expanded_keywords.add(word)
-        # Here you would add logic to look up synonyms or similar terms from a dictionary or API
-    
-    return list(expanded_keywords)
 
 class GBANewsMonitor:
     def __init__(self):
@@ -106,6 +110,31 @@ class GBANewsMonitor:
         self.selected_cities = []
         self.filtered_entry_points = {}
         self.expanded_keywords = []
+        # 初始化同义词缓存
+        self.synonym_cache = {}
+        # 初始化日期正则
+        self.date_pattern = re.compile(
+            '|'.join(CONFIG["content_rules"]["date_formats"]),
+            re.IGNORECASE
+        )
+
+    def expand_keywords(self, keywords: List[str]) -> Set[str]:
+        """扩展关键词带同义词和分词结果"""
+        expanded = set(keywords)
+        
+        # 添加同义词
+        for kw in keywords:
+            expanded.update(CONFIG["content_rules"]["synonyms"].get(kw, []))
+        
+        # 分词扩展
+        for kw in keywords:
+            words = posseg.cut(kw)
+            expanded.update(
+                word.word for word in words 
+                if word.flag.startswith(('n', 'v')) and len(word.word) > 1
+            )
+        
+        return expanded
 
     def get_user_keywords(self):
         """Get keywords from user before starting the crawl"""
@@ -117,7 +146,7 @@ class GBANewsMonitor:
             self.user_keywords = CONFIG["content_rules"]["keywords"]
         
         # Expand keywords
-        self.expanded_keywords = expand_keywords(self.user_keywords)
+        self.expanded_keywords = self.expand_keywords(self.user_keywords)
         print(f"Keywords for search (including expansions): {', '.join(self.expanded_keywords)}")
 
     def get_days_range(self):
@@ -201,7 +230,7 @@ class GBANewsMonitor:
                 elif cmd.strip().lower() == 'keywords':
                     new_kw = input("Enter new keywords (comma-separated, use Chinese characters): ").strip().split(',')
                     self.user_keywords.extend([kw.strip() for kw in new_kw if kw.strip()])
-                    self.expanded_keywords = expand_keywords(self.user_keywords)
+                    self.expanded_keywords = self.expand_keywords(self.user_keywords)
                     print(f"Current keywords (including expansions): {', '.join(self.expanded_keywords)}")
                     print("Example keywords for reference: 政策, 规划, 建设, 交通, 发展, 会议, 项目")
                 elif cmd.strip().lower() == 'days':
@@ -251,55 +280,72 @@ class GBANewsMonitor:
                 links.add(href)
         return list(links)
 
-    def parse_content(self, html, url):
+    def parse_content(self, html, url) -> Dict:
         """Parse page content, including sentences with future dates"""
         soup = BeautifulSoup(html, 'html.parser')
-        content = soup.get_text()
-        title = soup.title.string if soup.title else "No Title"
         
-        # Extract images
-        images = [img['src'] for img in soup.find_all('img', src=True)[:1]]  # Just get the first image
-
-        # Combine content and title for keyword search
-        text_to_search = f"{title} {content}"
+        # 优先提取正文内容
+        main_content = soup.find('div', class_=re.compile('content|main|article'))
+        content = main_content.get_text() if main_content else soup.get_text()
         
-        if len(text_to_search) < CONFIG["content_rules"]["min_content_length"]:
-            return None
-
-        # Detect ads or repetitive content
-        if "广告" in content or len(set(content.split())) < 20:
-            return None
-
-        # Extract date from content. Generalize regex for different date formats
-        date_match = re.search(r'\b(?:19|20)\d{2}[-\/年]\d{1,2}[-\/月]\d{1,2}\b', text_to_search)
-        if date_match:
-            pub_date_str = date_match.group()
-            # Convert 年/月 format to - for dateparser
-            pub_date_str = pub_date_str.replace('年', '-').replace('月', '-').replace('/', '-')
-            pub_date = self.parse_date(pub_date_str)
-        else:
-            pub_date = datetime.now()  # Fallback to current date if no date found
-
-        # Find sentences with future dates
-        future_sentences = []
-        sentences = re.split(r'[。？！]', content)  # Split into sentences using Chinese punctuation
-        for sentence in sentences:
-            if self.detect_future_dates({'content': sentence, 'pub_date': pub_date}):
-                future_sentences.append(sentence.strip())
-
+        # 提取图片
+        images = [
+            urljoin(url, img['src']) 
+            for img in soup.find_all('img', src=True)
+            if img['src'].lower().endswith(('.jpg', '.png', '.jpeg'))
+        ][:3]  # 取前3张图片
+        
+        # 优化日期解析
+        pub_date = self._parse_date(soup)
+        
+        # 提取未来日期句子（优化版）
+        future_sentences = self._extract_future_sentences(content, pub_date)
+        
         return {
-            "title": title,
-            "content": content,
+            "title": soup.title.string.strip() if soup.title else "无标题",
+            "content": content.strip(),
             "pub_date": pub_date,
             "url": url,
             "images": images,
             "future_sentences": future_sentences
         }
 
-    def parse_date(self, date_str):
-        """Parse date string"""
-        settings = {'PREFER_DAY_OF_MONTH': 'first', 'RELATIVE_BASE': datetime.now()}
-        return dateparser.parse(date_str, settings=settings, languages=['zh'])
+    def _extract_future_sentences(self, text: str, base_date: datetime) -> List[str]:
+        """高效提取含未来日期的句子"""
+        sentences = []
+        now = datetime.now()
+        threshold_date = now + timedelta(days=CONFIG["content_rules"]["future_days_threshold"])
+        
+        for sentence in re.split(r'[。！？]', text):
+            if not sentence:
+                continue
+                
+            # 绝对日期检测
+            absolute_dates = self.date_pattern.findall(sentence)
+            if any(self.parse_date(d) > threshold_date for d in absolute_dates):
+                sentences.append(sentence.strip())
+                continue
+                
+            # 相对日期检测
+            if re.search(r'(下月|下周|明年|未来\d+天)', sentence):
+                sentences.append(sentence.strip())
+        
+        return sentences
+
+    def _parse_date(self, soup: BeautifulSoup) -> datetime:
+        """多重日期解析策略"""
+        # 策略1：从meta信息获取
+        meta_date = soup.find('meta', {'property': 'article:published_time'})
+        if meta_date:
+            return dateparser.parse(meta_date['content'])
+        
+        # 策略2：从特定class获取
+        date_element = soup.find(class_=re.compile('date|time|pub-date'))
+        if date_element:
+            return self.parse_date(date_element.get_text())
+        
+        # 策略3：从正文中搜索
+        return self.parse_date(self.date_pattern.search(soup.get_text()))
 
     def detect_future_dates(self, article):
         """Detect future dates in content"""
@@ -394,8 +440,6 @@ class GBANewsMonitor:
 
         await self.crawl_queue.join()
 
-    from jinja2 import Template
-
     def generate_report(self):
         """Generate a report after crawling including an HTML file with future articles and sentences."""
         html_template = """
@@ -405,29 +449,31 @@ class GBANewsMonitor:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>大湾区新闻监测报告</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ config_ui_bootstrap_css }}" rel="stylesheet">
+    <link href="{{ config_ui_font_awesome }}" rel="stylesheet">
     <style>
-        .news-card {
-            margin-bottom: 20px;
-            transition: transform 0.3s;
+        .article-card {
+            transition: transform 0.2s;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
-        .news-card:hover {
-            transform: scale(1.02);
+        .article-card:hover {
+            transform: translateY(-5px);
         }
-        .card-title a {
-            color: #333;
-        }
-        .card-title a:hover {
-            color: #007bff;
-            text-decoration: none;
+        .future-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 0.8rem;
         }
         .news-image {
-            max-height: 200px;
+            height: 200px;
             object-fit: cover;
+            border-radius: 10px 10px 0 0;
         }
         .keyword-highlight {
-            background-color: #ffeeba;
-            padding: 0 2px;
+            color: #dc3545;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -435,11 +481,12 @@ class GBANewsMonitor:
     <div class="container py-5">
         <h1 class="mb-4 text-center"><i class="fas fa-newspaper me-2"></i>大湾区新闻监测报告</h1>
         
-        <div class="row">
-            <div class="col-md-4 mb-4">
-                <div class="card news-card h-100">
+        <div class="row g-4">
+            <!-- 统计卡片 -->
+            <div class="col-md-4">
+                <div class="card article-card h-100">
                     <div class="card-body">
-                        <h5 class="card-title"><i class="fas fa-chart-bar me-2"></i>统计概览</h5>
+                        <h5><i class="fas fa-chart-bar me-2"></i>统计概览</h5>
                         <ul class="list-unstyled">
                             <li>已处理页面: {{ processed_pages }}</li>
                             <li>发现文章数: {{ found_articles }}</li>
@@ -448,41 +495,65 @@ class GBANewsMonitor:
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="row">
+            <!-- 文章列表 -->
             {% for article in future_articles %}
-            <div class="col-md-6 mb-4">
-                <div class="card news-card h-100">
+            <div class="col-md-6">
+                <div class="card article-card h-100">
                     {% if article.images %}
-                    <img src="{{ article.images[0] }}" class="card-img-top news-image" alt="新闻配图">
+                    <img src="{{ article.images[0] }}" class="card-img-top news-image" 
+                         alt="新闻配图" onerror="this.style.display='none'">
                     {% endif %}
+                    
                     <div class="card-body">
+                        <span class="badge bg-danger future-badge">
+                            <i class="fas fa-calendar-alt me-1"></i>未来事件
+                        </span>
+                        
                         <h5 class="card-title">
-                            <a href="{{ article.url }}" target="_blank">
-                                {{ article.title }}
+                            <a href="{{ article.url }}" target="_blank" 
+                               class="text-decoration-none text-dark">
+                               {{ article.title }}
                             </a>
                         </h5>
-                        <p class="card-text">
+                        
+                        <div class="mb-2">
                             <small class="text-muted">
                                 <i class="fas fa-clock me-1"></i>
                                 {{ article.pub_date.strftime('%Y-%m-%d %H:%M') }}
                             </small>
-                        </p>
+                        </div>
+
+                        <!-- 关键词高亮 -->
                         <div class="card-text">
                             {% for sentence in article.future_sentences %}
-                            <p>
-                            {% for word in jieba.cut(sentence) %}
-                                {% if word in expanded_keywords %}
-                                <span class="keyword-highlight">{{ word }}</span>
-                                {% else %}
-                                {{ word }}
-                                {% endif %}
-                            {% endfor %}
+                            <p class="mb-2">
+                                {% for word in jieba.cut(sentence) %}
+                                    {% if word in expanded_keywords %}
+                                    <span class="keyword-highlight">{{ word }}</span>
+                                    {% else %}
+                                    {{ word }}
+                                    {% endif %}
+                                {% endfor %}
+                                <a href="{{ article.url }}" target="_blank" 
+                                   class="text-decoration-none ms-2">
+                                   <i class="fas fa-external-link-alt"></i>
+                                </a>
                             </p>
                             {% endfor %}
                         </div>
-                        <a href="{{ article.url }}" class="btn btn-outline-primary btn-sm" target="_blank">阅读全文</a>
+
+                        <!-- 图片缩略图 -->
+                        {% if article.images %}
+                        <div class="mt-3 d-flex gap-2 flex-wrap">
+                            {% for img in article.images[1:] %}
+                            <a href="{{ img }}" target="_blank">
+                                <img src="{{ img }}" class="rounded" 
+                                     style="height:50px; width:auto;">
+                            </a>
+                            {% endfor %}
+                        </div>
+                        {% endif %}
                     </div>
                 </div>
             </div>
@@ -491,19 +562,24 @@ class GBANewsMonitor:
     </div>
 </body>
 </html>
-        """
+"""
 
+        # 使用Jinja2模板引擎（需要安装）
         report_path = os.path.join(CONFIG["storage"]["output_dir"], "report.html")
-        
+
         with open(report_path, 'w', encoding='utf-8') as f:
+            # Capture the rendered output
             rendered_html = Template(html_template).render(
                 future_articles=self.future_articles,
                 expanded_keywords=self.expanded_keywords,
                 jieba=jieba,
+                config_ui_bootstrap_css=CONFIG['ui']['bootstrap_css'],
+                config_ui_font_awesome=CONFIG['ui']['font_awesome'],
                 processed_pages=self.processed_pages,
                 found_articles=self.found_articles,
                 future_articles_count=len(self.future_articles)
             )
+            # Write the rendered HTML to the file
             f.write(rendered_html)
 
         self.logger.info(f"生成可视化报告：{report_path}")

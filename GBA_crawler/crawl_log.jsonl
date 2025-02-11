@@ -1,41 +1,92 @@
-{"url": "https://news.hizh.cn/", "error": "Cannot connect to host news.hizh.cn:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://www6.sznews.com/zhuanti/content/2022-02/21/content_24947098.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://www6.sznews.com/zhuanti/content/2022-02/17/content_24938052.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www.pconline.com.cn/", "error": "'utf-8' codec can't decode byte 0xd1 in position 3673: invalid continuation byte"}
+{"url": "http://www.visionox.com", "error": "Cannot connect to host www.visionox.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')]"}
+{"url": "javascript:void(0)", "error": "javascript:void(0)"}
+{"url": "https://www.sznews.com/news/index_43.htm", "error": ""}
+{"url": "https://www.ledchina.com", "error": "Cannot connect to host www.ledchina.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')]"}
+{"url": "https://www.sznews.com/news/node_305310.htm", "error": ""}
+{"url": "http://www.sznews.com/zhuanti/content/2021-12/08/content_24798407.htm", "error": ""}
+{"url": "https://www.sznews.com/zhuanti/node_239632.htm", "error": ""}
 {"url": "https://www6.sznews.com/tech/content/2022-02/11/content_24928086.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787136.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://szbbs.sznews.com/thread-4317274-1-1.html", "error": ""}
 {"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787125.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787115.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www6.sznews.com/zhuanti/content/2021-11/26/content_24771035.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
 {"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787114.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
 {"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787108.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://www6.sznews.com/zhuanti/content/2021-11/26/content_24771038.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://www6.sznews.com/zhuanti/content/2021-11/26/content_24771035.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://news.hizh.cn/", "error": "Cannot connect to host news.hizh.cn:443 ssl:default [getaddrinfo failed]"}
 {"url": "https://www6.sznews.com/zhuanti/content/2022-02/21/content_24947098.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://www6.sznews.com/zhuanti/content/2022-02/17/content_24938052.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://www6.sznews.com/tech/content/2022-02/11/content_24928086.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787136.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787125.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787115.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787114.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787108.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
 {"url": "https://www6.sznews.com/zhuanti/content/2021-11/26/content_24771038.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://www6.sznews.com/zhuanti/content/2021-11/26/content_24771035.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://news.hizh.cn/", "error": "Cannot connect to host news.hizh.cn:443 ssl:default [getaddrinfo failed]"}
-{"url": "javascript:void(0)", "error": "javascript:void(0)"}
-{"url": "https://news.hizh.cn/", "error": "Cannot connect to host news.hizh.cn:443 ssl:default [getaddrinfo failed]"}
-{"url": "javascript:void(0)", "error": "javascript:void(0)"}
-{"url": "javascript:void(0);", "error": "javascript:void(0);"}
-{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787114.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://www6.sznews.com/zhuanti/content/2022-02/17/content_24938052.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "http://www.saichen.cn", "error": "'utf-8' codec can't decode byte 0xb9 in position 69: invalid start byte"}
+{"url": "tel:0755-25183336", "error": "tel:0755-25183336"}
+{"url": "tel:400-800-9385", "error": "tel:400-800-9385"}
+{"url": "http://www.miibeian.gov.cn/", "error": "Cannot connect to host www.miibeian.gov.cn:80 ssl:default [getaddrinfo failed]"}
 {"url": "javascript:;", "error": "javascript:;"}
+{"url": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35010402350923", "error": "Cannot connect to host www.beian.gov.cn:80 ssl:default [远程计算机拒绝网络连接。]"}
+{"url": "https://www.baijing.cn/static/img/zzxkz_20200710.jpg", "error": "'utf-8' codec can't decode byte 0xff in position 0: invalid start byte"}
+{"url": "https://url.uk.m.mimecastprotect.com/s/nR3nCjRwLh9X16pIWfxuxLtk9?domain=dunsregistered.dnb.com", "error": ""}
+{"url": "http://searchToggle", "error": "Cannot connect to host searchtoggle:80 ssl:default [getaddrinfo failed]"}
+{"url": "https://www.petzd.com/", "error": "Cannot connect to host www.petzd.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www.petking.cn", "error": "Cannot connect to host www.petking.cn:443 ssl:default [[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)]"}
+{"url": "http://www.szpetfair.com/wzdt/sitemap.html", "error": "'utf-8' codec can't decode byte 0xc9 in position 252: invalid continuation byte"}
+{"url": "https://www.scte-cn.com/", "error": "Cannot connect to host www.scte-cn.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www.strlaser.com/", "error": ""}
+{"url": "javascript:window.external.addFavorite('http://sz.51anju.com','无忧安居网');", "error": "javascript:window.external.addFavorite('http://sz.51anju.com','%E6%97%A0%E5%BF%A7%E5%AE%89%E5%B1%85%E7%BD%91');"}
+{"url": "javascript:history.back();", "error": "javascript:history.back();"}
+{"url": "https://www.zhandada.com", "error": "Cannot connect to host www.zhandada.com:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.zhandada.com'. (_ssl.c:1000)\")]"}
+{"url": "http://expo.u520.net/", "error": "[WinError 64] 指定的网络名不再可用。"}
+{"url": "http://www.beareyes.com.cn/", "error": "'gb2312' codec can't decode byte 0xa8 in position 5398: illegal multibyte sequence"}
+{"url": "https://www.pchome.net/", "error": ""}
+{"url": "http://www.gjhsjssb.com/", "error": "'utf-8' codec can't decode byte 0xc9 in position 118: invalid continuation byte"}
+{"url": "https://www.szcec.com/Public/upload/download/20160624111033p9jbqk.jpg", "error": "'utf-8' codec can't decode byte 0xff in position 0: invalid start byte"}
+{"url": "https://www.szcec.com/Public/upload/download/fwzn2023.pdf", "error": ""}
+{"url": "https://www.szcec.com/Public/upload/download/201606241117198frurx.jpg", "error": "'utf-8' codec can't decode byte 0xff in position 0: invalid start byte"}
+{"url": "javascript:void(0)", "error": "javascript:void(0)"}
+{"url": "javascript:;", "error": "javascript:;"}
+{"url": "https://www.ledchina.com", "error": "Cannot connect to host www.ledchina.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')]"}
+{"url": "http://www.intertextile.com.cn/", "error": "'utf-8' codec can't decode byte 0xd6 in position 193: invalid continuation byte"}
+{"url": "http://www.gjhsjssb.com/", "error": "'utf-8' codec can't decode byte 0xc9 in position 118: invalid continuation byte"}
+{"url": "https://www.sznews.com/news/content/2024-11/20/content_31364262.htm", "error": ""}
+{"url": "https://www6.sznews.com/zhuanti/content/2021-11/26/content_24771038.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www6.sznews.com/tech/content/2022-02/11/content_24928086.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787136.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www6.sznews.com/zhuanti/content/2022-02/21/content_24947098.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
 {"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787115.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
 {"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787125.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://www6.sznews.com/zhuanti/content/2021-11/26/content_24771038.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://szbbs.sznews.com/thread-4316065-1-1.html", "error": ""}
-{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787136.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://www6.sznews.com/tech/content/2022-02/11/content_24928086.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://www6.sznews.com/zhuanti/content/2021-11/26/content_24771035.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787108.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://news.hizh.cn/", "error": "Cannot connect to host news.hizh.cn:443 ssl:default [getaddrinfo failed]"}
-{"url": "javascript:void(0)", "error": "javascript:void(0)"}
+{"url": "https://szbbs.sznews.com/thread-4318031-1-1.html", "error": ""}
 {"url": "javascript:void(0);", "error": "javascript:void(0);"}
+{"url": "mailto:logimat-china@messenanjing.cn", "error": "mailto:logimat-china@messenanjing.cn"}
+{"url": "javascript:null", "error": "javascript:null"}
+{"url": "http://www.weibo.com/designshowshanghai", "error": "'utf-8' codec can't decode byte 0xca in position 339: invalid continuation byte"}
+{"url": "https://live.sztv.com.cn/live/watch/m28pg8dm", "error": "Cannot connect to host live.sztv.com.cn:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'live.sztv.com.cn'. (_ssl.c:1000)\")]"}
+{"url": "https://www.scte-cn.com/", "error": "Cannot connect to host www.scte-cn.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "http://www.bubugoo.com", "error": "Cannot connect to host www.bubugoo.com:80 ssl:default [远程计算机拒绝网络连接。]"}
+{"url": "http://www.miibeian.gov.cn/", "error": "Cannot connect to host www.miibeian.gov.cn:80 ssl:default [getaddrinfo failed]"}
+{"url": "javascript: void(0);", "error": "javascript:%20void(0);"}
+{"url": "https://www.scmfair.com/?m322page=1", "error": "Response payload is not completed: <TransferEncodingError: 400, message='Not enough data for satisfy transfer length header.'>"}
+{"url": "https://www.scmfair.com/?m322page=2", "error": "Response payload is not completed: <TransferEncodingError: 400, message='Not enough data for satisfy transfer length header.'>"}
+{"url": "https://www.sznews.com/news/", "error": ""}
+{"url": "http://www.gjhsjssb.com/", "error": "'utf-8' codec can't decode byte 0xc9 in position 118: invalid continuation byte"}
+{"url": "http://www.intertextile.com.cn/", "error": "'utf-8' codec can't decode byte 0xd6 in position 193: invalid continuation byte"}
+{"url": "javascript:;", "error": "javascript:;"}
+{"url": "https://www6.sznews.com/zhuanti/content/2021-11/26/content_24771038.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787108.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www6.sznews.com/tech/content/2022-02/11/content_24928086.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787115.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://szbbs.sznews.com/thread-4318031-1-1.html", "error": ""}
+{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787114.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "javascript:void(0);", "error": "javascript:void(0);"}
+{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787136.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "http://news.sznews.com/mb/node_239201_4.htm", "error": "[WinError 64] 指定的网络名不再可用。"}
+{"url": "http://news.sznews.com/mb/node_239201_2.htm", "error": ""}
+{"url": "javascript:void(0)", "error": "javascript:void(0)"}
+{"url": "http://www.chtf.com/public/images/floorplan/floorplan09.jpg", "error": "'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte"}
+{"url": "javascript:void (0);", "error": "javascript:void%20(0);"}
+{"url": "http://http://yongpin.lvy.cn/", "error": "Cannot connect to host http:80 ssl:default [getaddrinfo failed]"}
+{"url": "http://www.huwai.biz/", "error": "Cannot connect to host www.huwai.biz:80 ssl:default [getaddrinfo failed]"}
+{"url": "https://www.cphi-china.cn/wp-content/uploads/2024/01/xms-2024-sz.png", "error": "'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte"}
+{"url": "https://efile.imsinoexpo.com/efile/CPhI/file/2024-sz-show-report.pdf", "error": "'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte"}
+{"url": "https://www.cphi-china.cn/wp-content/uploads/2024/01/qrcode-wechat-sz.png", "error": "'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte"}
+{"url": "https://www.cphi-china.cn/guangzhou/product/", "error": "'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte"}
+{"url": "https://www.scte-cn.com/", "error": "Cannot connect to host www.scte-cn.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "http://www.cnpec.net/", "error": ""}
+{"url": "javascript:history.back();", "error": "javascript:history.back();"}
+{"url": "https://weibo.com/u/2756243271", "error": "'utf-8' codec can't decode byte 0xca in position 339: invalid continuation byte"}
+{"url": "javascript:SetLanguage('zh-cn')", "error": "javascript:SetLanguage('zh-cn')"}
