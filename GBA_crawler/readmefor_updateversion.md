@@ -1,3 +1,32 @@
+#How to run:
+User Interaction:
+Keywords: When prompted, enter keywords related to the news you're interested in. Example:
+Enter keywords (comma-separated, use Chinese characters, example: 政策, 规划, 建设, 交通, 发展, 会议, 项目): 
+If you don't enter any, default keywords will be used. 
+Days Range: Input how many days back you want to check for articles:
+Enter the number of days for article publication range (1-7): 
+Cities Selection: Specify which cities you want to monitor from the list provided:
+Enter cities to search (comma-separated, available options: Guangzhou, Shenzhen, Zhuhai, Dongguan, Zhongshan, Jiangmen, Zhaoqing, Huizhou, South China Net, Hong Kong, Macau):
+Start Crawling: Press Enter to start the crawling process.
+Interactive Commands:
+stop: Stops the crawler.
+status: Shows current status like processed pages and found articles.
+articles: Lists or shows some found articles.
+future: Displays articles with future events.
+search: Searches through found articles for keywords.
+keywords: Adds new keywords to the search criteria.
+days: Changes the days range for article publication.
+cities: Allows reselection of cities to monitor.
+Monitor Progress: You'll see real-time updates on how many pages have been processed and articles found.
+
+Output
+Articles: Saved as JSON files in the specified output directory.
+Log: Crawling operations are logged in crawl_log.jsonl.
+Report: An HTML report summarizing the findings will be generated at the end in the output directory named report.html.
+
+And you can stop the process by pressing Ctrl + C to end it earlierly.
+
+
 # 🌉 粤港澳大湾区新闻监测系统
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Crawler</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e6f3ff; /* Light blue background */
+            color: #333; /* Dark text for contrast */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: #ffffff; /* White container for form */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        h1 {
+            color: #0066cc; /* Dark blue for headings */
+            text-align: center;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-top: 10px;
+            color: #0066cc; /* Dark blue for labels */
+        }
+        input[type="text"], input[type="number"], select {
+            margin-top: 5px;
+            padding: 8px;
+            border: 1px solid #b3d9ff; /* Light blue border */
+            border-radius: 4px;
+            background-color: #f0f8ff; /* Very light blue for input fields */
+        }
+        input[type="submit"] {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #0066cc; /* Dark blue background */
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        input[type="submit"]:hover {
+            background-color: #004c99; /* Darker blue on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>News Crawler</h1>
+        <form action="" method="post">
+            <label for="keywords">Keywords:</label>
+            <input type="text" id="keywords" name="keywords" placeholder="Ex. 政策, 规划, 建设, 交通, 发展, 会议, 项目" required>
+            
+            <label for="days">Days Range:</label>
+            <input type="number" id="days" name="days" min="1" max="7" value="1" required>
+            
+            <label for="cities">Cities:</label>
+            <select id="cities" name="cities" multiple required>
+                <option value="Guangzhou">Guangzhou</option>
+                <option value="Shenzhen">Shenzhen</option>
+                <option value="Zhuhai">Zhuhai</option>
+                <option value="Dongguan">Dongguan</option>
+                <option value="Zhongshan">Zhongshan</option>
+                <option value="Jiangmen">Jiangmen</option>
+                <option value="Zhaoqing">Zhaoqing</option>
+                <option value="Huizhou">Huizhou</option>
+                <option value="South China Net">South China Net</option>
+                <option value="Hong Kong">Hong Kong</option>
+                <option value="Macau">Macau</option>
+            </select>
+            
+            <input type="submit" value="Crawl">
+        </form>
+    </div>
+
+    <div id="status"></div>
+    
+    <script>
+        function updateStatus() {
+            fetch('/status')
+                .then(response => response.text())
+                .then(status => {
+                    document.getElementById('status').innerText = status;
+                });
+        }
+        setInterval(updateStatus, 1000); // Update every second
+    </script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crawler Progress</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e6f3ff; /* Light blue background */
+            color: #333; /* Dark text for contrast */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: #ffffff; /* White container for form */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #0066cc; /* Dark blue background */
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #004c99; /* Darker blue on hover */
+        }
+        #progress div {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Crawler Progress</h1>
+        <div id="progress">
+            <div id="processed_urls"></div>
+            <div id="last_url"></div>
+            <div id="last_article"></div>
+        </div>
+        <form method="post">
+            <button type="submit" name="stop">Stop Crawler</button>
+        </form>
+    </div>
+    
+    <script>
+        var source = new EventSource("/progress");
+        source.onmessage = function(event) {
+            var data = event.data.split('|');
+            document.getElementById('processed_urls').innerHTML = data[0].trim();
+            document.getElementById('last_url').innerHTML = data[1].trim();
+            document.getElementById('last_article').innerHTML = data[2].trim();
+        };
+    </script>
+</body>
+</html>

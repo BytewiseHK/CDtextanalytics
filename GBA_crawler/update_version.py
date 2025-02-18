@@ -25,7 +25,7 @@ CONFIG = {
             {"label": "Exhibition Center", "url": "https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C"}
         ],
         "Zhuhai": [
-            {"label": "Main News", "url": "https://news.hizh.cn/"}
+            {"label": "Main News", "url": "https://www.hizh.cn/"}
         ],
         'Dongguan': [
             {"label": "Head News", "url": 'https://news.sun0769.com/dg/headnews/'}
@@ -286,6 +286,7 @@ class GBANewsMonitor:
         for sentence in sentences:
             if self.detect_future_dates({'content': sentence, 'pub_date': pub_date}):
                 future_sentences.append(sentence.strip())
+                break
 
         return {
             "title": title,
@@ -293,7 +294,7 @@ class GBANewsMonitor:
             "pub_date": pub_date,
             "url": url,
             "images": images,
-            "future_sentences": future_sentences
+            "future_sentences": future_sentences[:1]
         }
 
     def parse_date(self, date_str):
@@ -472,6 +473,7 @@ class GBANewsMonitor:
                         <div class="card-text">
                             {% for sentence in article.future_sentences %}
                             <p>
+                            {% set sentence = article.future_sentences[0] %}
                             {% for word in jieba.cut(sentence) %}
                                 {% if word in expanded_keywords %}
                                 <span class="keyword-highlight">{{ word }}</span>

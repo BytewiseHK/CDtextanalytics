@@ -1,496 +1,458 @@
+import aiohttp
 import re
 import json
-from datetime import datetime, timedelta
-from dateutil.parser import parse
-import requests
-from bs4 import BeautifulSoup
-import jieba
-import jieba.posseg as pseg
-from googletrans import Translator
-from apscheduler.schedulers.background import BackgroundScheduler
-import urllib3
 import os
+import hashlib
+from datetime import datetime, timedelta
 from urllib.parse import urljoin
-
-# 禁用SSL警告
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-
-class GBANewsCrawler:
+from bs4 import BeautifulSoup
+from simhash import Simhash
+import dateparser
+import jieba
+import asyncio
+import logging
+from jieba import posseg
+from jinja2 import Template
+import random
+# Configuration parameters
+CONFIG = {
+    "entry_points": {
+        "Guangzhou": [
+            {"label": "Main News", "url": "https://news.dayoo.com/guangzhou/"},
+        ],
+        "Shenzhen": [
+            {"label": "Main News", "url": "https://www.sznews.com/news/"},
+            {"label": "Exhibition Center", "url": "https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C"}
+        ],
+        "Zhuhai": [
+            {"label": "Main News", "url": "https://www.hizh.cn/"}
+        ],
+        'Dongguan': [
+            {"label": "Head News", "url": 'https://news.sun0769.com/dg/headnews/'}
+        ],
+        'Zhongshan': [
+            {"label": "News", "url": 'https://www.zsnews.cn/news/'}
+        ],
+        'Jiangmen': [
+            {"label": "Local News", "url": 'http://www.jmnews.com.cn/'}
+        ],
+        'Zhaoqing': [
+            {"label": "Local Paper", "url": 'http://www.xjrb.com/'}
+        ],
+        'Huizhou': [
+            {"label": "Local News", "url": 'http://www.huizhou.cn/'}
+        ],
+        'South China Net': [
+            {"label": "News", "url": 'https://news.southcn.com/'}
+        ],
+        'Hong Kong': [
+            {"label": "Tourism Board", "url": 'https://www.discoverhongkong.com/hk-tc/what-s-new/events.html'},
+            {"label": "Trade Development Council", "url": 'https://event.hktdc.com/tc/'},
+            {"label": "Government Statistics", "url": 'https://www.censtatd.gov.hk/sc/'},
+            {"label": "Government News", "url": 'https://www.info.gov.hk/gia/general/ctoday.htm'},
+            {"label": "Tourism Network", "url": 'https://partnernet.hktb.com/en/trade_support/trade_events/conventions_exhibitions/index.html?displayMode=&viewMode=calendar&isSearch=true&keyword=&area=0&location=&from=&to=&searchMonth=--+Please+Select+--&ddlDisplayMode_selectOneMenu=All'}
+        ],
+        'Macau': [
+            {"label": "Tourism Board", "url": 'https://www.macaotourism.gov.mo/zh-hant/events/'}
+        ]
+    },
+    "crawl_rules": {
+        "max_depth": 2,
+        "max_pages": 50,
+        "timeout": 15,
+        "max_concurrency": 5
+    },
+    "content_rules": {
+        "keywords": ["政策", "规划", "建设", "交通", "发展", "会议", "项目"],  # Example keywords for user input
+        "future_days_threshold": 3,
+        "min_content_length": 100
+    },
+    "storage": {
+        "output_dir": "news_data",
+        "log_file": "crawl_log.jsonl"
+    },
+    "ui": {
+        "progress_refresh": 0.5
+    }
+}
+# Setup logging
+logging.basicConfig(filename='crawl_process.log', level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s')
+# Synonym dictionary for future date detection
+FUTURE_DATE_SYNONYMS = {
+    "下月": ["下个月", "下個月", "下月"],
+    "下周": ["下个星期", "下星期", "下周"],
+    "明年": ["來年", "来年", "明年"],
+    "未来": ["未來", "未来", "後來", "后来"],
+    "近期": ["近期", "即將", "即将", "即將要", "即将要"],
+    "後年": ["后年"],
+    "不久": ["不久", "不久後", "不久后"]
+    # Add more as needed
+}
+def expand_keywords(keywords):
+    """Expand keywords with similar terms or synonyms"""
+    expanded_keywords = set(keywords)
+    for keyword in keywords:
+        for word, flag in posseg.cut(keyword):
+            if flag in ['n', 'v']:  # Nouns and verbs might have synonyms or be used in similar contexts
+                expanded_keywords.add(word)
+        # Here you would add logic to look up synonyms or similar terms from a dictionary or API
+    
+    return list(expanded_keywords)
+class GBANewsMonitor:
     def __init__(self):
-        self.sources = {
-            '广州': 'https://news.dayoo.com/guangzhou/',
-            '深圳': 'https://www.sznews.com/news/',
-            '珠海': 'https://www.hizh.cn/node_1.htm',
-            '东莞': 'https://news.sun0769.com/dg/headnews/',
-            '中山': 'https://www.zsnews.cn/news/',
-            '江门': 'http://www.jmnews.com.cn/',
-            '肇庆': 'http://www.xjrb.com/',
-            '惠州': 'http://www.huizhou.cn/',
-            '南方网': 'https://news.southcn.com/',
-            '深圳会展中心': 'https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C',
-            '香港旅游局': 'https://www.discoverhongkong.com/hk-tc/what-s-new/events.html',
-            '香港贸发局': 'https://event.hktdc.com/tc/',
-            '政府统计处': 'https://www.censtatd.gov.hk/sc/',
-            '政府新闻网': 'https://www.info.gov.hk/gia/general/ctoday.htm',
-            '香港旅游网': 'https://partnernet.hktb.com/en/trade_support/trade_events/conventions_exhibitions/index.html?displayMode=&viewMode=calendar&isSearch=true&keyword=&area=0&location=&from=&to=&searchMonth=--+Please+Select+--&ddlDisplayMode_selectOneMenu=All',
-            '澳门旅游局': 'https://www.macaotourism.gov.mo/zh-hant/events/'
-
-
-        }
-        self.base_urls = {
-            'jmnews.com.cn': 'http://www.jmnews.com.cn',
-            'huizhou.cn': 'http://www.huizhou.cn',
-            'xjrb.com': 'http://www.xjrb.com'
-        }
-        self.keywords = ["政策", "峰会", "基建", "GDP", "交通", "发展", "规划", "项目"]
-        self.event_triggers = {
-            '政务': ["揭牌", "签约", "发布"],
-            '经济': ["开工", "投产", "交易额"],
-            '民生': ["启用", "调整", "开通"]
-        }
-        self.visited_urls = set()  # 记录已访问的URL
-        self.max_depth = 2  # 递归深度限制
-        self.max_pages = 50  # 每个源的最大页面数限制
-        self.seen_content = set()  # 用于去重
-
-    def get_base_url(self, url):
-        for domain, base in self.base_urls.items():
-            if domain in url:
-                return base
-        return '/'.join(url.split('/')[:3])
-
-    def fetch_news(self, url):
-        try:
-            headers = {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-                'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
-            }
-            response = requests.get(url, headers=headers, timeout=10, verify=False)
-            response.encoding = response.apparent_encoding
-            print(f"正在抓取: {url}")
-            return BeautifulSoup(response.text, 'html.parser')
-        except Exception as e:
-            print(f"抓取失败: {str(e)}")
-            return None
-
-    def is_valid_url(self, url):
-        # 修改日期匹配规则，使其更宽松
-        if not url:
-            return False
-        date_patterns = [
-            r'/202[0-9]/\d{2}/',  # 匹配 /2023/01/ 格式
-            r'202[0-9]\d{2}',     # 匹配 202301 格式
-            r'/content_\d+',       # 匹配 content_123456 格式
-            r'/[a-z]+/\d{8}/',    # 匹配 /news/20230101/ 格式
+        self.visited = set()
+        self.future_articles = []
+        self.crawl_queue = asyncio.Queue()
+        self.stop_flag = False
+        self.semaphore = asyncio.Semaphore(CONFIG["crawl_rules"]["max_concurrency"])
+        self.processed_pages = 0
+        self.found_articles = 0
+        self.user_keywords = []
+        self.days_range = 1  # Default to 1 day
+        self.logger = logging.getLogger(__name__)
+        self.selected_cities = []
+        self.filtered_entry_points = {}
+        self.expanded_keywords = []
+        # List of user agents for rotation
+        self.user_agents = [
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36',
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15',
+            # Add more user agents as needed
         ]
-        return any(re.search(pattern, url) for pattern in date_patterns)
-
-    def contains_keywords(self, text):
-        # 添加更多关键词组合
-        keyword_groups = {
-            '规划发展': ['规划', '发展', '建设', '战略'],
-            '经济指标': ['GDP', '增长', '投资', '产业'],
-            '重大项目': ['项目', '工程', '基建', '基础设施'],
-            '政策方向': ['政策', '措施', '实施', '推进'],
-            '民生改善': ['民生', '服务', '改善', '提升']
-        }
+    def configure(self, keywords, days_range, cities):
+        """Configure the monitor with user inputs from web form"""
+        self.user_keywords = [kw.strip() for kw in keywords.split(',') if kw.strip()]
+        if not self.user_keywords:
+            self.user_keywords = CONFIG["content_rules"]["keywords"]
         
-        for group_keywords in keyword_groups.values():
-            if any(keyword in text for keyword in group_keywords):
-                return True
-        return False
-
-    def recursive_crawl(self, url, depth=0):
-        if depth >= self.max_depth or url in self.visited_urls:
-            return []
+        self.expanded_keywords = expand_keywords(self.user_keywords)
+        self.days_range = days_range
+        # Since cities is already a list, we don't need to split
+        self.selected_cities = [city.strip() for city in cities if city.strip() in CONFIG["entry_points"].keys()]
+        if not self.selected_cities:
+            self.selected_cities = list(CONFIG["entry_points"].keys())
         
-        self.visited_urls.add(url)
-        articles = []
-        
-        try:
-            soup = self.fetch_news(url)
-            if not soup:
-                return []
-
-            # 获取所有链接
-            links = soup.find_all('a', href=True)
-            for link in links:
-                href = link.get('href')
-                if not href:
-                    continue
-
-                # 处理相对URL
-                if not href.startswith('http'):
-                    href = urljoin(url, href)
-
-                # 检查URL是否符合条件
-                if self.is_valid_url(href) and href not in self.visited_urls:
-                    # 获取文章内容
-                    article = self.extract_content(soup, href)
-                    if article and self.contains_keywords(article['content']):
-                        articles.append(article)
-                        
-                    # 递归爬取
-                    if len(articles) < self.max_pages:
-                        articles.extend(self.recursive_crawl(href, depth + 1))
-
-            return articles
-        except Exception as e:
-            print(f"递归爬取失败 - {url}: {str(e)}")
-            return articles
-
-    def is_duplicate_content(self, content):
-        # 使用内容的哈希值进行去重
-        content_hash = hash(content)
-        if content_hash in self.seen_content:
-            return True
-        self.seen_content.add(content_hash)
-        return False
-
-    def extract_content(self, soup, source_url):
-        if soup is None:
-            return None
-            
-        try:
-            # 通用选择器
-            title = None
-            content = []
-            
-            # 尝试多种标题选择器
-            title_selectors = [
-                'h1',
-                '.article-title',
-                '.content-title',
-                '.news-title',
-                '.title'
-            ]
-            
-            for selector in title_selectors:
-                title = soup.select_one(selector)
-                if title:
-                    break
-            
-            # 尝试多种内容选择器
-            content_selectors = [
-                '.article-content p',
-                '.content p',
-                '.news-content p',
-                'article p',
-                '.text p'
-            ]
-            
-            for selector in content_selectors:
-                content = soup.select(selector)
-                if content:
-                    content_text = '\n'.join([p.text.strip() for p in content if p.text.strip()])
-                    break
-
-            if title and content:
-                # 检查是否是重复内容
-                if self.is_duplicate_content(content_text):
-                    return None
-                    
-                article = {
-                    'title': title.text.strip(),
-                    'content': content_text,
-                    'url': source_url,
-                    'publish_date': self.extract_publish_date(soup)
-                }
-                return article
-            
-            return None
-        except Exception as e:
-            print(f"解析失败 - {source_url}")
-            return None
-
-    def extract_publish_date(self, soup):
-        # 尝试从页面提取发布日期
-        date_selectors = [
-            '.article-info .date',
-            '.time',
-            '.publish-time',
-            'time',
-            '.article-date'
-        ]
-        for selector in date_selectors:
-            date_element = soup.select_one(selector)
-            if date_element:
-                try:
-                    date_text = date_element.text.strip()
-                    # 尝试解析日期
-                    return parse(date_text, fuzzy=True).strftime('%Y-%m-%d')
-                except:
-                    continue
-        return None
-
-class TemporalAnalyzer:
-    def __init__(self):
-        self.current_date = datetime.now()
-        # 排除的关键词（广告、无关内容等）
-        self.exclude_keywords = [
-            '广告', '推广', '点击', '详询', '咨询电话',
-            '版权所有', '责任编辑', '记者'
-        ]
-
-    def clean_content(self, text):
-        # 清理广告和无关内容
-        lines = text.split('\n')
-        cleaned_lines = []
-        for line in lines:
-            if not any(kw in line for kw in self.exclude_keywords) and len(line.strip()) > 10:
-                cleaned_lines.append(line)
-        return '\n'.join(cleaned_lines)
-
-    def detect_future_dates(self, text):
-        # 清理内容
-        text = self.clean_content(text)
-        
-        dates = []
-        # 明确的未来日期
-        date_patterns = [
-            (r'(\d{4})年(\d{1,2})月(\d{1,2})日', '%Y年%m月%d日'),
-            (r'(\d{4})-(\d{1,2})-(\d{1,2})', '%Y-%m-%d'),
-            (r'(\d{4})/(\d{1,2})/(\d{1,2})', '%Y/%m/%d')
-        ]
-        
-        # 相对日期表达
-        relative_patterns = {
-            r'([下后]个?月)': (1, 'month'),
-            r'(\d+个月[后内])': ('n', 'month'),
-            r'明年': (1, 'year'),
-            r'后年': (2, 'year'),
-            r'(\d+年[后内])': ('n', 'year'),
-            r'([下后]\s*季度)': (1, 'quarter'),
-            r'(\d+天[后内])': ('n', 'day')
-        }
-
-        # 处理明确的日期
-        for pattern, date_format in date_patterns:
-            matches = re.finditer(pattern, text)
-            for match in matches:
-                try:
-                    date_str = match.group(0)
-                    date = datetime.strptime(date_str, date_format)
-                    if date > self.current_date:
-                        dates.append({
-                            'date': date.strftime('%Y-%m-%d'),
-                            'original': date_str,
-                            'context': text[max(0, match.start()-20):match.end()+20]
-                        })
-                except:
-                    continue
-
-        # 处理相对日期
-        for pattern, (offset, unit) in relative_patterns.items():
-            matches = re.finditer(pattern, text)
-            for match in matches:
-                try:
-                    date = self.current_date
-                    if offset == 'n':
-                        # 提取数字
-                        num = int(re.search(r'\d+', match.group(0)).group())
+        self.filtered_entry_points = {city: CONFIG["entry_points"][city] for city in self.selected_cities}
+    async def user_interaction(self, stop_event):
+        """Handle user interaction for web environment with stop capability"""
+        while not self.stop_flag:
+            if stop_event.is_set():
+                self.stop_flag = True
+                return
+            await asyncio.sleep(0.1)  # Check every second or adjust as needed
+    async def show_progress(self):
+        """Display crawl progress in real-time"""
+        while not self.stop_flag:
+            print(f"\r[Progress] Processed URLs: {self.processed_pages} | Articles Found: {self.found_articles}", end="", flush=True)
+            await asyncio.sleep(CONFIG["ui"]["progress_refresh"])
+        print("\n")
+    def generate_fingerprint(self, text):
+        """Generate content fingerprint for deduplication"""
+        features = jieba.cut(text)
+        return Simhash(' '.join(features)).value
+    async def fetch_page(self, session, url):
+        """Fetch web page content with logging and user-agent rotation"""
+        async with self.semaphore:
+            try:
+                # Add a random delay to simulate human-like behavior
+                await asyncio.sleep(random.uniform(1, 3))
+                async with session.get(url, timeout=CONFIG["crawl_rules"]["timeout"], headers={'User-Agent': self.get_random_user_agent()}) as response:
+                    if response.status == 200:
+                        return await response.text()
                     else:
-                        num = offset
-                        
-                    if unit == 'month':
-                        date = date.replace(month=date.month + num)
-                    elif unit == 'year':
-                        date = date.replace(year=date.year + num)
-                    elif unit == 'quarter':
-                        date = date.replace(month=date.month + 3*num)
-                    elif unit == 'day':
-                        date = date + timedelta(days=num)
-                        
-                    dates.append({
-                        'date': date.strftime('%Y-%m-%d'),
-                        'original': match.group(0),
-                        'context': text[max(0, match.start()-20):match.end()+20]
-                    })
-                except:
-                    continue
-
-        # 去重并排序
-        unique_dates = []
-        seen = set()
-        for date_info in sorted(dates, key=lambda x: x['date']):
-            if date_info['date'] not in seen:
-                seen.add(date_info['date'])
-                unique_dates.append(date_info)
-
-        return unique_dates if unique_dates else None
-
-class EventDetector:
-    def __init__(self):
-        self.translator = Translator()
-    
-    def translate_content(self, text):
-        try:
-            # 简单的英文摘要，避免翻译问题
-            return f"News summary from {datetime.now().strftime('%Y-%m-%d')}"
-        except:
-            return ""
-
-    def analyze_event(self, text):
-        # 使用jieba进行分词和词性标注
-        words = pseg.cut(text)
-        entities = []
+                        self.logger.warning(f"Fetching {url} failed with status code: {response.status}")
+            except Exception as e:
+                self.logger.error(f"Error fetching {url}: {str(e)}")
+                self.log_operation({"url": url, "error": str(e)})
+            return None
+    def get_random_user_agent(self):
+        # Return a random user agent from the list
+        return random.choice(self.user_agents)
+    def extract_links(self, html, base_url):
+        """Extract links from page content"""
+        soup = BeautifulSoup(html, 'html.parser')
+        links = set()
+        for a in soup.find_all('a', href=True):
+            href = urljoin(base_url, a['href'])
+            if href not in self.visited:
+                links.add(href)
+        return list(links)
+    def parse_content(self, html, url):
+        """Parse page content, including sentences with future dates"""
+        soup = BeautifulSoup(html, 'html.parser')
+        content = soup.get_text()
+        title = soup.title.string if soup.title else "No Title"
         
-        # 实体识别（简化版）
-        for word, flag in words:
-            if flag.startswith('n'):  # 名词
-                entities.append({
-                    'text': word,
-                    'label': 'NOUN',
-                    'start': text.index(word),
-                    'end': text.index(word) + len(word)
-                })
+        # Detect language (very basic, might need a more sophisticated method)
+        is_cantonese = any(char in content for char in ['係', '哋', '佢', '咗'])
         
-        # 影响力计算
-        economic_terms = len([w for w, f in words if w in ['GDP', '投资', '亿元']])
-        gov_terms = len([w for w, f in words if f == 'nt'])  # 机构名词
-        impact_score = economic_terms*0.4 + gov_terms*0.3
+        # Extract images
+        images = [img['src'] for img in soup.find_all('img', src=True)[:1]]
         
+        text_to_search = f"{title} {content}"
+        
+        if len(text_to_search) < CONFIG["content_rules"]["min_content_length"]:
+            return None
+        # Detect ads or repetitive content
+        if "广告" in content or "廣告" in content or len(set(content.split())) < 20:
+            return None
+        # Extract date, considering both Simplified and Traditional formats
+        date_match = re.search(r'\b(?:19|20)\d{2}[-\/年]\d{1,2}[-\/月](?:\d{1,2}[日号號])?\b|\b(?:\d{1,2}[日号號月])\b', text_to_search)
+        if date_match:
+            pub_date_str = date_match.group()
+            pub_date_str = pub_date_str.replace('年', '-').replace('月', '-').replace('/', '-').replace('號', '号')
+            pub_date = self.parse_date(pub_date_str, is_cantonese)
+        else:
+            # Log that no date was found
+            self.logger.info(f"No date found for article at {url}")
+            pub_date = None  # or set to some default value like datetime.now()
+        future_sentences = []
+        sentences = re.split(r'[。？！]', content)
+        for sentence in sentences:
+            if self.detect_future_dates({'content': sentence, 'pub_date': pub_date}, is_cantonese):
+                future_sentences.append(sentence.strip())
+                break
         return {
-            'impact': impact_score,
-            'entities': entities,
-            'translated': self.translate_content(text[:500])
+            "title": title,
+            "content": content,
+            "pub_date": pub_date,
+            "url": url,
+            "images": images,
+            "future_sentences": future_sentences[:1]
         }
-
-class ReportGenerator:
-    def __init__(self):
-        self.last_content = set()  # 用于存储上次的新闻内容
-
-    def is_new_content(self, news_items):
-        # 将当前新闻转换为可哈希的形式用于比较
-        current_content = set()
-        for item in news_items:
-            # 使用标题和内容的组合作为唯一标识
-            content_id = f"{item['title']}_{item['dates']}"
-            current_content.add(content_id)
-        
-        # 检查是否有新内容
-        is_new = current_content != self.last_content
-        # 更新存储的内容
-        self.last_content = current_content
-        return is_new
-
-    def generate_html(self, news_items):
+    def parse_date(self, date_str, is_cantonese=False):
+        """Parse date string, considering the language context"""
+        settings = {'PREFER_DAY_OF_MONTH': 'first', 'RELATIVE_BASE': datetime.now()}
+        languages = ['zh'] if not is_cantonese else ['zh-HK', 'zh-TW']
+        parsed_date = dateparser.parse(date_str, settings=settings, languages=languages)
+        return parsed_date if parsed_date else None
+    def detect_future_dates(self, article, is_cantonese=False):
+        """Detect future dates in content using synonyms"""
+        if not article['pub_date']:
+            return False
+        future_dates = []
+        base_date = article['pub_date']
+        content_lower = article['content'].lower()
+        for key, synonyms in FUTURE_DATE_SYNONYMS.items():
+            for synonym in synonyms:
+                if synonym in content_lower:
+                    if '下月' in key:
+                        future_dates.append(base_date + timedelta(days=30))
+                    elif '下周' in key:
+                        future_dates.append(base_date + timedelta(days=7))
+                    elif '明年' in key:
+                        future_dates.append(base_date.replace(year=base_date.year + 1))
+                    elif '未来' in key:
+                        match = re.search(r'(\d+)(?:天|日)', content_lower)
+                        days = int(match.group(1)) if match else 7
+                        future_dates.append(base_date + timedelta(days=days))
+                    elif '近期' in key:
+                        future_dates.append(base_date + timedelta(days=7))  # Assume within one week
+                    elif '後年' in key:
+                        future_dates.append(base_date.replace(year=base_date.year + 2))
+                    elif '不久' in key:
+                        future_dates.append(base_date + timedelta(days=7))  # Assume within one week
+        # Regex for direct date mentions
+        date_patterns = r'\b(?:19|20)\d{2}[-\/年]\d{1,2}[-\/月](?:\d{1,2}[日号號])?\b|\b(?:\d{1,2}[日号號月])\b'
+        absolute_dates = re.findall(date_patterns, article['content'])
+        for d in absolute_dates:
+            dt = dateparser.parse(d, languages=['zh'])
+            if dt and dt > datetime.now() + timedelta(days=CONFIG["content_rules"]["future_days_threshold"]):
+                future_dates.append(dt)
+        return len(future_dates) > 0
+    async def process_page(self, session, url, depth):
+        """Process a single page with logging, considering user-specified days range"""
+        if self.stop_flag or depth > CONFIG["crawl_rules"]["max_depth"]:
+            return
+        if url in self.visited:
+            return
+        self.visited.add(url)
+        self.logger.info(f"Processing page: {url} at depth {depth}")
+        html = await self.fetch_page(session, url)
+        if not html:
+            return
+        article = self.parse_content(html, url)
+        if article:
+            self.logger.info(f"Article parsed from {url}")
+            if self.is_within_days_range(article['pub_date']):
+                self.logger.info(f"Article date within range: {url}")
+                if self.detect_future_dates(article):
+                    self.logger.info(f"Future event detected in {url}")
+                    if any(kw in article['title'].lower() or kw in article['content'].lower() for kw in self.expanded_keywords):
+                        self.logger.info(f"Keywords found in {url}")
+                        self.save_article(article)
+                        self.found_articles += 1
+                        self.future_articles.append(article)
+                        self.logger.info(f"Article saved: {url}")
+                    else:
+                        self.logger.info(f"No relevant keywords found in {url}")
+                else:
+                    self.logger.info(f"No future event detected in {url}")
+            else:
+                self.logger.info(f"Article date out of range: {url}")
+        else:
+            self.logger.info(f"No article content extracted from {url}")
+        if depth < CONFIG["crawl_rules"]["max_depth"]:
+            links = self.extract_links(html, url)
+            for link in links[:CONFIG["crawl_rules"]["max_pages"] // (depth+1)]:
+                await self.crawl_queue.put((link, depth+1))
+        self.processed_pages += 1
+    def is_within_days_range(self, pub_date):
+        """Check if the publication date is within the user-specified range"""
+        if pub_date is None:
+            return False  # or handle this case differently if needed
+        today = datetime.now().date()
+        days_ago = today - timedelta(days=self.days_range - 1)
+        return days_ago <= pub_date.date() <= today
+    def save_article(self, article):
+        """Save article to file"""
+        filename = f"article_{hashlib.md5(article['url'].encode()).hexdigest()}.json"
+        path = os.path.join(CONFIG["storage"]["output_dir"], filename)
+        with open(path, 'w', encoding='utf-8') as f:
+            json.dump({
+                "meta": {
+                    "url": article['url'],
+                    "pub_date": article['pub_date'].isoformat() if article['pub_date'] else "Unknown"
+                },
+                "content": article['content']
+            }, f, ensure_ascii=False)
+    def log_operation(self, log_entry):
+        """Log operations"""
+        with open(CONFIG["storage"]["log_file"], 'a', encoding='utf-8') as f:
+            f.write(json.dumps(log_entry, ensure_ascii=False) + '\n')
+    async def task_dispatcher(self, session):
+        """Task dispatcher"""
+        for city, urls in self.filtered_entry_points.items():
+            for link in urls:
+                await self.crawl_queue.put((link['url'], 0))
+        while not self.stop_flag and not self.crawl_queue.empty():
+            url, depth = await self.crawl_queue.get()
+            await self.process_page(session, url, depth)
+        await self.crawl_queue.join()
+    def generate_report(self):
+        """Generate a report after crawling including an HTML file with future articles and sentences."""
         html_template = """
-        <html>
-        <head>
-            <title>大湾区新闻简报 {date}</title>
-            <meta charset="utf-8">
-            <style>
-                body {{ font-family: Arial, sans-serif; margin: 20px; }}
-                .event-card {{ 
-                    border: 1px solid #ddd; 
-                    padding: 15px; 
-                    margin: 10px; 
-                    border-radius: 5px;
-                    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-                }}
-                .highlight {{ color: #e74c3c; font-weight: bold; }}
-                h1, h3 {{ color: #2c3e50; }}
-            </style>
-        </head>
-        <body>
-            <h1>粤港澳大湾区每日简报</h1>
-            <h3>{date}</h3>
-            {content}
-        </body>
-        </html>
-        """
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大湾区新闻监测报告</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .news-card {
+            margin-bottom: 20px;
+            transition: transform 0.3s;
+        }
+        .news-card:hover {
+            transform: scale(1.02);
+        }
+        .card-title a {
+            color: #333;
+        }
+        .card-title a:hover {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .news-image {
+            max-height: 200px;
+            object-fit: cover;
+        }
+        .keyword-highlight {
+            background-color: #ffeeba;
+            padding: 0 2px;
+        }
+    </style>
+</head>
+<body class="bg-light">
+    <div class="container py-5">
+        <h1 class="mb-4 text-center"><i class="fas fa-newspaper me-2"></i>大湾区新闻监测报告</h1>
         
-        content = []
-        for item in news_items:
-            content.append(f"""
-            <div class="event-card">
-                <h2>{item['title']}</h2>
-                <p><span class="highlight">发生时间:</span> {', '.join(item['dates'])}</p>
-                <p><span class="highlight">影响城市:</span> {item['city']}</p>
-                <p>{item['summary']}</p>
-                <p>English Summary: {item['translated']}</p>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card news-card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-chart-bar me-2"></i>统计概览</h5>
+                        <ul class="list-unstyled">
+                            <li>已处理页面: {{ processed_pages }}</li>
+                            <li>发现文章数: {{ found_articles }}</li>
+                            <li>未来事件文章: {{ future_articles_count }}</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            """)
+        </div>
+        <div class="row">
+            {% for article in future_articles %}
+            <div class="col-md-6 mb-4">
+                <div class="card news-card h-100">
+                    {% if article.images %}
+                    <img src="{{ article.images[0] }}" class="card-img-top news-image" alt="新闻配图">
+                    {% endif %}
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a href="{{ article.url }}" target="_blank">
+                                {{ article.title }}
+                            </a>
+                        </h5>
+                        <p class="card-text">
+                            <small class="text-muted">
+                                <i class="fas fa-clock me-1"></i>
+                                {{ article.pub_date.strftime('%Y-%m-%d %H:%M') if article.pub_date else "未知" }}
+                            </small>
+                        </p>
+                        <div class="card-text">
+                            {% for sentence in article.future_sentences %}
+                            <p>
+                            {% set sentence = article.future_sentences[0] %}
+                            {% for word in jieba.cut(sentence) %}
+                                {% if word in expanded_keywords %}
+                                <span class="keyword-highlight">{{ word }}</span>
+                                {% else %}
+                                {{ word }}
+                                {% endif %}
+                            {% endfor %}
+                            </p>
+                            {% endfor %}
+                        </div>
+                        <a href="{{ article.url }}" class="btn btn-outline-primary btn-sm" target="_blank">阅读全文</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
+        """
+        report_path = os.path.join(CONFIG["storage"]["output_dir"], "report.html")
         
-        return html_template.format(
-            date=datetime.now().strftime('%Y-%m-%d'),
-            content='\n'.join(content)
-        )
-
-# 初始化系统组件
-crawler = GBANewsCrawler()
-analyzer = TemporalAnalyzer()
-detector = EventDetector()
-generator = ReportGenerator()
-
-def daily_pipeline():
-    print("\n=== 开始抓取新闻 ===")
-    news_items = []
-    
-    # 数据采集
-    for city, url in crawler.sources.items():
-        print(f"\n正在抓取{city}新闻...")
-        articles = crawler.recursive_crawl(url)
-        
-        for article in articles:
-            # 先检查是否包含未来时间
-            future_dates = analyzer.detect_future_dates(article['content'])
-            if future_dates and any(
-                datetime.strptime(date_info['date'], '%Y-%m-%d') > datetime.now() 
-                for date_info in future_dates
-            ):
-                analysis = detector.analyze_event(article['content'])
-                news_items.append({
-                    'city': city,
-                    'title': article['title'],
-                    'dates': [date_info['date'] for date_info in future_dates],
-                    'date_contexts': [date_info['context'] for date_info in future_dates],
-                    'summary': analysis['entities'][:3],
-                    'translated': analysis['translated'],
-                    'impact': analysis['impact'],
-                    'url': article['url']
-                })
-                print(f"发现未来事件新闻：{article['title']}")
-    
-    if not news_items:
-        print("\n未获取到包含未来时间的新闻")
-        return
-    
-    # 检查是否有新内容
-    if not generator.is_new_content(news_items):
-        print("\n没有新的新闻内容，不生成新报告")
-        return
-        
-    # 生成报告
-    try:
-        html_report = generator.generate_html(news_items)
-        
-        # 创建输出目录
-        output_dir = f'crawl_results_{datetime.now().strftime("%d%b%Y")}'
-        os.makedirs(output_dir, exist_ok=True)
-        
-        # 保存报告
-        report_path = os.path.join(output_dir, f'report_{datetime.now().strftime("%Y%m%d")}.html')
         with open(report_path, 'w', encoding='utf-8') as f:
-            f.write(html_report)
-        
-        # 保存原始数据
-        data_path = os.path.join(output_dir, 'raw_data.json')
-        with open(data_path, 'w', encoding='utf-8') as f:
-            json.dump(news_items, f, ensure_ascii=False, indent=2)
-        
-        print(f"\n=== 抓取完成 ===")
-        print(f"共获取 {len(news_items)} 条新闻")
-        print(f"报告已保存至：{output_dir}/")
-    except Exception as e:
-        print(f"\n保存文件时发生错误: {str(e)}")
-
-# 定时任务配置
-scheduler = BackgroundScheduler()
-scheduler.add_job(daily_pipeline, 'cron', hour=8)
-scheduler.start()
-
-if __name__ == "__main__":
-    daily_pipeline()
+            rendered_html = Template(html_template).render(
+                future_articles=self.future_articles,
+                expanded_keywords=self.expanded_keywords,
+                jieba=jieba,
+                processed_pages=self.processed_pages,
+                found_articles=self.found_articles,
+                future_articles_count=len(self.future_articles)
+            )
+            f.write(rendered_html)
+        self.logger.info(f"生成可视化报告：{report_path}")
+    async def run(self, stop_event):
+        """Main run function with stop capability"""
+        try:
+            async with aiohttp.ClientSession() as session:
+                self.stop_flag = False
+                # Use asyncio.gather to run tasks concurrently
+                await asyncio.gather(
+                    self.task_dispatcher(session),
+                    self.user_interaction(stop_event),
+                    self.show_progress()
+                )
+        except asyncio.CancelledError:
+            self.logger.warning("Crawler was forcibly stopped.")
+        finally:
+            # Ensure report generation and logging occur regardless of how the function exits
+            self.generate_report()
+            self.logger.info(f"\nProcessed {self.processed_pages} pages and found {self.found_articles} articles.")

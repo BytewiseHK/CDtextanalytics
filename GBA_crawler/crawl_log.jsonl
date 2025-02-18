@@ -1,92 +1,294 @@
-{"url": "https://www.pconline.com.cn/", "error": "'utf-8' codec can't decode byte 0xd1 in position 3673: invalid continuation byte"}
-{"url": "http://www.visionox.com", "error": "Cannot connect to host www.visionox.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')]"}
+{"url": "https://news.hizh.cn/", "error": "Cannot connect to host news.hizh.cn:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://pub-zhtb.hizh.cn/a/202502/17/AP67b2777ae4b06341ea6b86f2.html", "error": ""}
+{"url": "http://www.qzwb.com/", "error": "Cannot connect to host www.qzwb.com:80 ssl:default [远程计算机拒绝网络连接。]"}
+{"url": "https://zt.zhrct.com/zyp/zhw/about-us.html", "error": ""}
+{"url": "https://www.zhjubao.cn/enter.html?damagetype=8", "error": ""}
+{"url": "http://www.cnnb.com.cn/", "error": "'utf-8' codec can't decode byte 0xd6 in position 509: invalid continuation byte"}
+{"url": "https://zt.zhrct.com/zyp/2021/zhtqb_ad/", "error": ""}
+{"url": "https://zt.zhrct.com/zyp/zhw/download.html", "error": ""}
+{"url": "https://zt.zhrct.com/zyp/zhw/contact-us.html", "error": ""}
+{"url": "https://zt.zhrct.com/zyp/zhw/copyright.html", "error": ""}
+{"url": "http://www.kunming.cn/", "error": "Server disconnected"}
+{"url": "https://pub-zhtb.hizh.cn/a/202307/05/AP64a4e39ee4b0446cf6a9362f.html", "error": ""}
+{"url": "https://wmzhgyggk.zhrct.com/html/", "error": ""}
+{"url": "http://www.sun0769.com/", "error": "'utf-8' codec can't decode byte 0xb6 in position 108: invalid start byte"}
+{"url": "http://www.huizhou.cn/", "error": "'utf-8' codec can't decode byte 0xbd in position 320: invalid start byte"}
+{"url": "javascript:void(0);", "error": "javascript:void(0);"}
+{"url": "https://www.discoverhongkong.com/content/dam/dhk/enhancement/excel/pdf/concerts-tc.pdf", "error": "'utf-8' codec can't decode byte 0xb5 in position 11: invalid start byte"}
 {"url": "javascript:void(0)", "error": "javascript:void(0)"}
-{"url": "https://www.sznews.com/news/index_43.htm", "error": ""}
-{"url": "https://www.ledchina.com", "error": "Cannot connect to host www.ledchina.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')]"}
-{"url": "https://www.sznews.com/news/node_305310.htm", "error": ""}
-{"url": "http://www.sznews.com/zhuanti/content/2021-12/08/content_24798407.htm", "error": ""}
-{"url": "https://www.sznews.com/zhuanti/node_239632.htm", "error": ""}
+{"url": "tel:25824807", "error": "tel:25824807"}
+{"url": "tel:28879531", "error": "tel:28879531"}
+{"url": "tel:28875526", "error": "tel:28875526"}
+{"url": "tel:25824798", "error": "tel:25824798"}
+{"url": "tel:25516500", "error": "tel:25516500"}
+{"url": "javascript: eventsAndFestivals.viewMode('calendar');", "error": "javascript:%20eventsAndFestivals.viewMode('calendar');"}
+{"url": "javascript: eventsAndFestivals.viewMode('list');", "error": "javascript:%20eventsAndFestivals.viewMode('list');"}
+{"url": "javascript:toggle_searchform(1);", "error": "javascript:toggle_searchform(1);"}
+{"url": "javascript:toggle_searchform(0);", "error": "javascript:toggle_searchform(0);"}
+{"url": "javascript: eventsAndFestivals.submit();", "error": "javascript:%20eventsAndFestivals.submit();"}
+{"url": "javascript: ZMSUI['calendarViewJS'].next(this, '2025/2/1');", "error": "javascript:%20ZMSUI%5B'calendarViewJS'%5D.next(this,%20'2025/2/1');"}
+{"url": "javascript: ZMSUI['calendarViewJS'].prev(this, '2025/2/1');", "error": "javascript:%20ZMSUI%5B'calendarViewJS'%5D.prev(this,%20'2025/2/1');"}
+{"url": "mailto:info@hktb.com", "error": "mailto:info@hktb.com"}
+{"url": "https://www.discoverhongkong.com/content/dam/dhk/intl/about-website/terms_and_conditions_submission_reproduction_of_picture_TC.pdf", "error": "'utf-8' codec can't decode byte 0xf6 in position 10: invalid start byte"}
+{"url": "http://www.hko.gov.hk/contentc.htm", "error": "'utf-8' codec can't decode byte 0xad in position 78: invalid start byte"}
+{"url": "mailto:megaevents@hktb.com", "error": "mailto:megaevents@hktb.com"}
+{"url": "https://www.censtatd.gov.hk/FileManager/EN/Content_93/Table_1_HKIECL_20122013_20121105.pdf", "error": "'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte"}
+{"url": "https://www.censtatd.gov.hk/FileManager/EN/Content_93/Table%201_HKIECL_2009_2010.pdf", "error": "'utf-8' codec can't decode byte 0xc7 in position 10: invalid continuation byte"}
+{"url": "https://www.censtatd.gov.hk/FileManager/EN/Content_93/table_1_HKHS_2017_2018.pdf", "error": "'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte"}
+{"url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B2XX0012/att/B2XX0012012022XXXXB0100.pdf", "error": "'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte"}
+{"url": "https://www.censtatd.gov.hk/FileManager/EN/Content_93/Correlation2022_HK-HS.pdf", "error": "'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte"}
+{"url": "https://www.censtatd.gov.hk/FileManager/EN/Content_93/HKIECL2014_amendment_booklet_20131016.pdf", "error": "'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte"}
+{"url": "https://www.censtatd.gov.hk/FileManager/EN/Content_93/HKIECL2017_amendment_booklet_20161102.pdf", "error": "'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte"}
+{"url": "https://www.censtatd.gov.hk/FileManager/EN/Content_93/Clothing.pdf", "error": "'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte"}
+{"url": "https://www.censtatd.gov.hk/FileManager/EN/Content_93/HKIECL2024_amendment.pdf", "error": "'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte"}
+{"url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B2XX0011/att/B2XX00192012XXXXB0100.pdf", "error": "'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte"}
+{"url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B2XX0012/att/B2XX00122007XXXXB0400.pdf", "error": "'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte"}
+{"url": "https://www.censtatd.gov.hk/FileManager/EN/Content_93/HKIECL2012_amendment_booklet_20130624.pdf", "error": "'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte"}
+{"url": "https://www.censtatd.gov.hk/FileManager/EN/Content_93/HKIECL2007_amend_booklet_20081121.pdf", "error": "'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte"}
+{"url": "https://www.censtatd.gov.hk/FileManager/EN/Content_93/Table1_HKIECL_20082009_20091120.pdf", "error": "'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte"}
+{"url": "https://www.censtatd.gov.hk/FileManager/EN/Content_93/HKIECL2011_amendment_booklet_20101119.pdf", "error": "'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte"}
+{"url": "https://www.censtatd.gov.hk/FileManager/EN/Content_93/Table2_HKIECL_20092008_20091120.pdf", "error": "'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte"}
+{"url": "https://www.censtatd.gov.hk/FileManager/SC/Content_93/Table2_HKIECL_2008_2007.pdf", "error": "'utf-8' codec can't decode byte 0xe2 in position 11: invalid continuation byte"}
+{"url": "https://www.censtatd.gov.hk/FileManager/SC/Content_93/Table1_HKIECL_2008_2007.pdf", "error": "'utf-8' codec can't decode byte 0xe2 in position 11: invalid continuation byte"}
+{"url": "https://www.censtatd.gov.hk/FileManager/EN/Content_93/Table_2_HKHS_20142013_20131107.pdf", "error": "'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte"}
+{"url": "https://www.censtatd.gov.hk/FileManager/EN/Content_93/Food_2022.pdf", "error": "'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte"}
+{"url": "https://www.censtatd.gov.hk/FileManager/EN/Content_93/table_1_HKHS_2020_2021.pdf", "error": "'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte"}
+{"url": "https://www.censtatd.gov.hk/FileManager/EN/Content_93/Table_2_HKIECL_20132012_20121105.pdf", "error": "'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte"}
+{"url": "https://www.censtatd.gov.hk/FileManager/EN/Content_93/HKIECL2015_amendment_booklet_20141030.pdf", "error": "'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte"}
+{"url": "https://www.censtatd.gov.hk/FileManager/EN/Content_93/Table2_HKIECL_20102009_20091120.pdf", "error": "'utf-8' codec can't decode byte 0xc7 in position 10: invalid continuation byte"}
+{"url": "https://oqs.censtatd.gov.hk/SCOP", "error": "Cannot connect to host oqs.censtatd.gov.hk:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')]"}
+{"url": "mailto:regional-offices@censtatd.gov.hk", "error": "mailto:regional-offices@censtatd.gov.hk"}
+{"url": "https://oqs.censtatd.gov.hk/SME", "error": "Cannot connect to host oqs.censtatd.gov.hk:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')]"}
+{"url": "mailto:mrs@censtatd.gov.hk", "error": "mailto:mrs@censtatd.gov.hk"}
+{"url": "https://oqs.censtatd.gov.hk/GHS", "error": "Cannot connect to host oqs.censtatd.gov.hk:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')]"}
+{"url": "https://oqs.censtatd.gov.hk/QBTS", "error": "Cannot connect to host oqs.censtatd.gov.hk:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')]"}
+{"url": "mailto:sev-cre@censtatd.gov.hk", "error": "mailto:sev-cre@censtatd.gov.hk"}
+{"url": "mailto:business-prospects@censtatd.gov.hk", "error": "mailto:business-prospects@censtatd.gov.hk"}
+{"url": "mailto:household-survey@censtatd.gov.hk", "error": "mailto:household-survey@censtatd.gov.hk"}
+{"url": "https://www.lwb.gov.hk/sc/other_info/Covering%20Note_Chi_fin.pdf", "error": "'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte"}
+{"url": "mailto:aehs@censtatd.gov.hk", "error": "mailto:aehs@censtatd.gov.hk"}
+{"url": "mailto:ims@censtatd.gov.hk", "error": "mailto:ims@censtatd.gov.hk"}
+{"url": "mailto:ind-production@censtatd.gov.hk", "error": "mailto:ind-production@censtatd.gov.hk"}
+{"url": "mailto:construction-cost@censtatd.gov.hk", "error": "mailto:construction-cost@censtatd.gov.hk"}
+{"url": "mailto:qsmta@censtatd.gov.hk", "error": "mailto:qsmta@censtatd.gov.hk"}
+{"url": "mailto:building@censtatd.gov.hk", "error": "mailto:building@censtatd.gov.hk"}
+{"url": "mailto:rxs@censtatd.gov.hk", "error": "mailto:rxs@censtatd.gov.hk"}
+{"url": "mailto:secli@censtatd.gov.hk", "error": "mailto:secli@censtatd.gov.hk"}
+{"url": "mailto:cpi@censtatd.gov.hk", "error": "mailto:cpi@censtatd.gov.hk"}
+{"url": "mailto:tis@censtatd.gov.hk", "error": "mailto:tis@censtatd.gov.hk"}
+{"url": "mailto:asps@censtatd.gov.hk", "error": "mailto:asps@censtatd.gov.hk"}
+{"url": "mailto:sia@censtatd.gov.hk", "error": "mailto:sia@censtatd.gov.hk"}
+{"url": "mailto:econq2@censtatd.gov.hk", "error": "mailto:econq2@censtatd.gov.hk"}
+{"url": "mailto:qsr@censtatd.gov.hk", "error": "mailto:qsr@censtatd.gov.hk"}
+{"url": "mailto:es_1@censtatd.gov.hk", "error": "mailto:es_1@censtatd.gov.hk"}
+{"url": "mailto:hesurvey@censtatd.gov.hk", "error": "mailto:hesurvey@censtatd.gov.hk"}
+{"url": "mailto:ghs@censtatd.gov.hk", "error": "mailto:ghs@censtatd.gov.hk"}
+{"url": "mailto:webmaster@censtatd.gov.hk", "error": "mailto:webmaster@censtatd.gov.hk"}
+{"url": "https://www.censtatd.gov.hk/FileManager/EN/Concordance_WT_ET.pdf", "error": "'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte"}
+{"url": "https://www.censtatd.gov.hk/FileManager/SC/Common/Regular_Press_Releases_Schedule_2025.xlsx", "error": "'utf-8' codec can't decode byte 0x82 in position 16: invalid start byte"}
+{"url": "https://www.censtatd.gov.hk/FileManager/EN/Common/Schedule_of_Regular_Press_Releases_on_Statistical_Data_in_2025.pdf", "error": "'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte"}
+{"url": "http://www.info.gov.hk/isd/speech/csensp.htm", "error": "'utf-8' codec can't decode byte 0xff in position 0: invalid start byte"}
+{"url": "javascript:go2today('wr','c');", "error": "javascript:go2today('wr','c');"}
+{"url": "javascript:go2today('api','c');", "error": "javascript:go2today('api','c');"}
+{"url": "javascript:shareFacebook()", "error": "javascript:shareFacebook()"}
+{"url": "javascript:shareGooglePlus()", "error": "javascript:shareGooglePlus()"}
+{"url": "MAILTO:?subject=%E6%96%B0%E8%81%9E%E5%85%AC%E5%A0%B1%EF%BC%9A%E9%8A%80%E7%B7%9A%E7%81%A3%E6%B3%B3%E7%81%98%E5%8F%8A%E6%B8%85%E6%B0%B4%E7%81%A3%E7%AC%AC%E4%BA%8C%E7%81%A3%E6%B3%B3%E7%81%98%E6%87%B8%E6%8E%9B%E7%B4%85%E6%97%97&body=https%3A%2F%2Fwww.info.gov.hk%2Fgia%2Fgeneral%2F202502%2F17%2FP2025021700153.htm", "error": "mailto:?subject=%E6%96%B0%E8%81%9E%E5%85%AC%E5%A0%B1%EF%BC%9A%E9%8A%80%E7%B7%9A%E7%81%A3%E6%B3%B3%E7%81%98%E5%8F%8A%E6%B8%85%E6%B0%B4%E7%81%A3%E7%AC%AC%E4%BA%8C%E7%81%A3%E6%B3%B3%E7%81%98%E6%87%B8%E6%8E%9B%E7%B4%85%E6%97%97&body=https://www.info.gov.hk/gia/general/202502/17/P2025021700153.htm"}
+{"url": "javascript:shareTwitter()", "error": "javascript:shareTwitter()"}
+{"url": "mailto:wai@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0AI%20give%20permission%20to%20share%20this%20to%20a%20publicly-archived%20e-mail%20list.", "error": "mailto:wai@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0AI%20give%20permission%20to%20share%20this%20to%20a%20publicly-archived%20e-mail%20list."}
+{"url": "MAILTO:?subject=%E6%96%B0%E8%81%9E%E5%85%AC%E5%A0%B1%EF%BC%9A%E7%89%B9%E5%8D%80%E6%94%BF%E5%BA%9C%E6%84%9F%E8%AC%9D%E4%B8%AD%E5%A4%AE%E6%94%BF%E5%BA%9C%E5%92%8C%E5%85%A7%E5%9C%B0%E7%9B%B8%E9%97%9C%E5%96%AE%E4%BD%8D%E5%8D%94%E5%8A%9B%E5%8A%A9%E6%B8%AF%E6%8B%AF%E6%95%91%E5%A5%B3%E5%AC%B0%E7%94%9F%E5%91%BD&body=https%3A%2F%2Fwww.info.gov.hk%2Fgia%2Fgeneral%2F202502%2F17%2FP2025021600634.htm", "error": "mailto:?subject=%E6%96%B0%E8%81%9E%E5%85%AC%E5%A0%B1%EF%BC%9A%E7%89%B9%E5%8D%80%E6%94%BF%E5%BA%9C%E6%84%9F%E8%AC%9D%E4%B8%AD%E5%A4%AE%E6%94%BF%E5%BA%9C%E5%92%8C%E5%85%A7%E5%9C%B0%E7%9B%B8%E9%97%9C%E5%96%AE%E4%BD%8D%E5%8D%94%E5%8A%9B%E5%8A%A9%E6%B8%AF%E6%8B%AF%E6%95%91%E5%A5%B3%E5%AC%B0%E7%94%9F%E5%91%BD&body=https://www.info.gov.hk/gia/general/202502/17/P2025021600634.htm"}
+{"url": "mailto:mgto@macaotourism.gov.mo", "error": "mailto:mgto@macaotourism.gov.mo"}
+{"url": "tel:+85328315566", "error": "tel:+85328315566"}
+{"url": "tel:+85328333000", "error": "tel:+85328333000"}
+{"url": "https://content.macaotourism.gov.mo/uploads/mgto_main/mgto_chart_cn.jpg", "error": "'utf-8' codec can't decode byte 0xff in position 0: invalid start byte"}
+{"url": "https://bo.io.gov.mo/bo/i/2020/44/regadm41_cn.asp", "error": "'utf-8' codec can't decode byte 0xa6 in position 169: invalid start byte"}
+{"url": "http://bo.io.gov.mo/bo/i/2011/29/regadm18_cn.asp", "error": "'utf-8' codec can't decode byte 0xa6 in position 169: invalid start byte"}
+{"url": "https://bo.io.gov.mo/bo/ii/2020/43/avisosoficiais_cn.asp#dst ", "error": "'utf-8' codec can't decode byte 0xa6 in position 169: invalid start byte"}
+{"url": "https://concurso-uni.safp.gov.mo/sites/concurso/files/%E7%9F%A5%E8%AD%98%E8%80%83%E8%A9%A6%E5%85%AC%E4%BD%88%E5%8F%8A%E5%87%86%E8%80%83%E4%BA%BA%E9%A0%88%E7%9F%A5_v2.pdf", "error": ""}
+{"url": "https://concurso-uni.safp.gov.mo/safp/2023/3/14/3dffd146-7ccf-4bd0-83b0-48d3921964eb.pdf", "error": ""}
+{"url": "https://concurso-uni.safp.gov.mo/sites/concurso/files/%E6%97%85%E9%81%8A%E5%B1%80%E6%97%85%E9%81%8A%E6%9C%83%E5%B1%95%E5%8F%8A%E7%AF%80%E7%9B%AE%E7%AE%A1%E7%90%86%E7%AF%84%E7%96%87%E7%AC%AC%E4%B8%80%E8%81%B7%E9%9A%8E%E4%BA%8C%E7%AD%89%E9%AB%98%E7%B4%9A%E6%8A%80%E8%A1%93%E5%93%A1_%E7%A2%BA%E5%AE%9A%E5%90%8D%E5%96%AE.pdf", "error": ""}
+{"url": "https://concurso-uni.safp.gov.mo/safp/2023/4/18/f7e3ad42-444a-45ff-bc0c-1b5929b82ff6.pdf", "error": ""}
+{"url": "https://bo.io.gov.mo/bo/ii/2019/32/avisosoficiais_cn.asp#dst ", "error": "'utf-8' codec can't decode byte 0xa6 in position 157: invalid start byte"}
+{"url": "https://concurso-uni.safp.gov.mo/sites/concurso/files/ProvaEscrita_TS_TourismEvents_Location_20200722.pdf", "error": "'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte"}
+{"url": "https://concurso-uni.safp.gov.mo/safp/2022/12/22/5dd107a7-50a2-4f1f-b042-dabc394f5a8e.pdf", "error": ""}
+{"url": "https://content.macaotourism.gov.mo/uploads/mgto_events_festivals/2025CNY_fireworks.jpg", "error": "'utf-8' codec can't decode byte 0xff in position 0: invalid start byte"}
+{"url": "javascript:void(0)", "error": "javascript:void(0)"}
+{"url": "javascript:reload_captcha_67b2e56aecae7();", "error": "javascript:reload_captcha_67b2e56aecae7();"}
+{"url": "https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44010602000346", "error": "Cannot connect to host www.beian.gov.cn:443 ssl:default [远程计算机拒绝网络连接。]"}
+{"url": "javascript:void(0)", "error": "javascript:void(0)"}
+{"url": "http://www.gjhsjssb.com/", "error": "'utf-8' codec can't decode byte 0xc9 in position 118: invalid continuation byte"}
+{"url": "javascript:;", "error": "javascript:;"}
 {"url": "https://www6.sznews.com/tech/content/2022-02/11/content_24928086.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://szbbs.sznews.com/thread-4317274-1-1.html", "error": ""}
-{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787125.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787114.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www6.sznews.com/zhuanti/content/2021-11/26/content_24771038.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www6.sznews.com/zhuanti/content/2022-02/21/content_24947098.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://szbbs.sznews.com/thread-4318031-1-1.html", "error": ""}
 {"url": "https://www6.sznews.com/zhuanti/content/2021-11/26/content_24771035.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787114.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://szbbs.sznews.com/thread-4317274-1-1.html", "error": ""}
+{"url": "https://szbbs.sznews.com/thread-4318541-1-1.html", "error": ""}
 {"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787108.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://www6.sznews.com/zhuanti/content/2022-02/21/content_24947098.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://www6.sznews.com/zhuanti/content/2021-11/26/content_24771038.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "http://www.saichen.cn", "error": "'utf-8' codec can't decode byte 0xb9 in position 69: invalid start byte"}
-{"url": "tel:0755-25183336", "error": "tel:0755-25183336"}
-{"url": "tel:400-800-9385", "error": "tel:400-800-9385"}
-{"url": "http://www.miibeian.gov.cn/", "error": "Cannot connect to host www.miibeian.gov.cn:80 ssl:default [getaddrinfo failed]"}
-{"url": "javascript:;", "error": "javascript:;"}
-{"url": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35010402350923", "error": "Cannot connect to host www.beian.gov.cn:80 ssl:default [远程计算机拒绝网络连接。]"}
-{"url": "https://www.baijing.cn/static/img/zzxkz_20200710.jpg", "error": "'utf-8' codec can't decode byte 0xff in position 0: invalid start byte"}
-{"url": "https://url.uk.m.mimecastprotect.com/s/nR3nCjRwLh9X16pIWfxuxLtk9?domain=dunsregistered.dnb.com", "error": ""}
-{"url": "http://searchToggle", "error": "Cannot connect to host searchtoggle:80 ssl:default [getaddrinfo failed]"}
-{"url": "https://www.petzd.com/", "error": "Cannot connect to host www.petzd.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://www.petking.cn", "error": "Cannot connect to host www.petking.cn:443 ssl:default [[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)]"}
-{"url": "http://www.szpetfair.com/wzdt/sitemap.html", "error": "'utf-8' codec can't decode byte 0xc9 in position 252: invalid continuation byte"}
-{"url": "https://www.scte-cn.com/", "error": "Cannot connect to host www.scte-cn.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://www.strlaser.com/", "error": ""}
-{"url": "javascript:window.external.addFavorite('http://sz.51anju.com','无忧安居网');", "error": "javascript:window.external.addFavorite('http://sz.51anju.com','%E6%97%A0%E5%BF%A7%E5%AE%89%E5%B1%85%E7%BD%91');"}
-{"url": "javascript:history.back();", "error": "javascript:history.back();"}
-{"url": "https://www.zhandada.com", "error": "Cannot connect to host www.zhandada.com:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.zhandada.com'. (_ssl.c:1000)\")]"}
-{"url": "http://expo.u520.net/", "error": "[WinError 64] 指定的网络名不再可用。"}
-{"url": "http://www.beareyes.com.cn/", "error": "'gb2312' codec can't decode byte 0xa8 in position 5398: illegal multibyte sequence"}
-{"url": "https://www.pchome.net/", "error": ""}
-{"url": "http://www.gjhsjssb.com/", "error": "'utf-8' codec can't decode byte 0xc9 in position 118: invalid continuation byte"}
-{"url": "https://www.szcec.com/Public/upload/download/20160624111033p9jbqk.jpg", "error": "'utf-8' codec can't decode byte 0xff in position 0: invalid start byte"}
-{"url": "https://www.szcec.com/Public/upload/download/fwzn2023.pdf", "error": ""}
-{"url": "https://www.szcec.com/Public/upload/download/201606241117198frurx.jpg", "error": "'utf-8' codec can't decode byte 0xff in position 0: invalid start byte"}
+{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787115.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
 {"url": "javascript:void(0)", "error": "javascript:void(0)"}
+{"url": "https://zt.zhrct.com/zyp/zhw/contact-us.html", "error": ""}
+{"url": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44040202000315", "error": "Cannot connect to host www.beian.gov.cn:80 ssl:default [远程计算机拒绝网络连接。]"}
+{"url": "http://www.huizhou.cn/", "error": "'utf-8' codec can't decode byte 0xbd in position 320: invalid start byte"}
+{"url": "https://zt.zhrct.com/zyp/zhw/copyright.html", "error": ""}
+{"url": "http://www.sun0769.com/", "error": "'utf-8' codec can't decode byte 0xb6 in position 108: invalid start byte"}
+{"url": "https://www.zhjubao.cn/enter.html?damagetype=8", "error": ""}
+{"url": "javascript:void(0);", "error": "javascript:void(0);"}
+{"url": "javascript:;", "error": "javascript:;"}
+{"url": "https://zt.zhrct.com/zyp/zhw/download.html", "error": ""}
+{"url": "https://zt.zhrct.com/zyp/2021/zhtqb_ad/", "error": ""}
+{"url": "http://www.xjrb.com/aboutus/xxwlcbstjmxkz.html", "error": "'utf-8' codec can't decode byte 0xd0 in position 282: invalid continuation byte"}
+{"url": "https://weibo.com/xjrb", "error": "'utf-8' codec can't decode byte 0xca in position 339: invalid continuation byte"}
+{"url": "http://www.xjrb.com/aboutus/xwxxxk.html", "error": "'utf-8' codec can't decode byte 0xd6 in position 282: invalid continuation byte"}
+{"url": "javascript:void(0)", "error": "javascript:void(0)"}
+{"url": "http://www.intertextile.com.cn/", "error": "'utf-8' codec can't decode byte 0xd6 in position 193: invalid continuation byte"}
 {"url": "javascript:;", "error": "javascript:;"}
 {"url": "https://www.ledchina.com", "error": "Cannot connect to host www.ledchina.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')]"}
-{"url": "http://www.intertextile.com.cn/", "error": "'utf-8' codec can't decode byte 0xd6 in position 193: invalid continuation byte"}
-{"url": "http://www.gjhsjssb.com/", "error": "'utf-8' codec can't decode byte 0xc9 in position 118: invalid continuation byte"}
-{"url": "https://www.sznews.com/news/content/2024-11/20/content_31364262.htm", "error": ""}
+{"url": "http://www.miibeian.gov.cn/", "error": "Cannot connect to host www.miibeian.gov.cn:80 ssl:default [getaddrinfo failed]"}
+{"url": "https://szbbs.sznews.com/thread-4318541-1-1.html", "error": ""}
 {"url": "https://www6.sznews.com/zhuanti/content/2021-11/26/content_24771038.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://www6.sznews.com/tech/content/2022-02/11/content_24928086.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787136.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://www6.sznews.com/zhuanti/content/2022-02/21/content_24947098.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787115.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
 {"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787125.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
 {"url": "https://szbbs.sznews.com/thread-4318031-1-1.html", "error": ""}
-{"url": "javascript:void(0);", "error": "javascript:void(0);"}
-{"url": "mailto:logimat-china@messenanjing.cn", "error": "mailto:logimat-china@messenanjing.cn"}
-{"url": "javascript:null", "error": "javascript:null"}
-{"url": "http://www.weibo.com/designshowshanghai", "error": "'utf-8' codec can't decode byte 0xca in position 339: invalid continuation byte"}
-{"url": "https://live.sztv.com.cn/live/watch/m28pg8dm", "error": "Cannot connect to host live.sztv.com.cn:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'live.sztv.com.cn'. (_ssl.c:1000)\")]"}
-{"url": "https://www.scte-cn.com/", "error": "Cannot connect to host www.scte-cn.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "http://www.bubugoo.com", "error": "Cannot connect to host www.bubugoo.com:80 ssl:default [远程计算机拒绝网络连接。]"}
-{"url": "http://www.miibeian.gov.cn/", "error": "Cannot connect to host www.miibeian.gov.cn:80 ssl:default [getaddrinfo failed]"}
-{"url": "javascript: void(0);", "error": "javascript:%20void(0);"}
-{"url": "https://www.scmfair.com/?m322page=1", "error": "Response payload is not completed: <TransferEncodingError: 400, message='Not enough data for satisfy transfer length header.'>"}
-{"url": "https://www.scmfair.com/?m322page=2", "error": "Response payload is not completed: <TransferEncodingError: 400, message='Not enough data for satisfy transfer length header.'>"}
-{"url": "https://www.sznews.com/news/", "error": ""}
-{"url": "http://www.gjhsjssb.com/", "error": "'utf-8' codec can't decode byte 0xc9 in position 118: invalid continuation byte"}
-{"url": "http://www.intertextile.com.cn/", "error": "'utf-8' codec can't decode byte 0xd6 in position 193: invalid continuation byte"}
-{"url": "javascript:;", "error": "javascript:;"}
-{"url": "https://www6.sznews.com/zhuanti/content/2021-11/26/content_24771038.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787108.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www6.sznews.com/zhuanti/content/2022-02/21/content_24947098.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
 {"url": "https://www6.sznews.com/tech/content/2022-02/11/content_24928086.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www6.sznews.com/zhuanti/content/2021-11/26/content_24771035.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://szbbs.sznews.com/thread-4316624-1-1.html", "error": ""}
+{"url": "javascript:void(0)", "error": "javascript:void(0)"}
+{"url": "http://www.intertextile.com.cn/", "error": "'utf-8' codec can't decode byte 0xd6 in position 193: invalid continuation byte"}
+{"url": "http://www.gjhsjssb.com/", "error": "'utf-8' codec can't decode byte 0xc9 in position 118: invalid continuation byte"}
+{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787125.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www6.sznews.com/zhuanti/content/2022-02/17/content_24938052.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
 {"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787115.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
 {"url": "https://szbbs.sznews.com/thread-4318031-1-1.html", "error": ""}
-{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787114.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "javascript:void(0);", "error": "javascript:void(0);"}
 {"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787136.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "http://news.sznews.com/mb/node_239201_4.htm", "error": "[WinError 64] 指定的网络名不再可用。"}
-{"url": "http://news.sznews.com/mb/node_239201_2.htm", "error": ""}
+{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787108.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787114.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://szbbs.sznews.com/thread-4317274-1-1.html", "error": ""}
+{"url": "https://www6.sznews.com/zhuanti/content/2022-02/21/content_24947098.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www6.sznews.com/zhuanti/content/2021-11/26/content_24771038.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "http://www.gjhsjssb.com/", "error": "'utf-8' codec can't decode byte 0xc9 in position 118: invalid continuation byte"}
+{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787115.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www6.sznews.com/zhuanti/content/2022-02/17/content_24938052.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "javascript:;", "error": "javascript:;"}
+{"url": "https://szbbs.sznews.com/thread-4318031-1-1.html", "error": ""}
+{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787114.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www6.sznews.com/zhuanti/content/2021-11/26/content_24771035.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787136.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787125.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www6.sznews.com/zhuanti/content/2021-11/26/content_24771038.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
 {"url": "javascript:void(0)", "error": "javascript:void(0)"}
-{"url": "http://www.chtf.com/public/images/floorplan/floorplan09.jpg", "error": "'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte"}
-{"url": "javascript:void (0);", "error": "javascript:void%20(0);"}
-{"url": "http://http://yongpin.lvy.cn/", "error": "Cannot connect to host http:80 ssl:default [getaddrinfo failed]"}
-{"url": "http://www.huwai.biz/", "error": "Cannot connect to host www.huwai.biz:80 ssl:default [getaddrinfo failed]"}
-{"url": "https://www.cphi-china.cn/wp-content/uploads/2024/01/xms-2024-sz.png", "error": "'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte"}
-{"url": "https://efile.imsinoexpo.com/efile/CPhI/file/2024-sz-show-report.pdf", "error": "'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte"}
+{"url": "https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44010602000346", "error": "Cannot connect to host www.beian.gov.cn:443 ssl:default [远程计算机拒绝网络连接。]"}
+{"url": "https://www.dayoo.com", "error": ""}
+{"url": "https://www.12377.cn/", "error": ""}
+{"url": "https://gbh.dayoo.com/article/download.html", "error": ""}
+{"url": "javascript:;", "error": "javascript:;"}
+{"url": "javascript:void(0);", "error": "javascript:void(0);"}
+{"url": "javascript:void(0)", "error": "javascript:void(0)"}
+{"url": "https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44010602000346", "error": "Cannot connect to host www.beian.gov.cn:443 ssl:default [远程计算机拒绝网络连接。]"}
+{"url": "https://z.sun0769.com/zhidongguan/", "error": "'utf-8' codec can't decode byte 0xb6 in position 90: invalid start byte"}
+{"url": "https://www.sun0769.com", "error": "'utf-8' codec can't decode byte 0xb6 in position 108: invalid start byte"}
+{"url": "https://v.sun0769.com/v5/list2.action?catalogId=634", "error": "Cannot connect to host v.sun0769.com:443 ssl:default [[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000)]"}
+{"url": "https://v.sun0769.com/v4/list.action?catalog.id=272", "error": "Cannot connect to host v.sun0769.com:443 ssl:default [[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000)]"}
+{"url": "http://www.sun0769.com/dgrtvad/", "error": "'utf-8' codec can't decode byte 0xb6 in position 255: invalid start byte"}
+{"url": "http://z.sun0769.com/zhidongguan/", "error": "'utf-8' codec can't decode byte 0xb6 in position 90: invalid start byte"}
+{"url": "http://www.sun0769.com", "error": "'utf-8' codec can't decode byte 0xb6 in position 108: invalid start byte"}
+{"url": "https://reg.sun0769.com/reg.action?fromUrl=http://www.sun0769.com", "error": "Cannot connect to host reg.sun0769.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://weibo.com/s0769", "error": "'utf-8' codec can't decode byte 0xca in position 339: invalid continuation byte"}
+{"url": "http://www.sun0769.com/", "error": "'utf-8' codec can't decode byte 0xb6 in position 108: invalid start byte"}
+{"url": "http://reg.sun0769.com/reg.action?fromUrl=http://www.sun0769.com", "error": "Cannot connect to host reg.sun0769.com:80 ssl:default [getaddrinfo failed]"}
+{"url": "javascript:;", "error": "javascript:;"}
+{"url": "http://reg.sun0769.com/passwd/lostpasswd.action", "error": "Cannot connect to host reg.sun0769.com:80 ssl:default [getaddrinfo failed]"}
+{"url": "http://www.sun0769.com/dgrtvad/price1.html", "error": "'utf-8' codec can't decode byte 0xb6 in position 350: invalid start byte"}
+{"url": "http://sports.sun0769.com/make/angle/201403/t20140325_3672789.shtml", "error": "Cannot connect to host sports.sun0769.com:80 ssl:default [getaddrinfo failed]"}
+{"url": "http://sports.sun0769.com/make/angle/201403/t20140325_3672795.shtml", "error": "Cannot connect to host sports.sun0769.com:80 ssl:default [getaddrinfo failed]"}
+{"url": "http://sports.sun0769.com/make/week/201505/t20150513_5351673.shtml", "error": "Cannot connect to host sports.sun0769.com:80 ssl:default [getaddrinfo failed]"}
+{"url": "http://sports.sun0769.com/make/angle/201403/t20140303_3557680.shtml", "error": "Cannot connect to host sports.sun0769.com:80 ssl:default [getaddrinfo failed]"}
+{"url": "http://sports.sun0769.com/make/angle/201403/t20140325_3672787.shtml", "error": "Cannot connect to host sports.sun0769.com:80 ssl:default [getaddrinfo failed]"}
+{"url": "http://reg.sun0769.com/member/home.action", "error": "Cannot connect to host reg.sun0769.com:80 ssl:default [getaddrinfo failed]"}
+{"url": "https://weibo.com/12377jbzx?sudaref=www.12377.cn&display=0&retcode=6102&is_hot=1", "error": "'utf-8' codec can't decode byte 0xca in position 339: invalid continuation byte"}
+{"url": "javascript:void(0)", "error": "javascript:void(0)"}
+{"url": "http://www.gjhsjssb.com/", "error": "'utf-8' codec can't decode byte 0xc9 in position 118: invalid continuation byte"}
+{"url": "javascript:;", "error": "javascript:;"}
+{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787125.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://szbbs.sznews.com/thread-4316624-1-1.html", "error": ""}
+{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787136.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www6.sznews.com/zhuanti/content/2021-11/26/content_24771035.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www6.sznews.com/zhuanti/content/2022-02/17/content_24938052.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www6.sznews.com/tech/content/2022-02/11/content_24928086.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://szbbs.sznews.com/thread-4318541-1-1.html", "error": ""}
+{"url": "http://www.yaolutong.com/", "error": "Cannot connect to host www.yaolutong.com:80 ssl:default [远程计算机拒绝网络连接。]"}
+{"url": "tel:01065569905", "error": "tel:01065569905"}
+{"url": "mailto:qfzhanlan@163.com", "error": "mailto:qfzhanlan@163.com"}
+{"url": "https://www.88lan.com/", "error": "'utf-8' codec can't decode byte 0xc0 in position 154: invalid start byte"}
+{"url": "https://www.bidcenter.com.cn/", "error": ""}
+{"url": " https://www.zhandada.com", "error": "Cannot connect to host www.zhandada.com:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.zhandada.com'. (_ssl.c:1000)\")]"}
+{"url": "http://www.globalimporter.net/", "error": "'utf-8' codec can't decode byte 0xbf in position 150: invalid start byte"}
+{"url": "http://www.hometextiles.cn/", "error": ""}
+{"url": "mailto:winzon@szjfz.net", "error": "mailto:winzon@szjfz.net"}
+{"url": "http://www.cntgcc.com", "error": "'utf-8' codec can't decode byte 0xc1 in position 185: invalid start byte"}
+{"url": "javascript:history.back();", "error": "javascript:history.back();"}
+{"url": "http://www.visionox.com", "error": "Cannot connect to host www.visionox.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')]"}
+{"url": "http://www.chinaem.com.cn", "error": "Cannot connect to host www.chinaem.com.cn:80 ssl:default [远程计算机拒绝网络连接。]"}
+{"url": "https://www.ledchina.com", "error": "Cannot connect to host www.ledchina.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')]"}
+{"url": "http://beian.miit.gov.com", "error": "Cannot connect to host beian.miit.gov.com:80 ssl:default [getaddrinfo failed]"}
+{"url": "http://www.miibeian.gov.cn/", "error": "Cannot connect to host www.miibeian.gov.cn:80 ssl:default [getaddrinfo failed]"}
+{"url": "http://www.ef43.com.cn/", "error": "Cannot connect to host www.ef43.com.cn:80 ssl:default [getaddrinfo failed]"}
+{"url": "http://www.siuf.cn/", "error": ""}
+{"url": "javascript:void(0);", "error": "javascript:void(0);"}
+{"url": "http://www.cnfoodnet.com/", "error": ""}
 {"url": "https://www.cphi-china.cn/wp-content/uploads/2024/01/qrcode-wechat-sz.png", "error": "'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte"}
 {"url": "https://www.cphi-china.cn/guangzhou/product/", "error": "'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte"}
+{"url": "https://www.cphi-china.cn/wp-content/uploads/2024/01/xms-2024-sz.png", "error": "'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte"}
+{"url": "https://efile.imsinoexpo.com/efile/CPhI/file/2024-sz-show-report.pdf", "error": "'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte"}
+{"url": "javascript:void(0)", "error": "javascript:void(0)"}
+{"url": "https://www.ledchina.com", "error": "Cannot connect to host www.ledchina.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')]"}
+{"url": "javascript:void(0)", "error": "javascript:void(0)"}
+{"url": "https://www.sznews.com/news/", "error": ""}
+{"url": "http://www.szcbea.org", "error": "Cannot connect to host www.chinago.world:443 ssl:default [getaddrinfo failed]"}
+{"url": "javascript:;", "error": "javascript:;"}
+{"url": "https://www.ideesz.com/", "error": "Cannot connect to host www.ideesz.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)')]"}
+{"url": "http://www.gjhsjssb.com/", "error": "'utf-8' codec can't decode byte 0xc9 in position 118: invalid continuation byte"}
+{"url": "http://www.miibeian.gov.cn/", "error": "Cannot connect to host www.miibeian.gov.cn:80 ssl:default [getaddrinfo failed]"}
+{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787136.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www6.sznews.com/tech/content/2022-02/11/content_24928086.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://szbbs.sznews.com/thread-4317274-1-1.html", "error": ""}
+{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787115.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www6.sznews.com/zhuanti/content/2021-12/03/content_24787125.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www6.sznews.com/zhuanti/content/2021-11/26/content_24771035.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "https://www6.sznews.com/zhuanti/content/2022-02/17/content_24938052.htm", "error": "Cannot connect to host www6.sznews.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "javascript:void(0)", "error": "javascript:void(0)"}
+{"url": "javascript:void (0);", "error": "javascript:void%20(0);"}
+{"url": "https://www.51e-online.com/", "error": ""}
+{"url": "http://www.bubugoo.com", "error": "Cannot connect to host www.bubugoo.com:80 ssl:default [远程计算机拒绝网络连接。]"}
+{"url": "http://www.china-rv.cn/", "error": "Cannot connect to host www.china-rv.cn:80 ssl:default [getaddrinfo failed]"}
+{"url": "http://www.saichen.cn", "error": "'utf-8' codec can't decode byte 0xb9 in position 69: invalid start byte"}
+{"url": "tel:400-800-9385", "error": "tel:400-800-9385"}
+{"url": "http://www.spvi.cn/", "error": "Cannot connect to host webcheck.hkbu.edu.hk:6081 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1000)')]"}
+{"url": "tel:0755-25183336", "error": "tel:0755-25183336"}
 {"url": "https://www.scte-cn.com/", "error": "Cannot connect to host www.scte-cn.com:443 ssl:default [getaddrinfo failed]"}
-{"url": "http://www.cnpec.net/", "error": ""}
 {"url": "javascript:history.back();", "error": "javascript:history.back();"}
-{"url": "https://weibo.com/u/2756243271", "error": "'utf-8' codec can't decode byte 0xca in position 339: invalid continuation byte"}
 {"url": "javascript:SetLanguage('zh-cn')", "error": "javascript:SetLanguage('zh-cn')"}
+{"url": "javascript:SetLanguage('en-us')", "error": "javascript:SetLanguage('en-us')"}
+{"url": "javascript:__doPostBack('submitbutton','')", "error": "javascript:__doPostBack('submitbutton','')"}
+{"url": "https://www.ledchina.com", "error": "Cannot connect to host www.ledchina.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')]"}
+{"url": "https://10010.liangcards.com", "error": "Cannot connect to host 10010.liangcards.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')]"}
+{"url": "https://www.petzd.com/", "error": "Cannot connect to host www.petzd.com:443 ssl:default [getaddrinfo failed]"}
+{"url": "http://www.szteaexpo.com/", "error": "Cannot connect to host webcheck.hkbu.edu.hk:6081 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1000)')]"}
+{"url": "https://www.szcec.com/Public/upload/download/20160624114030fu8nhi.jpg", "error": "'utf-8' codec can't decode byte 0xff in position 0: invalid start byte"}
+{"url": "https://www.szcec.com/Public/upload/download/2023hycd.jpg", "error": "'utf-8' codec can't decode byte 0xff in position 0: invalid start byte"}
+{"url": "https://www.szcec.com/Public/upload/download/20160624113838yhtpt9.jpg", "error": "'utf-8' codec can't decode byte 0xff in position 0: invalid start byte"}
+{"url": "https://www.szcec.com/Public/upload/download/20160624111033p9jbqk.jpg", "error": "'utf-8' codec can't decode byte 0xff in position 0: invalid start byte"}
+{"url": "https://www.szcec.com/Public/upload/download/szcec2022.zip", "error": ""}
+{"url": "https://www.szcec.com/Public/upload/download/20160707091812oiv17m.zip", "error": ""}
+{"url": "https://www.szcec.com/Public/upload/download/20160624111109ph351p.jpg", "error": ""}
+{"url": "https://www.szcec.com/Public/upload/download/201809051704560fvufp.pdf", "error": ""}
+{"url": "https://www.szcec.com/Public/upload/download/20160624114853pwqeim.zip", "error": ""}
+{"url": "https://www.szcec.com/Public/upload/download/fwzn2023.pdf", "error": ""}
+{"url": "https://www.szcec.com/Public/upload/download/20160624114156dfv61r.jpg", "error": ""}
+{"url": "https://www.pconline.com.cn/", "error": "'utf-8' codec can't decode byte 0xd1 in position 3673: invalid continuation byte"}
+{"url": "javascript:void(0);", "error": "javascript:void(0);"}
+{"url": "javascript:return false;", "error": "javascript:return%20false;"}
+{"url": "javascript:null", "error": "javascript:null"}
+{"url": "https://www.ideesz.com", "error": "Cannot connect to host www.ideesz.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)')]"}
+{"url": "http://www.beian.miit.gov.cn", "error": "Cannot connect to host www.beian.miit.gov.cn:80 ssl:default [getaddrinfo failed]"}
