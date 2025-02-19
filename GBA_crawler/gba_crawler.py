@@ -1,6 +1,7 @@
 import aiohttp
 import re
 import json
+import heapq
 import os
 import hashlib
 from datetime import datetime, timedelta
@@ -97,11 +98,15 @@ CONFIG = {
         ]
     },
     "crawl_rules": {
-        "max_depth": 2,
-        "max_pages": 50,
+        "max_depth": 3,
+        "max_pages": 1000,
         "timeout": 15,
         "max_concurrency": 5,
-        "dynamic_render": True  # 新增动态渲染开关
+        "dynamic_render": True,  # 新增动态渲染开关
+        "request_interval": {  # 新增请求间隔配置
+            "base": 1.0,
+            "random_range": 0.5
+        }
     },
     "content_rules": {
         "keywords": ["政策", "规划", "建设", "交通", "发展", "会议", "项目"],  # Example keywords for user input
@@ -118,6 +123,11 @@ CONFIG = {
     },
     "ui": {
         "progress_refresh": 0.5
+    },
+    "retry_policy": {  # 新增重试策略
+        "max_retries": 3,
+        "backoff_factor": 0.5,
+        "status_forcelist": [500, 502, 503, 504]
     }
 }
 # Setup logging
@@ -163,6 +173,27 @@ class ContentAnalyzer:
             "summary": self.summarizer(text, max_length=50, min_length=25)[0]['summary_text']
         }
 
+# 优先级队列实现（新增）
+class PriorityQueue:
+    def __init__(self):
+        self._queue = []
+        self._count = 0
+        self._condition = asyncio.Condition()
+        
+    async def put(self, item, priority):
+        async with self._condition:
+            heapq.heappush(self._queue, (-priority, self._count, item))
+            self._count += 1
+            self._condition.notify()
+            
+    async def get(self):
+        async with self._condition:
+            while not self._queue:
+                await self._condition.wait()
+            return heapq.heappop(self._queue)[-1]
+            
+    def qsize(self):
+        return len(self._queue)
 
 
 class GBANewsMonitor(YourSpider):
@@ -171,7 +202,7 @@ class GBANewsMonitor(YourSpider):
         self.lock = asyncio.Lock()
         self.visited = set()
         self.future_articles = []
-        self.crawl_queue = asyncio.Queue()
+        self.crawl_queue = PriorityQueue()  # 替换为优先
         self.stop_flag = False
         self.semaphore = asyncio.Semaphore(CONFIG["crawl_rules"]["max_concurrency"])
         self.processed_pages = 0
@@ -188,6 +219,26 @@ class GBANewsMonitor(YourSpider):
             'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15',
             # Add more user agents as needed
         ]
+        self.health_check_task = asyncio.create_task(self.health_check())  # 新增健康检查
+
+    # 新增健康检查方法
+    async def health_check(self):
+        """健康检查定时任务"""
+        while not self.stop_flag:
+            await asyncio.sleep(60)
+            if self.processed_pages == 0:
+                self.logger.warning("检测到爬虫僵死，尝试重启...")
+                await self.restart_crawler()
+            elif self.crawl_queue.qsize() > 1000:
+                self.logger.warning("队列堆积警告，当前队列深度: %d", self.crawl_queue.qsize())
+
+
+    async def restart_crawler(self):
+        """安全重启实现"""
+        self.logger.info("执行安全重启...")
+        await self.close()
+        self.__init__()
+        await self.run()
 
     async def dynamic_render(self, url):
         """改进的动态渲染方法"""

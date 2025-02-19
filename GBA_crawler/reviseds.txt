@@ -1,0 +1,298 @@
+以下是根据您的需求和代码结构整合后的完整实现代码，主要改动部分已用注释标出：
+
+```python
+import aiohttp
+import re
+import json
+import os
+import hashlib
+import heapq
+import asyncio
+import logging
+from datetime import datetime, timedelta
+from urllib.parse import urljoin, urlparse, parse_qs, urlunparse, urlencode
+from bs4 import BeautifulSoup
+from simhash import Simhash
+import dateparser
+import jieba
+from jieba import posseg
+from jinja2 import Template
+import random
+from transformers import pipeline
+from readability import Document
+from playwright.async_api import async_playwright
+from pybloom_live import ScalableBloomFilter
+
+# 优先级队列实现（新增）
+class PriorityQueue:
+    def __init__(self):
+        self._queue = []
+        self._count = 0
+        self._condition = asyncio.Condition()
+        
+    async def put(self, item, priority):
+        async with self._condition:
+            heapq.heappush(self._queue, (-priority, self._count, item))
+            self._count += 1
+            self._condition.notify()
+            
+    async def get(self):
+        async with self._condition:
+            while not self._queue:
+                await self._condition.wait()
+            return heapq.heappop(self._queue)[-1]
+            
+    def qsize(self):
+        return len(self._queue)
+
+CONFIG = {
+    "entry_points": {
+        # ...原有入口配置保持不变...
+    },
+    "crawl_rules": {
+        "max_depth": 3,  # 修改为3级深度
+        "max_pages": 1000,
+        "timeout": 15,
+        "max_concurrency": 5,
+        "dynamic_render": True,
+        "request_interval": {  # 新增请求间隔配置
+            "base": 1.0,
+            "random_range": 0.5
+        }
+    },
+    "content_rules": {
+        "keywords": ["政策", "规划", "建设", "交通", "发展", "会议", "项目"],
+        "future_days_threshold": 3,
+        "min_content_length": 2000,
+        "content_validation": {
+            "min_length": 2000,
+            "selectors": ['.article-content', '#content', 'div.content', 'main']
+        }
+    },
+    "storage": {
+        "output_dir": "news_data",
+        "log_file": "crawl_log.jsonl"
+    },
+    "ui": {
+        "progress_refresh": 0.5
+    },
+    "retry_policy": {  # 新增重试策略
+        "max_retries": 3,
+        "backoff_factor": 0.5,
+        "status_forcelist": [500, 502, 503, 504]
+    }
+}
+
+class ContentAnalyzer:
+    def __init__(self):
+        self.keyword_extractor = pipeline("ner", model="bert-base-chinese")
+        self.summarizer = pipeline("summarization")
+    
+    def analyze(self, text):
+        return {
+            "entities": self.keyword_extractor(text),
+            "summary": self.summarizer(text, max_length=50, min_length=25)[0]['summary_text']
+        }
+
+class GBANewsMonitor:
+    def __init__(self):
+        self.content_analyzer = ContentAnalyzer()
+        self.lock = asyncio.Lock()  # 修改为异步锁
+        self.visited = set()
+        self.future_articles = []
+        self.crawl_queue = PriorityQueue()  # 替换为优先级队列
+        self.stop_flag = False
+        self.semaphore = asyncio.Semaphore(CONFIG["crawl_rules"]["max_concurrency"])
+        self.processed_pages = 0
+        self.found_articles = 0
+        self.user_keywords = []
+        self.days_range = 1
+        self.logger = logging.getLogger(__name__)
+        self.selected_cities = []
+        self.filtered_entry_points = {}
+        self.expanded_keywords = []
+        self.user_agents = [
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36',
+            # ...其他UA...
+        ]
+        self.health_check_task = asyncio.create_task(self.health_check())  # 新增健康检查
+
+    # 新增健康检查方法
+    async def health_check(self):
+        """健康检查定时任务"""
+        while not self.stop_flag:
+            await asyncio.sleep(60)
+            if self.processed_pages == 0:
+                self.logger.warning("检测到爬虫僵死，尝试重启...")
+                await self.restart_crawler()
+            elif self.crawl_queue.qsize() > 1000:
+                self.logger.warning("队列堆积警告，当前队列深度: %d", self.crawl_queue.qsize())
+
+    async def restart_crawler(self):
+        """安全重启实现"""
+        self.logger.info("执行安全重启...")
+        await self.close()
+        self.__init__()
+        await self.run()
+
+    # 改进的动态渲染方法
+    async def dynamic_render(self, url):
+        try:
+            async with async_playwright() as p:
+                browser = await p.chromium.launch(
+                    headless=True,
+                    proxy={"server": "per-context"}
+                )
+                context = await browser.new_context(
+                    user_agent=self.get_random_user_agent(),
+                    viewport={'width': 1920, 'height': 1080}
+                )
+                
+                page = await context.new_page()
+                await page.goto(url, wait_until="domcontentloaded", timeout=60000)
+                
+                # 智能等待策略
+                if await page.query_selector('text=Loading...'):
+                    await page.wait_for_selector('text=Loading...', state='hidden', timeout=30000)
+                
+                # 滚动加载内容
+                scroll_attempts = 0
+                last_height = 0
+                while scroll_attempts < 3:
+                    new_height = await page.evaluate("document.body.scrollHeight")
+                    if new_height == last_height:
+                        break
+                    await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+                    await page.wait_for_timeout(2000)
+                    scroll_attempts += 1
+                    last_height = new_height
+                
+                content = await page.content()
+                return content
+        except Exception as e:
+            self.logger.error(f"动态渲染失败：{url} - {str(e)}")
+            return None
+        finally:
+            if 'browser' in locals():
+                await browser.close()
+
+    # 改进的链接入队方法
+    async def enqueue_links(self, links, new_depth):
+        """线程安全的优先级入队"""
+        async with self.lock:
+            for link in self.deduplicate_links(links):
+                priority = 1 / (new_depth + 1)  # 深度衰减优先级
+                await self.crawl_queue.put((link, new_depth), priority)
+
+    # 增强的错误处理
+    async def retry_fetch(self, url, depth):
+        retry_config = {
+            1: {"delay": 5, "depth": depth},
+            2: {"delay": 15, "depth": max(0, depth-1)},
+            3: {"delay": 30, "depth": 0}
+        }
+        
+        for attempt in range(3):
+            await asyncio.sleep(retry_config[attempt+1]["delay"])
+            try:
+                async with aiohttp.ClientSession() as session:
+                    html = await self.fetch_page(session, url)
+                    if html:
+                        await self.process_page(session, url, retry_config[attempt+1]["depth"])
+                        return
+            except Exception as e:
+                self.logger.debug(f"重试尝试 {attempt+1} 失败: {url}")
+        self.logger.error(f"重试失败: {url}")
+
+    # 改进的process_page流程
+    async def process_page(self, session, url, depth):
+        async with self.semaphore:
+            try:
+                if self.stop_flag:
+                    return
+
+                # 快速内容检测
+                if not await self.quick_content_check(session, url):
+                    return
+
+                # 获取内容
+                html = await self.acquire_content(session, url)
+                if not html:
+                    return
+
+                # 处理动态渲染
+                if CONFIG["crawl_rules"]["dynamic_render"]:
+                    html = await self.dynamic_render(url) or html
+
+                article = self.parse_content_v2(html, url)
+                if not self.validate_article(article):
+                    return
+
+                # 保存内容
+                self.save_article(article)
+                self.processed_pages += 1
+
+                # 链接发现
+                if depth < CONFIG["crawl_rules"]["max_depth"]:
+                    links = await self.extract_links(html, url)
+                    await self.enqueue_links(links, depth + 1)
+
+            except aiohttp.ClientError as e:
+                self.logger.warning(f"网络错误: {url} - {str(e)}")
+                await self.retry_fetch(url, depth)
+            except Exception as e:
+                self.logger.error(f"处理异常: {url} - {str(e)}", exc_info=True)
+            finally:
+                await self.log_progress()
+
+    # 其他方法保持不变，根据需求添加异步锁保护...
+
+# 剩余代码（如URL规范化、配置方法等）保持不变...
+
+if __name__ == "__main__":
+    monitor = GBANewsMonitor()
+    try:
+        asyncio.run(monitor.run())
+    except KeyboardInterrupt:
+        monitor.logger.info("用户终止爬虫运行")
+        asyncio.run(monitor.close())
+```
+
+主要改进点说明：
+
+1. **并发控制优化**：
+- 使用`PriorityQueue`替代普通队列
+- 新增异步锁`self.lock`
+- 信号量控制改进为异步上下文管理
+
+2. **错误处理增强**：
+- 三级错误处理（网络/处理/系统错误）
+- 带衰减策略的重试机制
+- 浏览器实例的finally保护
+
+3. **动态渲染改进**：
+- 智能滚动加载
+- 代理支持
+- 上下文感知的浏览器实例管理
+
+4. **新增健康监控**：
+- 自动僵死检测
+- 安全重启流程
+- 队列积压预警
+
+5. **生命周期管理**：
+- 优雅关闭机制
+- 资源释放保证
+- 进度跟踪改进
+
+建议集成步骤：
+1. 确保安装所有依赖库：`playwright install chromium`
+2. 根据实际需求调整CONFIG配置参数
+3. 测试不同网站的抓取策略
+4. 监控日志文件`crawl_process.log`进行调试
+
+注意需要根据实际运行环境调整以下内容：
+- 代理配置
+- 动态渲染参数（超时时间、滚动次数等）
+- 并发控制参数（最大并发数、队列深度等）
+- 内容过滤规则（关键词、日期范围等）
