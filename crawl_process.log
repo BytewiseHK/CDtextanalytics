@@ -1,0 +1,107 @@
+2025-02-19 09:34:10,102 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-19 09:34:10,102 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-19 09:34:17,060 - INFO - 127.0.0.1 - - [19/Feb/2025 09:34:17] "GET / HTTP/1.1" 200 -
+2025-02-19 09:34:17,342 - INFO - 127.0.0.1 - - [19/Feb/2025 09:34:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-19 09:34:18,316 - INFO - 127.0.0.1 - - [19/Feb/2025 09:34:18] "[33mGET /status HTTP/1.1[0m" 404 -
+2025-02-19 09:34:19,327 - INFO - 127.0.0.1 - - [19/Feb/2025 09:34:19] "[33mGET /status HTTP/1.1[0m" 404 -
+2025-02-19 09:34:20,323 - INFO - 127.0.0.1 - - [19/Feb/2025 09:34:20] "[33mGET /status HTTP/1.1[0m" 404 -
+2025-02-19 09:34:21,139 - INFO - 127.0.0.1 - - [19/Feb/2025 09:34:21] "[33mGET /status HTTP/1.1[0m" 404 -
+2025-02-19 09:34:22,136 - INFO - 127.0.0.1 - - [19/Feb/2025 09:34:22] "[33mGET /status HTTP/1.1[0m" 404 -
+2025-02-19 09:34:23,134 - INFO - 127.0.0.1 - - [19/Feb/2025 09:34:23] "[33mGET /status HTTP/1.1[0m" 404 -
+2025-02-19 09:34:24,313 - INFO - 127.0.0.1 - - [19/Feb/2025 09:34:24] "[33mGET /status HTTP/1.1[0m" 404 -
+2025-02-19 09:34:25,182 - INFO - 127.0.0.1 - - [19/Feb/2025 09:34:25] "[33mGET /status HTTP/1.1[0m" 404 -
+2025-02-19 09:34:26,141 - INFO - 127.0.0.1 - - [19/Feb/2025 09:34:26] "[33mGET /status HTTP/1.1[0m" 404 -
+2025-02-19 09:34:27,161 - INFO - 127.0.0.1 - - [19/Feb/2025 09:34:27] "[33mGET /status HTTP/1.1[0m" 404 -
+2025-02-19 09:34:28,162 - INFO - 127.0.0.1 - - [19/Feb/2025 09:34:28] "[33mGET /status HTTP/1.1[0m" 404 -
+2025-02-19 09:34:29,136 - INFO - 127.0.0.1 - - [19/Feb/2025 09:34:29] "[33mGET /status HTTP/1.1[0m" 404 -
+2025-02-19 09:34:30,139 - INFO - 127.0.0.1 - - [19/Feb/2025 09:34:30] "[33mGET /status HTTP/1.1[0m" 404 -
+2025-02-19 09:34:31,151 - INFO - 127.0.0.1 - - [19/Feb/2025 09:34:31] "[33mGET /status HTTP/1.1[0m" 404 -
+2025-02-19 09:34:32,141 - INFO - 127.0.0.1 - - [19/Feb/2025 09:34:32] "[33mGET /status HTTP/1.1[0m" 404 -
+2025-02-19 09:34:33,143 - INFO - 127.0.0.1 - - [19/Feb/2025 09:34:33] "[33mGET /status HTTP/1.1[0m" 404 -
+2025-02-19 09:34:33,973 - INFO - 127.0.0.1 - - [19/Feb/2025 09:34:33] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-02-19 09:34:34,089 - INFO - 127.0.0.1 - - [19/Feb/2025 09:34:34] "GET /progress HTTP/1.1" 200 -
+2025-02-19 09:34:34,141 - INFO - 127.0.0.1 - - [19/Feb/2025 09:34:34] "[33mGET /status HTTP/1.1[0m" 404 -
+2025-02-19 09:34:34,189 - INFO - 127.0.0.1 - - [19/Feb/2025 09:34:34] "GET /progress HTTP/1.1" 200 -
+2025-02-19 09:35:20,093 - DEBUG - Building prefix dict from the default dictionary ...
+2025-02-19 09:35:24,112 - DEBUG - Dumping model to file cache /tmp/jieba.cache
+2025-02-19 09:35:24,298 - DEBUG - Loading model cost 2.908 seconds.
+2025-02-19 09:35:24,299 - DEBUG - Prefix dict has been built successfully.
+2025-02-19 09:35:25,929 - INFO - 内容不符合要求，跳过处理: https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C?page=1
+2025-02-19 09:35:26,608 - INFO - 内容不符合要求，跳过处理: https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C?page=2
+2025-02-19 09:35:27,329 - INFO - 内容不符合要求，跳过处理: https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C?page=3
+2025-02-19 09:35:29,047 - INFO - 内容不符合要求，跳过处理: https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C?page=4
+2025-02-19 09:35:29,753 - INFO - 内容不符合要求，跳过处理: https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C?page=5
+2025-02-19 09:35:30,548 - INFO - 内容不符合要求，跳过处理: https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C?page=6
+2025-02-19 09:35:31,081 - INFO - ruthless removal did not work. 
+2025-02-19 09:35:31,509 - INFO - 内容不符合要求，跳过处理: https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C?page=7
+2025-02-19 09:35:32,236 - INFO - 内容不符合要求，跳过处理: https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C?page=8
+2025-02-19 09:35:32,456 - INFO - 内容不符合要求，跳过处理: https://www.sznews.com/news/?page=1
+2025-02-19 09:35:33,098 - INFO - ruthless removal did not work. 
+2025-02-19 09:35:33,346 - INFO - 内容不符合要求，跳过处理: https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C?page=9
+2025-02-19 09:35:33,383 - INFO - 内容不符合要求，跳过处理: https://www.sznews.com/news/?page=2
+2025-02-19 09:35:33,649 - INFO - ruthless removal did not work. 
+2025-02-19 09:35:33,931 - INFO - 内容不符合要求，跳过处理: https://www.sznews.com/news/?page=3
+2025-02-19 09:35:34,079 - INFO - 内容不符合要求，跳过处理: https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C?page=10
+2025-02-19 09:35:34,160 - INFO - ruthless removal did not work. 
+2025-02-19 09:35:34,596 - INFO - 内容不符合要求，跳过处理: https://www.sznews.com/news/?page=4
+2025-02-19 09:35:34,784 - INFO - 内容不符合要求，跳过处理: https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C?page=11
+2025-02-19 09:35:35,618 - INFO - 内容不符合要求，跳过处理: https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C?page=12
+2025-02-19 09:35:36,070 - INFO - ruthless removal did not work. 
+2025-02-19 09:35:36,392 - INFO - 内容不符合要求，跳过处理: https://www.sznews.com/news/?page=5
+2025-02-19 09:35:36,680 - INFO - ruthless removal did not work. 
+2025-02-19 09:35:37,003 - INFO - 内容不符合要求，跳过处理: https://www.sznews.com/news/?page=6
+2025-02-19 09:35:37,247 - INFO - ruthless removal did not work. 
+2025-02-19 09:35:37,497 - INFO - 内容不符合要求，跳过处理: https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C?page=13
+2025-02-19 09:35:37,746 - INFO - 内容不符合要求，跳过处理: https://www.sznews.com/news/?page=7
+2025-02-19 09:35:38,018 - INFO - ruthless removal did not work. 
+2025-02-19 09:35:38,178 - INFO - 内容不符合要求，跳过处理: https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C?page=14
+2025-02-19 09:35:38,182 - INFO - 内容不符合要求，跳过处理: https://www.sznews.com/news/?page=8
+2025-02-19 09:35:38,422 - INFO - ruthless removal did not work. 
+2025-02-19 09:35:38,714 - INFO - 内容不符合要求，跳过处理: https://www.sznews.com/news/?page=9
+2025-02-19 09:35:38,965 - INFO - ruthless removal did not work. 
+2025-02-19 09:35:39,016 - INFO - 内容不符合要求，跳过处理: https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C?page=15
+2025-02-19 09:35:39,319 - INFO - 内容不符合要求，跳过处理: https://www.sznews.com/news/?page=10
+2025-02-19 09:35:39,602 - INFO - ruthless removal did not work. 
+2025-02-19 09:35:39,768 - INFO - 内容不符合要求，跳过处理: https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C?page=16
+2025-02-19 09:35:39,998 - INFO - 内容不符合要求，跳过处理: https://www.sznews.com/news/?page=11
+2025-02-19 09:35:40,254 - INFO - ruthless removal did not work. 
+2025-02-19 09:35:40,447 - INFO - 内容不符合要求，跳过处理: https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C?page=17
+2025-02-19 09:35:40,678 - INFO - 内容不符合要求，跳过处理: https://www.sznews.com/news/?page=12
+2025-02-19 09:35:41,000 - INFO - ruthless removal did not work. 
+2025-02-19 09:35:41,201 - INFO - 内容不符合要求，跳过处理: https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C?page=18
+2025-02-19 09:35:41,333 - INFO - 内容不符合要求，跳过处理: https://www.sznews.com/news/?page=13
+2025-02-19 09:35:41,577 - INFO - ruthless removal did not work. 
+2025-02-19 09:35:41,866 - INFO - 内容不符合要求，跳过处理: https://www.sznews.com/news/?page=14
+2025-02-19 09:35:41,974 - INFO - 内容不符合要求，跳过处理: https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C?page=19
+2025-02-19 09:35:42,191 - INFO - ruthless removal did not work. 
+2025-02-19 09:35:42,617 - INFO - 内容不符合要求，跳过处理: https://www.sznews.com/news/?page=15
+2025-02-19 09:35:42,858 - INFO - ruthless removal did not work. 
+2025-02-19 09:35:43,108 - INFO - 内容不符合要求，跳过处理: https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C?page=20
+2025-02-19 09:35:43,802 - INFO - 内容不符合要求，跳过处理: https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C?page=21
+2025-02-19 09:35:44,142 - INFO - 内容不符合要求，跳过处理: https://www.sznews.com/news/?page=16
+2025-02-19 09:35:44,383 - INFO - ruthless removal did not work. 
+2025-02-19 09:35:44,528 - INFO - 内容不符合要求，跳过处理: https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C?page=22
+2025-02-19 09:35:45,277 - INFO - 内容不符合要求，跳过处理: https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C?page=23
+2025-02-19 09:35:45,681 - INFO - 内容不符合要求，跳过处理: https://www.sznews.com/news/?page=17
+2025-02-19 09:35:46,141 - INFO - ruthless removal did not work. 
+2025-02-19 09:35:46,176 - INFO - 内容不符合要求，跳过处理: https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C?page=24
+2025-02-19 09:35:46,499 - INFO - 内容不符合要求，跳过处理: https://www.sznews.com/news/?page=18
+2025-02-19 09:35:46,790 - INFO - ruthless removal did not work. 
+2025-02-19 09:35:46,924 - INFO - 内容不符合要求，跳过处理: https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C?page=25
+2025-02-19 09:35:47,235 - INFO - 内容不符合要求，跳过处理: https://www.sznews.com/news/?page=19
+2025-02-19 09:35:47,697 - INFO - 内容不符合要求，跳过处理: https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C?page=26
+2025-02-19 09:35:48,455 - INFO - ruthless removal did not work. 
+2025-02-19 09:35:48,748 - INFO - 内容不符合要求，跳过处理: https://www.sznews.com/news/?page=20
+2025-02-19 09:35:49,053 - INFO - ruthless removal did not work. 
+2025-02-19 09:35:49,374 - INFO - 内容不符合要求，跳过处理: https://www.sznews.com/news/?page=21
+2025-02-19 09:35:49,616 - INFO - ruthless removal did not work. 
+2025-02-19 09:35:49,891 - INFO - 内容不符合要求，跳过处理: https://www.sznews.com/news/?page=22
+2025-02-19 09:35:50,168 - INFO - ruthless removal did not work. 
+2025-02-19 09:35:50,392 - INFO - 内容不符合要求，跳过处理: https://www.sznews.com/news/?page=23
+2025-02-19 09:35:50,625 - INFO - ruthless removal did not work. 
+2025-02-19 09:35:51,902 - INFO - 内容不符合要求，跳过处理: https://www.sznews.com/news/?page=24
+2025-02-19 09:36:07,355 - ERROR - 动态渲染失败：https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C?page=27 - Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C?page=27
+Call log:
+  - navigating to "https://www.szcec.com/Schedule/index.html%23yue9%EF%BC%8C?page=27", waiting until "domcontentloaded"
+

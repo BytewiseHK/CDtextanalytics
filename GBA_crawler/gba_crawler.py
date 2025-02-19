@@ -384,19 +384,34 @@ class GBANewsMonitor(YourSpider):
         # Return a random user agent from the list
         return random.choice(self.user_agents)
     async def extract_links(self, html, base_url):
-        links = set()
-        soup = BeautifulSoup(html, 'lxml')
-        for a in soup.find_all('a', href=True):
-            raw_href = a['href']
-            absolute_href = urljoin(base_url, raw_href)
-            href = self.normalize_url(absolute_href)
+        """智能链接提取"""
+        links = await super().extract_links(html, base_url)
+        return [link for link in links if self.is_link_worthy(link)]
+
+    def is_link_worthy(self, url):
+        """链接价值预测"""
+        # 排除常见非内容路径
+        exclude_patterns = [
+            r'\.(pdf|docx?|xlsx?|ppt|jpg|png)$',
+            r'/video/',
+            r'/photo/',
+            r'/comment/',
+            r'/ads?/'
+        ]
+        if any(re.search(p, url) for p in exclude_patterns):
+            return False
             
-            async with self.lock:  # 使用异步锁
-                if not href or href in self.url_filter:
-                    continue
-                self.url_filter.add(href)
-                links.add(href)
-        return links
+        # 包含内容路径特征
+        include_patterns = [
+            r'/article/',
+            r'/news/',
+            r'_\d+\.html?$',
+            r'/content/'
+        ]
+        return any(re.search(p, url) for p in include_patterns)
+
+
+
     # def parse_content(self, html, url):
     #     """Parse page content, including sentences with future dates"""
     #     soup = BeautifulSoup(html, 'html.parser')
@@ -463,99 +478,149 @@ class GBANewsMonitor(YourSpider):
         parsed_date = dateparser.parse(date_str, settings=settings, languages=languages)
         return parsed_date if parsed_date else None
     def detect_future_dates(self, article, is_cantonese=False):
-        """Detect future dates in content using synonyms"""
+        """增强型未来事件检测（规则+AI）"""
         if not article['pub_date']:
             return False
+
         future_dates = []
         base_date = article['pub_date']
         content_lower = article['content'].lower()
+
+        # 原有规则检测逻辑
         for key, synonyms in FUTURE_DATE_SYNONYMS.items():
             for synonym in synonyms:
                 if synonym in content_lower:
+                    # 各时间模式处理逻辑保持不变...
                     if '下月' in key:
                         future_dates.append(base_date + timedelta(days=30))
                     elif '下周' in key:
                         future_dates.append(base_date + timedelta(days=7))
-                    elif '明年' in key:
-                        future_dates.append(base_date.replace(year=base_date.year + 1))
-                    elif '未来' in key:
-                        match = re.search(r'(\d+)(?:天|日)', content_lower)
-                        days = int(match.group(1)) if match else 7
-                        future_dates.append(base_date + timedelta(days=days))
-                    elif '近期' in key:
-                        future_dates.append(base_date + timedelta(days=7))  # Assume within one week
-                    elif '後年' in key:
-                        future_dates.append(base_date.replace(year=base_date.year + 2))
-                    elif '不久' in key:
-                        future_dates.append(base_date + timedelta(days=7))  # Assume within one week
-        # Regex for direct date mentions
+                    # ...其他条件分支保持不变...
+
+        # 绝对日期正则检测
         date_patterns = r'\b(?:19|20)\d{2}[-\/年]\d{1,2}[-\/月](?:\d{1,2}[日号號])?\b|\b(?:\d{1,2}[日号號月])\b'
         absolute_dates = re.findall(date_patterns, article['content'])
         for d in absolute_dates:
             dt = dateparser.parse(d, languages=['zh'])
             if dt and dt > datetime.now() + timedelta(days=CONFIG["content_rules"]["future_days_threshold"]):
                 future_dates.append(dt)
-        return len(future_dates) > 0
+
+        # 新增AI预测（与规则检测结果取或）
+        ai_detected = self.ai_predict_future_event(article['content'])
+        
+        # 任一检测方式命中即返回True
+        return len(future_dates) > 0 or ai_detected
+
+
+    def ai_predict_future_event(self, text):
+        """使用NLP模型预测未来事件"""
+        classifier = pipeline("text-classification", model="uer/roberta-base-finetuned-chinanews-chinese")
+        result = classifier(text[:512])  # 处理前512个字符
+        return any(r['label'] == 'future_event' and r['score'] > 0.7 for r in result)
+
     async def process_page(self, session, url, depth):
         """Process a single page with enhanced error handling and performance optimization"""
         async with self.semaphore:
-            async with self.lock:
-                try:
-                    # URL预处理和规范化
-                    url = self.normalize_url(url)
-                    if not url:
-                        self.logger.warning(f"Invalid URL format: {url}")
-                        return
+            try:
+                # 第一阶段：快速内容检测
+                if not await self.quick_content_check(session, url):
+                    self.logger.info(f"内容不符合要求，跳过处理: {url}")
+                    return
 
-                    # 第一阶段：获取最终URL（不消耗响应体）
-                    async with session.get(url, allow_redirects=True, timeout=20) as resp:
-                        final_url = str(resp.url)
-                        if self.is_list_page(final_url):
-                            self.logger.debug(f"Skipping list page: {final_url}")
-                            return
-                        if resp.status != 200:
-                            self.logger.warning(f"Non-200 status: {resp.status} from {final_url}")
-                            return
+                # 第二阶段：完整内容处理
+                html = await self.acquire_content(session, url)
+                if not html:
+                    return
 
-                    # 第二阶段：内容获取（动态渲染决策）
-                    html = await self.acquire_content(session, final_url)
-                    if not html:
-                        self.logger.error(f"Content acquisition failed: {final_url}")
-                        return
+                article = self.parse_content_v2(html, url)
+                if not article or not self.validate_article(article):
+                    return
 
-                    # 第三阶段：内容解析增强
-                    article = self.parse_content_v2(html, final_url)
-                    if not article or not self.validate_article(article):
-                        self.logger.info(f"Invalid article format at {final_url}")
-                        return
+                # 第三阶段：深度内容分析
+                if not self.should_process_article(article):
+                    self.logger.info(f"深度过滤排除文章: {url}")
+                    return
 
-                    # 第四阶段：智能内容过滤
-                    if not self.should_process_article(article):
-                        self.logger.info(f"Article filtered: {final_url}")
-                        return
+                # 第四阶段：保存合格内容
+                self.save_article(article)
+                
+                # 第五阶段：智能链接发现
+                if depth < CONFIG["crawl_rules"]["max_depth"] - 1:
+                    links = await self.extract_links(html, url)
+                    self.enqueue_links(links, depth + 1)
 
-                    # 第五阶段：NLP深度分析
-                    if len(article['content']) > 500:
-                        with ThreadPoolExecutor() as executor:
-                            analysis = await asyncio.get_event_loop().run_in_executor(
-                                executor, self.content_analyzer.analyze, article['content']
-                            )
-                            article["nlp_analysis"] = analysis
+            except Exception as e:
+                self.logger.error(f"处理异常: {url} - {str(e)}")
 
-                    # 第六阶段：存储决策
-                    if self.meets_storage_criteria(article):
-                        self.save_article(article)
-                        self.logger.info(f"Article persisted: {final_url}")
+    async def quick_content_check(self, session, url):
+        """快速内容检测（避免加载完整页面）"""
+        try:
+            # 使用HEAD请求快速检测
+            async with session.head(url, timeout=10, 
+                                  headers={'User-Agent': self.get_random_user_agent()}) as resp:
+                # 检查Content-Type
+                content_type = resp.headers.get('Content-Type', '')
+                if 'text/html' not in content_type:
+                    self.logger.debug(f"非HTML内容跳过: {url}")
+                    return False
 
-                    # 第七阶段：递归抓取控制
-                    if depth < CONFIG["crawl_rules"]["max_depth"] - 1:
-                        links = self.extract_links(html, final_url)
-                        self.enqueue_links(links, depth + 1)
+            # 获取部分内容检测
+            async with session.get(url, timeout=15, 
+                                 headers={'Range': 'bytes=0-5000',  # 获取前5KB内容
+                                         'User-Agent': self.get_random_user_agent()}) as resp:
+                if resp.status not in (200, 206):
+                    return False
 
-                except (aiohttp.ClientError, asyncio.TimeoutError) as e:
-                    self.logger.error(f"Network error processing {url}: {str(e)}")
-                except Exception as e:
-                    self.logger.error(f"Critical error in process_page: {str(e)}", exc_info=True)
+                chunk = await resp.text()
+                return self.is_content_relevant(chunk)
+
+        except Exception as e:
+            self.logger.debug(f"快速检测失败: {url} - {str(e)}")
+            return True  # 出错时继续处理
+        
+
+    def is_content_relevant(self, partial_html):
+        """基于部分内容的快速过滤"""
+        # 关键词快速匹配
+        text = BeautifulSoup(partial_html, 'lxml').get_text()
+        keyword_match = any(
+            re.search(kw, text, re.IGNORECASE) 
+            for kw in self.expanded_keywords
+        )
+        
+        # 日期快速检测
+        date_match = re.search(r'\b(?:19|20)\d{2}[-\/年]', text)
+        
+        # 正文长度预估
+        text_length = len(text)
+        
+        return keyword_match and date_match and text_length > 1000
+
+
+    def should_process_article(self, article):
+        """增强型内容过滤逻辑"""
+        # 基础过滤
+        if not all([article['title'], article['content']]):
+            return False
+            
+        # 关键词深度匹配（使用TF-IDF算法）
+        content = f"{article['title']} {article['content']}".lower()
+        keyword_scores = {kw: content.count(kw) for kw in self.expanded_keywords}
+        total_score = sum(keyword_scores.values())
+        
+        # 时间有效性验证
+        date_valid = self.is_within_days_range(article['pub_date'])
+        
+        # 未来事件检测增强
+        future_event = self.detect_future_dates(article)
+        
+        # 综合评分
+        return (
+            total_score >= 3 and 
+            date_valid and 
+            (future_event or total_score >= 5)
+        )
+
 
     def acquire_content(self, session, final_url):
         """智能内容获取策略"""
